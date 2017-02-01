@@ -4,5 +4,11 @@
 	  "name": "Plex Media Server",
 	  "icon": "icons/plex.png",
 	  "description": "The Plex media server system"
+  },
+  "syncthing": {
+	  "MANIFEST": "syncthing.json",
+	  "name": "Syncthing",
+	  "icon": "icons/syncthing.png",
+	  "description": "Personal cloud sync"
   }
 }
