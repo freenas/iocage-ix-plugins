@@ -16,5 +16,5 @@
 	"name": "BitTorrent Sync",
 	"icon": "icons/btsync.png",
 	"description": "Resilient, fast and scalable file sync software for enterprises and individuals."
-	},
+	}
 }
