@@ -1,6 +1,6 @@
 {
   "plexmediaserver": {
-	  "MANIFEST": "plex.json",
+	  "MANIFEST": "plexmediaserver.json",
 	  "name": "Plex Media Server",
 	  "icon": "icons/plex.png",
 	  "description": "The Plex media server system"
