@@ -9,7 +9,7 @@ specific services or perform other post package setup.
 
 # File Documentation
 
- - post_install.sh
+ - `post_install.sh`
 
 This script is run *inside* the jail after it has been created and packages installed.
 
@@ -17,43 +17,45 @@ Typically you will enable services in /etc/rc.conf that need to start with the j
 apply configuration settings, etc.
 
 
- - ui.json
+ - `ui.json`
 
 Json file that accepts the following key/value options:
 
-adminportal : "http://%%IP%%/"
+- `adminportal : "http://%%IP%%/"`
 
 Plugin's web-interface for control / configuration. %%IP%% will be replaced dynamically withe the jails IP address.
 
- - overlay/
+ - `overlay/`
 
 Directory of files that will be copied on top of the jail post-install. I.E. usr/local/bin/myfile will
 be placed in the jails /usr/local/bin/myfile location. Can be used to supply custom files / configuration
 data, scripts and more.
 
- - settings.json
+ - `settings.json`
 
 JSON file which controls plugins settings interface (Both iocage CLI and GUI of TrueOS / FreeNAS)
 
 The required fields include:
 
-"servicerestart" : "service plexmediaserver restart"
+- `"servicerestart" : "service plexmediaserver restart"`
 
-Command to run when restarting service after changing settings
+  Command to run when restarting service after changing settings
 
-"serviceget" : "/usr/local/bin/myget"
+- `"serviceget" : "/usr/local/bin/myget"`
 
-Points to the command used to get values for plugin configuration. Usually will be provided by the plugin creator, can be any language as long as it takes a single "key" argument, and returns the setting text.
+  Points to the command used to get values for plugin configuration. Usually will be provided by the plugin creator, can be any language as long as it takes a single "key" argument, and returns the setting text.
 
-"serviceget" : "/usr/local/bin/myset"
+- `"serviceget" : "/usr/local/bin/myset"`
 
-Points to the command used to set values for plugin configuration. Will be provided by the plugin creator, can be any language as long as it accepts two arguments for key/value pair.
+  Points to the command used to set values for plugin configuration. Will be provided by the plugin creator, can be any language as long as it accepts two arguments for key/value pair.
 
-"options": { }
+- `"options": { }`
 
-The following subsection will contain arrays of elements, starting with the "key" name and required arguments
+  The following subsection will contain arrays of elements, starting with the "key" name and required arguments
 for that particular type of setting. Example:
 
+
+```
 "options": {
 		"adduser": {
 			"type": "add",
@@ -115,3 +117,4 @@ for that particular type of setting. Example:
 		}
 
 }
+```
