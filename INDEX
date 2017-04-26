@@ -22,7 +22,7 @@
 	"name": "Quasselcore",
 	"icon": "icons/quasselcore.png",
 	"description": "Quassel Core is a daemon/headless IRC client, part of Quassel, that supports 24/7 connectivity. Quassel Client can be attached to it to."
-	}
+	},
   "jenkins": {
         "MANIFEST": "jenkins.json",
         "name": "Jenkins",
