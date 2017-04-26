@@ -28,5 +28,5 @@
         "name": "Jenkins",
         "icon": "icons/jenkins.png",
         "description": "Jenkins CI"
-        },
+        }
 }
