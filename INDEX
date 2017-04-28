@@ -12,16 +12,22 @@
 	"description": "Personal cloud sync"
 	},
   "btsync": {
-  	"MANIFEST": "btsync.json",
+	"MANIFEST": "btsync.json",
 	"name": "BitTorrent Sync",
 	"icon": "icons/btsync.png",
 	"description": "Resilient, fast and scalable file sync software for enterprises and individuals."
 	},
   "quasselcore": {
-  	"MANIFEST": "quasselcore.json",
+	"MANIFEST": "quasselcore.json",
 	"name": "Quasselcore",
 	"icon": "icons/quasselcore.png",
 	"description": "Quassel Core is a daemon/headless IRC client, part of Quassel, that supports 24/7 connectivity. Quassel Client can be attached to it to."
+	},
+  "subsonic": {
+	"MANIFEST": "subsonic.json",
+	"name": "SubSonic",
+	"icon": "icons/subsonic.png",
+	"description": "Open-source web-based media streamer and jukebox."
 	},
   "jenkins": {
         "MANIFEST": "jenkins.json",
