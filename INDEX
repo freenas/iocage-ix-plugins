@@ -1,21 +1,27 @@
 {
-  "plexmediaserver": {
-	"MANIFEST": "plexmediaserver.json",
-	"name": "Plex Media Server",
-	"icon": "icons/plex.png",
-	"description": "The Plex media server system"
-	},
-  "syncthing": {
-	"MANIFEST": "syncthing.json",
-	"name": "Syncthing",
-	"icon": "icons/syncthing.png",
-	"description": "Personal cloud sync"
-	},
   "btsync": {
 	"MANIFEST": "btsync.json",
 	"name": "BitTorrent Sync",
 	"icon": "icons/btsync.png",
 	"description": "Resilient, fast and scalable file sync software for enterprises and individuals."
+	},
+  "couchpotato": {
+	"MANIFEST": "couchpotato.json",
+	"name": "CouchPotato",
+	"icon": "icons/couchpotato.png",
+	"description": "CouchPotato (CP) is an automatic NZB and torrent downloader."
+	},
+  "jenkins": {
+        "MANIFEST": "jenkins.json",
+        "name": "Jenkins",
+        "icon": "icons/jenkins.png",
+        "description": "Jenkins CI"
+        },
+  "plexmediaserver": {
+	"MANIFEST": "plexmediaserver.json",
+	"name": "Plex Media Server",
+	"icon": "icons/plex.png",
+	"description": "The Plex media server system"
 	},
   "quasselcore": {
 	"MANIFEST": "quasselcore.json",
@@ -23,16 +29,16 @@
 	"icon": "icons/quasselcore.png",
 	"description": "Quassel Core is a daemon/headless IRC client, part of Quassel, that supports 24/7 connectivity. Quassel Client can be attached to it to."
 	},
+  "syncthing": {
+	"MANIFEST": "syncthing.json",
+	"name": "Syncthing",
+	"icon": "icons/syncthing.png",
+	"description": "Personal cloud sync"
+	},
   "subsonic": {
 	"MANIFEST": "subsonic.json",
 	"name": "SubSonic",
 	"icon": "icons/subsonic.png",
 	"description": "Open-source web-based media streamer and jukebox."
-	},
-  "jenkins": {
-        "MANIFEST": "jenkins.json",
-        "name": "Jenkins",
-        "icon": "icons/jenkins.png",
-        "description": "Jenkins CI"
-        }
+	}
 }
