@@ -9,7 +9,7 @@
 	"MANIFEST": "couchpotato.json",
 	"name": "CouchPotato",
 	"icon": "icons/couchpotato.png",
-	"description": "CouchPotato (CP) is an automatic NZB and torrent downloader."
+	"description": "CouchPotato is an automatic NZB and torrent downloader."
 	},
   "jenkins": {
         "MANIFEST": "jenkins.json",
