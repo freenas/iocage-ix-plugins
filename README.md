@@ -8,12 +8,12 @@ it will appear in iocage's plugin listing
 
 # Installing Plugins
 
-##Using Local File
+## Using Local File
 ```
 iocage fetch -P jenkins.json ip4_addr="re0|192.168.0.100/24" tag=jenkins
 ```
 
-##Pulling from Internet
+## Pulling from Internet
 ```
 iocage fetch --plugins ip4_addr="igb0|192.168.0.91/24"
 ```
