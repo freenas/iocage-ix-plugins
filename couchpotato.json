@@ -1,7 +1,7 @@
 {
   "name": "CouchPotato",
   "release": "11.0-RELEASE",
-  "artifact": "https://github.com/iXsystems/iocage-plugin-couchpotato.git",
+  "artifact": "https://github.com/freenas/iocage-plugin-couchpotato.git",
   "pkgs": [
     "couchpotato"
   ],

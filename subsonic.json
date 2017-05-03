@@ -1,7 +1,7 @@
 {
   "name": "SubSonic",
   "release": "11.0-RELEASE",
-  "artifact": "https://github.com/iXsystems/iocage-plugin-subsonic.git",
+  "artifact": "https://github.com/freenas/iocage-plugin-subsonic.git",
   "pkgs": [
     "subsonic-standalone"
   ],
