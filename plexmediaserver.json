@@ -1,7 +1,7 @@
 {
   "name": "Plex",
   "release": "11.0-RELEASE",
-  "artifact": "https://github.com/iXsystems/iocage-plugin-plexmediaserver.git",
+  "artifact": "https://github.com/freenas/iocage-plugin-plexmediaserver.git",
   "pkgs": [
     "plexmediaserver"
   ],

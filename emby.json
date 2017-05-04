@@ -1,10 +1,9 @@
 {
-  "name": "jenkins",
+  "name": "Emby",
   "release": "11.0-RELEASE",
-  "artifact": "https://github.com/freenas/iocage-plugin-jenkins.git",
+  "artifact": "https://github.com/freenas/iocage-plugin-emby.git",
   "pkgs": [
-    "devel/jenkins",
-    "www/nginx"
+    "emby-server"
   ],
   "packagesite": "http://pkg.cdn.trueos.org/iocage",
   "fingerprints": {

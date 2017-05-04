@@ -1,7 +1,7 @@
 {
   "name": "syncthing",
   "release": "11.0-RELEASE",
-  "artifact": "https://github.com/iXsystems/iocage-plugin-syncthing.git",
+  "artifact": "https://github.com/freenas/iocage-plugin-syncthing.git",
   "pkgs": [
     "net/syncthing",
     "www/nginx"

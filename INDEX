@@ -23,6 +23,12 @@
 	"icon": "icons/plex.png",
 	"description": "The Plex media server system"
 	},
+  "plexmediaserver-plexpass": {
+	"MANIFEST": "plexmediaserver-plexpass.json",
+	"name": "Plex Media Server (PlexPass)",
+	"icon": "icons/plex.png",
+	"description": "The Plex media server system"
+	},
   "quasselcore": {
 	"MANIFEST": "quasselcore.json",
 	"name": "Quasselcore",
@@ -40,5 +46,11 @@
 	"name": "SubSonic",
 	"icon": "icons/subsonic.png",
 	"description": "Open-source web-based media streamer and jukebox."
+	},
+  "emby": {
+	"MANIFEST": "emby.json",
+	"name": "Emby",
+	"icon": "icons/emby.png",
+	"description": "Home media server built using mono and other open source technologies"
 	}
 }

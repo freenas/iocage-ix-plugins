@@ -1,7 +1,7 @@
 {
   "name": "btsync",
   "release": "11.0-RELEASE",
-  "artifact": "https://github.com/iXsystems/iocage-plugin-btsync.git",
+  "artifact": "https://github.com/freenas/iocage-plugin-btsync.git",
   "pkgs": [
     "btsync"
   ],

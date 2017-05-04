@@ -1,10 +1,9 @@
 {
-  "name": "jenkins",
+  "name": "Plex",
   "release": "11.0-RELEASE",
-  "artifact": "https://github.com/freenas/iocage-plugin-jenkins.git",
+  "artifact": "https://github.com/freenas/iocage-plugin-plexmediaserver-plexpass.git",
   "pkgs": [
-    "devel/jenkins",
-    "www/nginx"
+    "plexmediaserver-plexpass"
   ],
   "packagesite": "http://pkg.cdn.trueos.org/iocage",
   "fingerprints": {
