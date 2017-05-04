@@ -11,11 +11,23 @@
 	"icon": "icons/couchpotato.png",
 	"description": "CouchPotato is an automatic NZB and torrent downloader."
 	},
+  "emby": {
+	"MANIFEST": "emby.json",
+	"name": "Emby",
+	"icon": "icons/emby.png",
+	"description": "Home media server built using mono and other open source technologies"
+	},
   "jenkins": {
         "MANIFEST": "jenkins.json",
         "name": "Jenkins",
         "icon": "icons/jenkins.png",
         "description": "Jenkins CI"
+        },
+  "nextcloud": {
+        "MANIFEST": "nextcloud.json",
+        "name": "NextCloud",
+        "icon": "icons/nextcloud.png",
+        "description": "Access, share and protect your files, calendars, contacts, communication & more at home and in your enterprise."
         },
   "plexmediaserver": {
 	"MANIFEST": "plexmediaserver.json",
@@ -35,22 +47,16 @@
 	"icon": "icons/quasselcore.png",
 	"description": "Quassel Core is a daemon/headless IRC client, part of Quassel, that supports 24/7 connectivity. Quassel Client can be attached to it to."
 	},
-  "syncthing": {
-	"MANIFEST": "syncthing.json",
-	"name": "Syncthing",
-	"icon": "icons/syncthing.png",
-	"description": "Personal cloud sync"
-	},
   "subsonic": {
 	"MANIFEST": "subsonic.json",
 	"name": "SubSonic",
 	"icon": "icons/subsonic.png",
 	"description": "Open-source web-based media streamer and jukebox."
 	},
-  "emby": {
-	"MANIFEST": "emby.json",
-	"name": "Emby",
-	"icon": "icons/emby.png",
-	"description": "Home media server built using mono and other open source technologies"
+  "syncthing": {
+	"MANIFEST": "syncthing.json",
+	"name": "Syncthing",
+	"icon": "icons/syncthing.png",
+	"description": "Personal cloud sync"
 	}
 }
