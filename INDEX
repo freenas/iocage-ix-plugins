@@ -23,6 +23,12 @@
 	"icon": "icons/plex.png",
 	"description": "The Plex media server system"
 	},
+  "plexmediaserver-plexpass": {
+	"MANIFEST": "plexmediaserver-plexpass.json",
+	"name": "Plex Media Server (PlexPass)",
+	"icon": "icons/plex.png",
+	"description": "The Plex media server system"
+	},
   "quasselcore": {
 	"MANIFEST": "quasselcore.json",
 	"name": "Quasselcore",
