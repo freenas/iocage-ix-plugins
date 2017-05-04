@@ -49,7 +49,7 @@
 	},
   "emby": {
 	"MANIFEST": "emby.json",
-	"name": "emby",
+	"name": "Emby",
 	"icon": "icons/emby.png",
 	"description": "Home media server built using mono and other open source technologies"
 	}
