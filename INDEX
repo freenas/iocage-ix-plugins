@@ -46,5 +46,11 @@
 	"name": "SubSonic",
 	"icon": "icons/subsonic.png",
 	"description": "Open-source web-based media streamer and jukebox."
+	},
+  "emby": {
+	"MANIFEST": "emby.json",
+	"name": "emby",
+	"icon": "icons/emby.png",
+	"description": "Home media server built using mono and other open source technologies"
 	}
 }
