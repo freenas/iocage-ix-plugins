@@ -5,7 +5,7 @@
   "pkgs": [
     "linux-crashplan"
   ],
-  "kmod": [
+  "kmods": [
     "linux64",
     "linux"
   ],
