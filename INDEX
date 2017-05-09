@@ -11,6 +11,12 @@
 	"icon": "icons/couchpotato.png",
 	"description": "CouchPotato is an automatic NZB and torrent downloader."
 	},
+  "crashplan": {
+	"MANIFEST": "crashplan.json",
+	"name": "Crashplan",
+	"icon": "icons/crashplan.png",
+	"description": "Computer backup and data storage made simple."
+	},
   "emby": {
 	"MANIFEST": "emby.json",
 	"name": "Emby",
