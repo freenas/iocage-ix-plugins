@@ -5,6 +5,10 @@
   "pkgs": [
     "linux-crashplan"
   ],
+  "kmod": [
+    "linux64",
+    "linux"
+  ],
   "packagesite": "http://pkg.cdn.trueos.org/iocage",
   "fingerprints": {
 	  "iocage-plugins": [
