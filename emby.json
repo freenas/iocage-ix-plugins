@@ -3,7 +3,7 @@
   "release": "11.0-RELEASE",
   "artifact": "https://github.com/freenas/iocage-plugin-emby.git",
   "pkgs": [
-    "emby-server"
+    "multimedia/emby-server"
   ],
   "packagesite": "http://pkg.cdn.trueos.org/iocage",
   "fingerprints": {

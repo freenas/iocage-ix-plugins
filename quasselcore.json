@@ -3,7 +3,7 @@
   "release": "11.0-RELEASE",
   "artifact": "https://github.com/freenas/iocage-plugin-quassel.git",
   "pkgs": [
-    "quassel-core"
+    "irc/quassel-core"
   ],
   "packagesite": "http://pkg.cdn.trueos.org/iocage",
   "fingerprints": {

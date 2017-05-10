@@ -3,7 +3,7 @@
   "release": "11.0-RELEASE",
   "artifact": "https://github.com/freenas/iocage-plugin-plexmediaserver.git",
   "pkgs": [
-    "plexmediaserver"
+    "multimedia/plexmediaserver"
   ],
   "packagesite": "http://pkg.cdn.trueos.org/iocage",
   "fingerprints": {

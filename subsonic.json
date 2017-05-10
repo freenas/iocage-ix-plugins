@@ -3,7 +3,7 @@
   "release": "11.0-RELEASE",
   "artifact": "https://github.com/freenas/iocage-plugin-subsonic.git",
   "pkgs": [
-    "subsonic-standalone"
+    "www/subsonic-standalone"
   ],
   "packagesite": "http://pkg.cdn.trueos.org/iocage",
   "fingerprints": {
