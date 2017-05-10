@@ -29,6 +29,12 @@
         "icon": "icons/jenkins.png",
         "description": "Jenkins CI"
         },
+  "jenkins-lts": {
+        "MANIFEST": "jenkins-lts.json",
+        "name": "Jenkins (LTS)",
+        "icon": "icons/jenkins.png",
+        "description": "Jenkins CI (Long Term Support Version)"
+        },
   "nextcloud": {
         "MANIFEST": "nextcloud.json",
         "name": "NextCloud",
