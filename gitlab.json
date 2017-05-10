@@ -3,7 +3,10 @@
   "release": "11.0-RELEASE",
   "artifact": "https://github.com/freenas/iocage-plugin-gitlab.git",
   "pkgs": [
-    "www/gitlab","postgresql93-server", "postgresql93-contrib", "nginx"
+    "www/gitlab",
+    "databases/postgresql93-server",
+    "databases/postgresql93-contrib",
+    "www/nginx"
   ],
   "properties": {
      "allow_sysvipc": "1"
