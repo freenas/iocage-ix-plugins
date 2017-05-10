@@ -5,6 +5,9 @@
   "pkgs": [
     "www/gitlab","postgresql93-server", "postgresql93-contrib", "nginx"
   ],
+  "properties": {
+     "allow_sysvipc": "1"
+  },
   "packagesite": "http://pkg.cdn.trueos.org/iocage",
   "fingerprints": {
 	  "iocage-plugins": [
