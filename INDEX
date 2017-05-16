@@ -23,6 +23,12 @@
 	"icon": "icons/emby.png",
 	"description": "Home media server built using mono and other open source technologies"
 	},
+  "gitlab": {
+	"MANIFEST": "gitlab.json",
+	"name": "GitLab",
+	"icon": "icons/gitlab.png",
+	"description": "Powerful features for modern software development"
+	},
   "jenkins": {
         "MANIFEST": "jenkins.json",
         "name": "Jenkins",
