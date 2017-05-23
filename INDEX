@@ -65,6 +65,12 @@
 	"icon": "icons/subsonic.png",
 	"description": "Open-source web-based media streamer and jukebox."
 	},
+  "madsonic": {
+	"MANIFEST": "madsonic.json",
+	"name": "MadSonic",
+	"icon": "icons/madsonic.png",
+	"description": "Open-source web-based media streamer and jukebox."
+	},
   "syncthing": {
 	"MANIFEST": "syncthing.json",
 	"name": "Syncthing",

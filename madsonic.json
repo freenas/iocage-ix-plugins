@@ -1,0 +1,17 @@
+{
+  "name": "MadSonic",
+  "release": "11.0-RELEASE",
+  "artifact": "https://github.com/freenas/iocage-plugin-madsonic.git",
+  "pkgs": [
+    "www/madsonic-standalone"
+  ],
+  "packagesite": "http://pkg.cdn.trueos.org/iocage",
+  "fingerprints": {
+	  "iocage-plugins": [
+		  {
+		  "function": "sha256",
+		  "fingerprint": "226efd3a126fb86e71d60a37353d17f57af816d1c7ecad0623c21f0bf73eb0c7"
+	  }
+	  ]
+  }
+}
