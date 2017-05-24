@@ -94,5 +94,11 @@
 	"name": "Sonarr",
 	"icon": "icons/deluge.png",
 	"description": "PVR for Usenet and BitTorrent users"
+	},
+  "transmission": {
+	"MANIFEST": "transmission.json",
+	"name": "Transmission",
+	"icon": "icons/transmission.png",
+	"description": "Fast and lightweight daemon BitTorrent client"
 	}
 }
