@@ -88,5 +88,11 @@
 	"name": "Deluge",
 	"icon": "icons/deluge.png",
 	"description": "Bittorrent client using Python, and libtorrent-rasterbar"
+	},
+  "sonarr": {
+	"MANIFEST": "sonarr.json",
+	"name": "Sonarr",
+	"icon": "icons/deluge.png",
+	"description": "PVR for Usenet and BitTorrent users"
 	}
 }
