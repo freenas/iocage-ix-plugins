@@ -82,5 +82,11 @@
 	"name": "Syncthing",
 	"icon": "icons/syncthing.png",
 	"description": "Personal cloud sync"
+	},
+  "deluge": {
+	"MANIFEST": "deluge.json",
+	"name": "Deluge",
+	"icon": "icons/deluge.png",
+	"description": "Bittorrent client using Python, and libtorrent-rasterbar"
 	}
 }
