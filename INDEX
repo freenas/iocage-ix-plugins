@@ -100,5 +100,11 @@
 	"name": "Transmission",
 	"icon": "icons/transmission.png",
 	"description": "Fast and lightweight daemon BitTorrent client"
+	},
+  "sickrage": {
+	"MANIFEST": "sickrage.json",
+	"name": "SickRage",
+	"icon": "icons/sickrage.png",
+	"description": "Automatic Video Library Manager for TV Shows"
 	}
 }
