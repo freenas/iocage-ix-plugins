@@ -5,7 +5,7 @@
   "pkgs": [
     "lang/python27",
     "security/ca_root_nss",
-    "databases/py27-sqlite3"
+    "databases/py-sqlite3"
   ],
   "packagesite": "http://pkg.cdn.trueos.org/iocage",
   "fingerprints": {
