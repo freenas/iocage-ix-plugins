@@ -106,5 +106,11 @@
 	"name": "SickRage",
 	"icon": "icons/sickrage.png",
 	"description": "Automatic Video Library Manager for TV Shows"
+	},
+  "tarsnap": {
+	"MANIFEST": "tarsnap.json",
+	"name": "Tarsnap",
+	"icon": "icons/tarsnap.png",
+	"description": " Online encrypted backup service (client)"
 	}
 }
