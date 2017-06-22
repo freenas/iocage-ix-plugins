@@ -111,6 +111,13 @@
 	"MANIFEST": "tarsnap.json",
 	"name": "Tarsnap",
 	"icon": "icons/tarsnap.png",
-	"description": " Online encrypted backup service (client)"
+	"description": "Online encrypted backup service (client)"
+	},
+  "bru-server": {
+	"MANIFEST": "bru-server.json",
+	"name": "bru-server",
+	"icon": "icons/bru-server.png",
+	"description": "BRU Server™ Backup and Recovery Software by TOLIS Group, Inc.",
+	"license": "https://raw.githubusercontent.com/freenas/iocage-ix-plugins/master/bru-license"
 	}
 }
