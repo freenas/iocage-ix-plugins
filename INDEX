@@ -5,6 +5,18 @@
 	"icon": "icons/btsync.png",
 	"description": "Resilient, fast and scalable file sync software for enterprises and individuals."
 	},
+  "backuppc": {
+	"MANIFEST": "backuppc.json",
+	"name": "BackupPC",
+	"icon": "icons/backuppc.png",
+	"description": "BackupPC is a high-performance, enterprise-grade system for backing up Linux, WinXX and MacOSX PCs and laptops to a server's disk."
+	},
+  "clamav": {
+	"MANIFEST": "clamav.json",
+	"name": "ClamAV",
+	"icon": "icons/clamav.png",
+	"description": "ClamAV® is an open source antivirus engine for detecting trojans, viruses, malware & other malicious threats."
+	},
   "couchpotato": {
 	"MANIFEST": "couchpotato.json",
 	"name": "CouchPotato",
