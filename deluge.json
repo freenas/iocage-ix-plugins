@@ -1,6 +1,6 @@
 {
   "name": "Deluge",
-  "release": "11.0-RELEASE",
+  "release": "11.1-RELEASE",
   "artifact": "https://github.com/freenas/iocage-plugin-deluge.git",
   "pkgs": [
     "net-p2p/deluge-cli"

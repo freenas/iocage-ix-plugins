@@ -1,6 +1,6 @@
 {
   "name": "Tarsnap",
-  "release": "11.0-RELEASE",
+  "release": "11.1-RELEASE",
   "artifact": "",
   "pkgs": [
     "sysutils/tarsnap"
