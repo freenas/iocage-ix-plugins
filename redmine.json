@@ -3,7 +3,8 @@
   "release": "11.1-RELEASE",
   "artifact": "https://github.com/freenas/iocage-plugin-redmine.git",
   "pkgs": [
-    "www/redmine"
+    "www/redmine",
+    "www/nginx"
   ],
   "packagesite": "http://pkg.cdn.trueos.org/iocage",
   "fingerprints": {
