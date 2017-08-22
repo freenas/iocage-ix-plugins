@@ -77,6 +77,12 @@
 	"icon": "icons/quasselcore.png",
 	"description": "Quassel Core is a daemon/headless IRC client, part of Quassel, that supports 24/7 connectivity. Quassel Client can be attached to it to."
 	},
+  "redmine": {
+	"MANIFEST": "redmine.json",
+	"name": "Redmine",
+	"icon": "icons/redmine.png",
+	"description": "Redmine is a flexible project management web application written using Ruby on Rails framework."
+	},
   "subsonic": {
 	"MANIFEST": "subsonic.json",
 	"name": "SubSonic",
