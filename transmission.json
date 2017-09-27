@@ -4,7 +4,6 @@
   "artifact": "https://github.com/freenas/iocage-plugin-transmission.git",
   "pkgs": [
     "net-p2p/transmission-daemon",
-    "www/transmission-web"
   ],
   "packagesite": "http://pkg.cdn.trueos.org/iocage",
   "fingerprints": {
