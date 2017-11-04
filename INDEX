@@ -133,7 +133,7 @@
 	},
   "bru-server": {
 	"MANIFEST": "bru-server.json",
-	"name": "bru-server",
+	"name": "BRU Server",
 	"icon": "icons/bru-server.png",
 	"description": "BRU Server™ Backup and Recovery Software by TOLIS Group, Inc.",
 	"license": "https://raw.githubusercontent.com/freenas/iocage-plugin-bru-server/master/bru-license"
