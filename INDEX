@@ -23,12 +23,6 @@
 	"icon": "https://www.trueos.org/iocage-icons/couchpotato.png",
 	"description": "CouchPotato is an automatic NZB and torrent downloader."
 	},
-  "crashplan": {
-	"MANIFEST": "crashplan.json",
-	"name": "Crashplan",
-	"icon": "https://www.trueos.org/iocage-icons/crashplan.png",
-	"description": "Computer backup and data storage made simple."
-	},
   "emby": {
 	"MANIFEST": "emby.json",
 	"name": "Emby",
@@ -76,12 +70,6 @@
 	"name": "Quasselcore",
 	"icon": "https://www.trueos.org/iocage-icons/quasselcore.png",
 	"description": "Quassel Core is a daemon/headless IRC client, part of Quassel, that supports 24/7 connectivity. Quassel Client can be attached to it to."
-	},
-  "redmine": {
-	"MANIFEST": "redmine.json",
-	"name": "Redmine",
-	"icon": "https://www.trueos.org/iocage-icons/redmine.png",
-	"description": "Redmine is a flexible project management web application written using Ruby on Rails framework."
 	},
   "subsonic": {
 	"MANIFEST": "subsonic.json",
