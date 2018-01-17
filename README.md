@@ -10,10 +10,10 @@ it will appear in iocage's plugin listing
 
 ## Using Local File
 ```
-iocage fetch -P --name /the/path/to/jenkins.json ip4_addr="re0|192.168.0.100/24" tag=jenkins
+iocage fetch -P --name /the/path/to/jenkins.json ip4_addr="re0|192.168.0.100"
 ```
 
 ## Pulling from Internet
 ```
-iocage fetch --plugins --name "jenkins" ip4_addr="igb0|192.168.0.91/24"
+iocage fetch --plugins --name "jenkins" ip4_addr="igb0|192.168.0.91"
 ```
