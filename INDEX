@@ -125,5 +125,11 @@
 	"icon": "https://www.trueos.org/iocage-icons/bru-server.png",
 	"description": "BRU Server™ Backup and Recovery Software by TOLIS Group, Inc.",
 	"license": "https://raw.githubusercontent.com/freenas/iocage-plugin-bru-server/master/bru-license"
+	},
+   "tt-rss": {
+	"MANIFEST": "ttrss.json",
+	"name": "TinyTinyRSS",
+	"icon": "",
+	"description": "Open source web-based news feed (RSS/Atom) aggregator, designed to allow you to read news from any location."
 	}
 }
