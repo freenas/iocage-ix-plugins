@@ -129,7 +129,7 @@
    "tt-rss": {
 	"MANIFEST": "ttrss.json",
 	"name": "TinyTinyRSS",
-	"icon": "",
+	"icon": "https://www.trueos.org/iocage-icons/ttrss.png",
 	"description": "Open source web-based news feed (RSS/Atom) aggregator, designed to allow you to read news from any location."
 	}
 }
