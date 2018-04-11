@@ -1,135 +1,157 @@
 {
   "btsync": {
-	"MANIFEST": "btsync.json",
-	"name": "BitTorrent Sync",
-	"icon": "https://www.trueos.org/iocage-icons/btsync.png",
-	"description": "Resilient, fast and scalable file sync software for enterprises and individuals."
-	},
+        "MANIFEST": "btsync.json",
+        "name": "BitTorrent Sync",
+        "icon": "https://www.trueos.org/iocage-icons/btsync.png",
+        "description": "Resilient, fast and scalable file sync software for enterprises and individuals.",
+        "official": true
+  },
   "backuppc": {
-	"MANIFEST": "backuppc.json",
-	"name": "BackupPC",
-	"icon": "https://www.trueos.org/iocage-icons/backuppc.png",
-	"description": "BackupPC is a high-performance, enterprise-grade system for backing up Linux, WinXX and MacOSX PCs and laptops to a server's disk."
-	},
+        "MANIFEST": "backuppc.json",
+        "name": "BackupPC",
+        "icon": "https://www.trueos.org/iocage-icons/backuppc.png",
+        "description": "BackupPC is a high-performance, enterprise-grade system for backing up Linux, WinXX and MacOSX PCs and laptops to a server's disk.",
+        "official": true
+  },
   "clamav": {
-	"MANIFEST": "clamav.json",
-	"name": "ClamAV",
-	"icon": "https://www.trueos.org/iocage-icons/clamav.png",
-	"description": "ClamAV® is an open source antivirus engine for detecting trojans, viruses, malware & other malicious threats."
-	},
+        "MANIFEST": "clamav.json",
+        "name": "ClamAV",
+        "icon": "https://www.trueos.org/iocage-icons/clamav.png",
+        "description": "ClamAV® is an open source antivirus engine for detecting trojans, viruses, malware & other malicious threats.",
+        "official": true
+},
   "couchpotato": {
-	"MANIFEST": "couchpotato.json",
-	"name": "CouchPotato",
-	"icon": "https://www.trueos.org/iocage-icons/couchpotato.png",
-	"description": "CouchPotato is an automatic NZB and torrent downloader."
-	},
+        "MANIFEST": "couchpotato.json",
+        "name": "CouchPotato",
+        "icon": "https://www.trueos.org/iocage-icons/couchpotato.png",
+        "description": "CouchPotato is an automatic NZB and torrent downloader.",
+        "official": true
+  },
   "emby": {
-	"MANIFEST": "emby.json",
-	"name": "Emby",
-	"icon": "https://www.trueos.org/iocage-icons/emby.png",
-	"description": "Home media server built using mono and other open source technologies"
-	},
+        "MANIFEST": "emby.json",
+        "name": "Emby",
+        "icon": "https://www.trueos.org/iocage-icons/emby.png",
+        "description": "Home media server built using mono and other open source technologies",
+        "official": true
+  },
   "gitlab": {
-	"MANIFEST": "gitlab.json",
-	"name": "GitLab",
-	"icon": "https://www.trueos.org/iocage-icons/gitlab.png",
-	"description": "Powerful features for modern software development"
-	},
+        "MANIFEST": "gitlab.json",
+        "name": "GitLab",
+        "icon": "https://www.trueos.org/iocage-icons/gitlab.png",
+        "description": "Powerful features for modern software development",
+        "official": true
+  },
   "jenkins": {
         "MANIFEST": "jenkins.json",
         "name": "Jenkins",
         "icon": "https://www.trueos.org/iocage-icons/jenkins.png",
-        "description": "Jenkins CI"
-        },
+        "description": "Jenkins CI",
+        "official": true
+  },
   "jenkins-lts": {
         "MANIFEST": "jenkins-lts.json",
         "name": "Jenkins (LTS)",
         "icon": "https://www.trueos.org/iocage-icons/jenkins.png",
-        "description": "Jenkins CI (Long Term Support Version)"
-        },
+        "description": "Jenkins CI (Long Term Support Version)",
+        "official": true
+  },
   "nextcloud": {
         "MANIFEST": "nextcloud.json",
         "name": "NextCloud",
         "icon": "https://www.trueos.org/iocage-icons/nextcloud.png",
-        "description": "Access, share and protect your files, calendars, contacts, communication & more at home and in your enterprise."
-        },
+        "description": "Access, share and protect your files, calendars, contacts, communication & more at home and in your enterprise.",
+        "official": true
+  },
   "plexmediaserver": {
-	"MANIFEST": "plexmediaserver.json",
-	"name": "Plex Media Server",
-	"icon": "https://www.trueos.org/iocage-icons/plex.png",
-	"description": "The Plex media server system"
-	},
+        "MANIFEST": "plexmediaserver.json",
+        "name": "Plex Media Server",
+        "icon": "https://www.trueos.org/iocage-icons/plex.png",
+        "description": "The Plex media server system",
+        "official": true
+  },
   "plexmediaserver-plexpass": {
-	"MANIFEST": "plexmediaserver-plexpass.json",
-	"name": "Plex Media Server (PlexPass)",
-	"icon": "https://www.trueos.org/iocage-icons/plex.png",
-	"description": "The Plex media server system"
-	},
+        "MANIFEST": "plexmediaserver-plexpass.json",
+        "name": "Plex Media Server (PlexPass)",
+        "icon": "https://www.trueos.org/iocage-icons/plex.png",
+        "description": "The Plex media server system",
+        "official": true
+  },
   "quasselcore": {
-	"MANIFEST": "quasselcore.json",
-	"name": "Quasselcore",
-	"icon": "https://www.trueos.org/iocage-icons/quasselcore.png",
-	"description": "Quassel Core is a daemon/headless IRC client, part of Quassel, that supports 24/7 connectivity. Quassel Client can be attached to it to."
-	},
+        "MANIFEST": "quasselcore.json",
+        "name": "Quasselcore",
+        "icon": "https://www.trueos.org/iocage-icons/quasselcore.png",
+        "description": "Quassel Core is a daemon/headless IRC client, part of Quassel, that supports 24/7 connectivity. Quassel Client can be attached to it to.",
+        "official": true
+  },
   "subsonic": {
-	"MANIFEST": "subsonic.json",
-	"name": "SubSonic",
-	"icon": "https://www.trueos.org/iocage-icons/subsonic.png",
-	"description": "Open-source web-based media streamer and jukebox."
-	},
+        "MANIFEST": "subsonic.json",
+        "name": "SubSonic",
+        "icon": "https://www.trueos.org/iocage-icons/subsonic.png",
+        "description": "Open-source web-based media streamer and jukebox.",
+        "official": true
+  },
   "madsonic": {
-	"MANIFEST": "madsonic.json",
-	"name": "MadSonic",
-	"icon": "https://www.trueos.org/iocage-icons/madsonic.png",
-	"description": "Open-source web-based media streamer and jukebox."
-	},
+        "MANIFEST": "madsonic.json",
+        "name": "MadSonic",
+        "icon": "https://www.trueos.org/iocage-icons/madsonic.png",
+        "description": "Open-source web-based media streamer and jukebox.",
+        "official": true
+  },
   "syncthing": {
-	"MANIFEST": "syncthing.json",
-	"name": "Syncthing",
-	"icon": "https://www.trueos.org/iocage-icons/syncthing.png",
-	"description": "Personal cloud sync"
-	},
-  "deluge": {
-	"MANIFEST": "deluge.json",
-	"name": "Deluge",
-	"icon": "https://www.trueos.org/iocage-icons/deluge.png",
-	"description": "Bittorrent client using Python, and libtorrent-rasterbar"
-	},
+        "MANIFEST": "syncthing.json",
+        "name": "Syncthing",
+        "icon": "https://www.trueos.org/iocage-icons/syncthing.png",
+        "description": "Personal cloud sync",
+        "official": true
+  },
+        "deluge": {
+        "MANIFEST": "deluge.json",
+        "name": "Deluge",
+        "icon": "https://www.trueos.org/iocage-icons/deluge.png",
+        "description": "Bittorrent client using Python, and libtorrent-rasterbar",
+        "official": true
+  },
   "sonarr": {
-	"MANIFEST": "sonarr.json",
-	"name": "Sonarr",
-	"icon": "https://www.trueos.org/iocage-icons/deluge.png",
-	"description": "PVR for Usenet and BitTorrent users"
-	},
+        "MANIFEST": "sonarr.json",
+        "name": "Sonarr",
+        "icon": "https://www.trueos.org/iocage-icons/deluge.png",
+        "description": "PVR for Usenet and BitTorrent users",
+        "official": true
+  },
   "transmission": {
-	"MANIFEST": "transmission.json",
-	"name": "Transmission",
-	"icon": "https://www.trueos.org/iocage-icons/transmission.png",
-	"description": "Fast and lightweight daemon BitTorrent client"
-	},
+        "MANIFEST": "transmission.json",
+        "name": "Transmission",
+        "icon": "https://www.trueos.org/iocage-icons/transmission.png",
+        "description": "Fast and lightweight daemon BitTorrent client",
+        "official": true
+  },
   "sickrage": {
-	"MANIFEST": "sickrage.json",
-	"name": "SickRage",
-	"icon": "https://www.trueos.org/iocage-icons/sickrage.png",
-	"description": "Automatic Video Library Manager for TV Shows"
-	},
+        "MANIFEST": "sickrage.json",
+        "name": "SickRage",
+        "icon": "https://www.trueos.org/iocage-icons/sickrage.png",
+        "description": "Automatic Video Library Manager for TV Shows",
+        "official": true
+  },
   "tarsnap": {
-	"MANIFEST": "tarsnap.json",
-	"name": "Tarsnap",
-	"icon": "https://www.trueos.org/iocage-icons/tarsnap.png",
-	"description": "Online encrypted backup service (client)"
-	},
+        "MANIFEST": "tarsnap.json",
+        "name": "Tarsnap",
+        "icon": "https://www.trueos.org/iocage-icons/tarsnap.png",
+        "description": "Online encrypted backup service (client)",
+        "official": true
+  },
   "bru-server": {
-	"MANIFEST": "bru-server.json",
-	"name": "BRU Server",
-	"icon": "https://www.trueos.org/iocage-icons/bru-server.png",
-	"description": "BRU Server™ Backup and Recovery Software by TOLIS Group, Inc.",
-	"license": "https://raw.githubusercontent.com/freenas/iocage-plugin-bru-server/master/bru-license"
-	},
+        "MANIFEST": "bru-server.json",
+        "name": "BRU Server",
+        "icon": "https://www.trueos.org/iocage-icons/bru-server.png",
+        "description": "BRU Server™ Backup and Recovery Software by TOLIS Group, Inc.",
+        "license": "https://raw.githubusercontent.com/freenas/iocage-plugin-bru-server/master/bru-license",
+        "official": true
+  },
    "tt-rss": {
-	"MANIFEST": "ttrss.json",
-	"name": "TinyTinyRSS",
-	"icon": "https://www.trueos.org/iocage-icons/ttrss.png",
-	"description": "Open source web-based news feed (RSS/Atom) aggregator, designed to allow you to read news from any location."
-	}
+        "MANIFEST": "ttrss.json",
+        "name": "TinyTinyRSS",
+        "icon": "https://www.trueos.org/iocage-icons/ttrss.png",
+        "description": "Open source web-based news feed (RSS/Atom) aggregator, designed to allow you to read news from any location.",
+        "official": true
+  }
 }
