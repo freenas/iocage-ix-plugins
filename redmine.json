@@ -4,7 +4,8 @@
   "artifact": "https://github.com/freenas/iocage-plugin-redmine.git",
   "pkgs": [
     "www/redmine",
-    "www/nginx"
+    "www/nginx",
+    "databases/mysql56-server"
   ],
   "packagesite": "http://pkg.cdn.trueos.org/iocage",
   "fingerprints": {
