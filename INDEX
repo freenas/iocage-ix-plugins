@@ -114,7 +114,7 @@
   "sonarr": {
         "MANIFEST": "sonarr.json",
         "name": "Sonarr",
-        "icon": "https://www.trueos.org/iocage-icons/deluge.png",
+        "icon": "https://www.trueos.org/iocage-icons/sonarr.png",
         "description": "PVR for Usenet and BitTorrent users",
         "official": true
   },
