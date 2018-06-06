@@ -3,7 +3,7 @@
   "release": "11.1-RELEASE",
   "artifact": "https://github.com/freenas/iocage-plugin-btsync.git",
   "pkgs": [
-    "net-p2p/btsync"
+    "net-p2p/rslsync"
   ],
   "packagesite": "http://pkg.cdn.trueos.org/iocage",
   "fingerprints": {
