@@ -1,11 +1,4 @@
 {
-  "btsync": {
-        "MANIFEST": "btsync.json",
-        "name": "BitTorrent Sync",
-        "icon": "https://www.trueos.org/iocage-icons/btsync.png",
-        "description": "Resilient, fast and scalable file sync software for enterprises and individuals.",
-        "official": true
-  },
   "backuppc": {
         "MANIFEST": "backuppc.json",
         "name": "BackupPC",
@@ -19,7 +12,7 @@
         "icon": "https://www.trueos.org/iocage-icons/clamav.png",
         "description": "ClamAV® is an open source antivirus engine for detecting trojans, viruses, malware & other malicious threats.",
         "official": true
-},
+  },
   "couchpotato": {
         "MANIFEST": "couchpotato.json",
         "name": "CouchPotato",
@@ -125,26 +118,11 @@
         "description": "Fast and lightweight daemon BitTorrent client",
         "official": true
   },
-  "sickrage": {
-        "MANIFEST": "sickrage.json",
-        "name": "SickRage",
-        "icon": "https://www.trueos.org/iocage-icons/sickrage.png",
-        "description": "Automatic Video Library Manager for TV Shows",
-        "official": true
-  },
   "tarsnap": {
         "MANIFEST": "tarsnap.json",
         "name": "Tarsnap",
         "icon": "https://www.trueos.org/iocage-icons/tarsnap.png",
         "description": "Online encrypted backup service (client)",
-        "official": true
-  },
-  "bru-server": {
-        "MANIFEST": "bru-server.json",
-        "name": "BRU Server",
-        "icon": "https://www.trueos.org/iocage-icons/bru-server.png",
-        "description": "BRU Server™ Backup and Recovery Software by TOLIS Group, Inc.",
-        "license": "https://raw.githubusercontent.com/freenas/iocage-plugin-bru-server/master/bru-license",
         "official": true
   },
    "tt-rss": {
