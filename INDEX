@@ -1,11 +1,4 @@
 {
-  "btsync": {
-        "MANIFEST": "btsync.json",
-        "name": "BitTorrent Sync",
-        "icon": "https://www.trueos.org/iocage-icons/btsync.png",
-        "description": "Resilient, fast and scalable file sync software for enterprises and individuals.",
-        "official": true
-  },
   "backuppc": {
         "MANIFEST": "backuppc.json",
         "name": "BackupPC",
