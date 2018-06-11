@@ -153,5 +153,13 @@
         "icon": "https://www.trueos.org/iocage-icons/ttrss.png",
         "description": "Open source web-based news feed (RSS/Atom) aggregator, designed to allow you to read news from any location.",
         "official": true
+  },
+   "bacula-server": {
+        "MANIFEST": "bacula-server.json",
+        "name": "Bacula-server",
+        "icon": "https://www.trueos.org/iocage-icons/bacula-server.png",
+        "description": "programs to manage backup, recovery, and verification of computer data across a network of computers of different kinds",
+        "license": "https://blog.bacula.org/what-is-bacula/bacula-copyright-trademark-and-licenses/",
+        "official": true
   }
 }
