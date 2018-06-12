@@ -159,7 +159,7 @@
         "name": "Bacula-server",
         "icon": "https://www.trueos.org/iocage-icons/bacula-server.png",
         "description": "programs to manage backup, recovery, and verification of computer data across a network of computers of different kinds",
-        "license": "https://raw.githubusercontent.com/a-stjohn/iocage-plugin-bacula-server/master/bacula-license",
+        "license": "https://raw.githubusercontent.com/freenas/iocage-plugin-bacula-server/master/bacula-license",
         "official": true
   }
 }
