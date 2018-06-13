@@ -2,6 +2,7 @@
   "btsync": {
         "MANIFEST": "btsync.json",
         "name": "BitTorrent Sync",
+        "primary_pkg": "net-p2p/rslsync",
         "icon": "https://www.trueos.org/iocage-icons/btsync.png",
         "description": "Resilient, fast and scalable file sync software for enterprises and individuals.",
         "official": true
@@ -9,6 +10,7 @@
   "backuppc": {
         "MANIFEST": "backuppc.json",
         "name": "BackupPC",
+        "primary_pkg": "sysutils/backuppc4",
         "icon": "https://www.trueos.org/iocage-icons/backuppc.png",
         "description": "BackupPC is a high-performance, enterprise-grade system for backing up Linux, WinXX and MacOSX PCs and laptops to a server's disk.",
         "official": true
@@ -16,6 +18,7 @@
   "clamav": {
         "MANIFEST": "clamav.json",
         "name": "ClamAV",
+        "primary_pkg": "security/clamav",
         "icon": "https://www.trueos.org/iocage-icons/clamav.png",
         "description": "ClamAV® is an open source antivirus engine for detecting trojans, viruses, malware & other malicious threats.",
         "official": true
@@ -23,6 +26,7 @@
   "couchpotato": {
         "MANIFEST": "couchpotato.json",
         "name": "CouchPotato",
+        "primary_pkg": "net-p2p/couchpotato",
         "icon": "https://www.trueos.org/iocage-icons/couchpotato.png",
         "description": "CouchPotato is an automatic NZB and torrent downloader.",
         "official": true
@@ -30,6 +34,7 @@
   "emby": {
         "MANIFEST": "emby.json",
         "name": "Emby",
+        "primary_pkg": "multimedia/emby-server",
         "icon": "https://www.trueos.org/iocage-icons/emby.png",
         "description": "Home media server built using mono and other open source technologies",
         "official": true
@@ -37,6 +42,7 @@
   "gitlab": {
         "MANIFEST": "gitlab.json",
         "name": "GitLab",
+        "primary_pkg": "www/gitlab",
         "icon": "https://www.trueos.org/iocage-icons/gitlab.png",
         "description": "Powerful features for modern software development",
         "official": true
@@ -44,6 +50,7 @@
   "jenkins": {
         "MANIFEST": "jenkins.json",
         "name": "Jenkins",
+        "primary_pkg": "devel/jenkins",
         "icon": "https://www.trueos.org/iocage-icons/jenkins.png",
         "description": "Jenkins CI",
         "official": true
@@ -51,6 +58,7 @@
   "jenkins-lts": {
         "MANIFEST": "jenkins-lts.json",
         "name": "Jenkins (LTS)",
+        "primary_pkg": "devel/jenkins-lts",
         "icon": "https://www.trueos.org/iocage-icons/jenkins.png",
         "description": "Jenkins CI (Long Term Support Version)",
         "official": true
@@ -58,6 +66,7 @@
   "nextcloud": {
         "MANIFEST": "nextcloud.json",
         "name": "NextCloud",
+        "primary_pkg": "www/nextcloud-php56",
         "icon": "https://www.trueos.org/iocage-icons/nextcloud.png",
         "description": "Access, share and protect your files, calendars, contacts, communication & more at home and in your enterprise.",
         "official": true
@@ -65,6 +74,7 @@
   "plexmediaserver": {
         "MANIFEST": "plexmediaserver.json",
         "name": "Plex Media Server",
+        "primary_pkg": "multimedia/plexmediserver",
         "icon": "https://www.trueos.org/iocage-icons/plex.png",
         "description": "The Plex media server system",
         "official": true
@@ -72,6 +82,7 @@
   "plexmediaserver-plexpass": {
         "MANIFEST": "plexmediaserver-plexpass.json",
         "name": "Plex Media Server (PlexPass)",
+        "primary_pkg": "multimedia/plexmediaserver-plexpass",
         "icon": "https://www.trueos.org/iocage-icons/plex.png",
         "description": "The Plex media server system",
         "official": true
@@ -79,6 +90,7 @@
   "quasselcore": {
         "MANIFEST": "quasselcore.json",
         "name": "Quasselcore",
+        "primary_pkg": "irc/quassel-core",
         "icon": "https://www.trueos.org/iocage-icons/quasselcore.png",
         "description": "Quassel Core is a daemon/headless IRC client, part of Quassel, that supports 24/7 connectivity. Quassel Client can be attached to it to.",
         "official": true
@@ -86,6 +98,7 @@
   "subsonic": {
         "MANIFEST": "subsonic.json",
         "name": "SubSonic",
+        "primary_pkg": "www/subsonic-standalone",
         "icon": "https://www.trueos.org/iocage-icons/subsonic.png",
         "description": "Open-source web-based media streamer and jukebox.",
         "official": true
@@ -93,6 +106,7 @@
   "madsonic": {
         "MANIFEST": "madsonic.json",
         "name": "MadSonic",
+        "primary_pkg": "www/madsonic-standalone",
         "icon": "https://www.trueos.org/iocage-icons/madsonic.png",
         "description": "Open-source web-based media streamer and jukebox.",
         "official": true
@@ -100,13 +114,15 @@
   "syncthing": {
         "MANIFEST": "syncthing.json",
         "name": "Syncthing",
+        "primary_pkg": "net/syncthing",
         "icon": "https://www.trueos.org/iocage-icons/syncthing.png",
         "description": "Personal cloud sync",
         "official": true
   },
-        "deluge": {
+  "deluge": {
         "MANIFEST": "deluge.json",
         "name": "Deluge",
+        "primary_pkg": "net-p2p/deluge-cli",
         "icon": "https://www.trueos.org/iocage-icons/deluge.png",
         "description": "Bittorrent client using Python, and libtorrent-rasterbar",
         "official": true
@@ -114,6 +130,7 @@
   "sonarr": {
         "MANIFEST": "sonarr.json",
         "name": "Sonarr",
+        "primary_pkg": "net-p2p/sonarr",
         "icon": "https://www.trueos.org/iocage-icons/sonarr.png",
         "description": "PVR for Usenet and BitTorrent users",
         "official": true
@@ -121,6 +138,7 @@
   "transmission": {
         "MANIFEST": "transmission.json",
         "name": "Transmission",
+        "primary_pkg": "net-p2p/transmission-daemon",
         "icon": "https://www.trueos.org/iocage-icons/transmission.png",
         "description": "Fast and lightweight daemon BitTorrent client",
         "official": true
@@ -128,6 +146,7 @@
   "sickrage": {
         "MANIFEST": "sickrage.json",
         "name": "SickRage",
+        "primary_pkg": "Git branch - Master",
         "icon": "https://www.trueos.org/iocage-icons/sickrage.png",
         "description": "Automatic Video Library Manager for TV Shows",
         "official": true
@@ -135,6 +154,7 @@
   "tarsnap": {
         "MANIFEST": "tarsnap.json",
         "name": "Tarsnap",
+        "primary_pkg": "sysutils/tarsnap",
         "icon": "https://www.trueos.org/iocage-icons/tarsnap.png",
         "description": "Online encrypted backup service (client)",
         "official": true
@@ -150,6 +170,7 @@
    "tt-rss": {
         "MANIFEST": "ttrss.json",
         "name": "TinyTinyRSS",
+        "primary_pkg": "www/tt-rss",
         "icon": "https://www.trueos.org/iocage-icons/ttrss.png",
         "description": "Open source web-based news feed (RSS/Atom) aggregator, designed to allow you to read news from any location.",
         "official": true
@@ -157,6 +178,7 @@
    "bacula-server": {
         "MANIFEST": "bacula-server.json",
         "name": "Bacula-server",
+        "primary_pkg": "sysutils/bacula-server",
         "icon": "https://www.trueos.org/iocage-icons/bacula-server.png",
         "description": "programs to manage backup, recovery, and verification of computer data across a network of computers of different kinds",
         "license": "https://raw.githubusercontent.com/freenas/iocage-plugin-bacula-server/master/bacula-license",
@@ -165,6 +187,7 @@
    "xmrig": {
         "MANIFEST": "xmrig.json",
         "name": "XMRig",
+        "primary_pkg": "net-p2p/xmrig",
         "icon": "https://www.trueos.org/iocage-icons/xmrig.png",
         "description": "XMRig is a high performance Monero (XMR) CPU miner written in C++.",
         "license": "https://raw.githubusercontent.com/freenas/iocage-plugin-xmrig/master/xmrig-license",
