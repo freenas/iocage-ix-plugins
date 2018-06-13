@@ -1,5 +1,5 @@
 {
-  "name": "Bacula-server",
+  "name": "xmrig",
   "release": "11.1-RELEASE",
   "artifact": "https://github.com/freenas/iocage-plugin-xmrig.git",
   "pkgs": [
