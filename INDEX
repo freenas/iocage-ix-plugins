@@ -201,5 +201,14 @@
         "description": "qBittorrent is the open source bittorrent client in C++/Qt that uses libtorrent-rasterbar.",
         "license": "https://raw.githubusercontent.com/freenas/iocage-plugin-qbittorrent/master/qbittorrent-license",
         "official": true
+  },
+  "weechat": {
+        "MANIFEST": "weechat.json",
+        "name": "weechat",
+        "primary_pkg": "irc/weechat",
+        "icon": "https://www.trueos.org/iocage-icons/weechat.png",
+        "description": "WeeChat (Wee Enhanced Environment for Chat) is a fast and light IRC client.",
+        "license": "https://raw.githubusercontent.com/freenas/iocage-plugin-qbittorrent/master/weechat-license",
+        "official": true
   }
 }
