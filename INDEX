@@ -201,5 +201,23 @@
         "description": "qBittorrent is the open source bittorrent client in C++/Qt that uses libtorrent-rasterbar.",
         "license": "https://raw.githubusercontent.com/freenas/iocage-plugin-qbittorrent/master/qbittorrent-license",
         "official": true
+  },
+  "weechat": {
+        "MANIFEST": "weechat.json",
+        "name": "weechat",
+        "primary_pkg": "irc/weechat",
+        "icon": "https://www.trueos.org/iocage-icons/weechat.png",
+        "description": "WeeChat (Wee Enhanced Environment for Chat) is a fast and light IRC client.",
+        "license": "https://raw.githubusercontent.com/freenas/iocage-plugin-qbittorrent/master/weechat-license",
+        "official": true
+  },
+ "irssi": {
+        "MANIFEST": "irssi.json",
+        "name": "irssi",
+        "primary_pkg": "irc/irssi",
+        "icon": "https://www.trueos.org/iocage-icons/irssi.png",
+        "description": "Irssi is a modular IRC client that currently has only text mode user interface, but 80-90% of the code isn't text mode specific, so other UIs could be created pretty easily.",
+        "license": "https://raw.githubusercontent.com/freenas/iocage-plugin-qbittorrent/master/irssi-license",
+        "official": true
   }
 }
