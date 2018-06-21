@@ -1,11 +1,9 @@
 {
-  "name": "Bacula-server",
+  "name": "irssi",
   "release": "11.1-RELEASE",
-  "artifact": "https://github.com/freenas/iocage-plugin-bacula-server.git",
+  "artifact": "https://github.com/freenas/iocage-plugin-irssi.git",
   "pkgs": [
-    "sysutils/bacula9-server",
-    "databases/postgresql95-server",
-    "databases/postgresql95-contrib"
+    "irc/irssi"
   ],
   "packagesite": "http://pkg.cdn.trueos.org/iocage",
   "fingerprints": {
