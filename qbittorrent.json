@@ -3,7 +3,7 @@
   "release": "11.1-RELEASE",
   "artifact": "https://github.com/freenas/iocage-plugin-qbittorrent.git",
   "pkgs": [
-    "net-p2p/qbittorrent"
+    "net-p2p/qbittorrent-nox"
   ],
   "packagesite": "http://pkg.cdn.trueos.org/iocage",
   "fingerprints": {
