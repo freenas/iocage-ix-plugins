@@ -3,7 +3,9 @@
   "release": "11.1-RELEASE",
   "artifact": "https://github.com/freenas/iocage-plugin-bacula-server.git",
   "pkgs": [
-    "sysutils/bacula-server"
+    "sysutils/bacula9-server",
+    "databases/postgresql95-server",
+    "databases/postgresql95-contrib"
   ],
   "packagesite": "http://pkg.cdn.trueos.org/iocage",
   "fingerprints": {
