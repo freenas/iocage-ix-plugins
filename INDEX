@@ -219,5 +219,13 @@
         "description": "Irssi is a modular IRC client that currently has only text mode user interface, but 80-90% of the code isn't text mode specific, so other UIs could be created pretty easily.",
         "license": "https://raw.githubusercontent.com/freenas/iocage-plugin-qbittorrent/master/irssi-license",
         "official": true
+  },
+ "mineos": {
+        "MANIFEST": "mineos.json",
+        "name": "MineOS",
+        "primary_pkg": "https://github.com/hexparrot/mineos-node",
+        "icon": "https://www.trueos.org/iocage-icons/mineos.png",
+        "description": "MineOS is a series of tutorials and distributions designed to help Minecraft enthusiasts successfully host Minecraft on a Linux or BSD-based platform.",
+        "official": false
   }
 }
