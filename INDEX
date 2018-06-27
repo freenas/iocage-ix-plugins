@@ -223,7 +223,7 @@
  "mineos": {
         "MANIFEST": "mineos.json",
         "name": "MineOS",
-        "primary_pkg": "https://github.com/hexparrot/mineos-node",
+        "primary_pkg": "Git branch - Master",
         "icon": "https://www.trueos.org/iocage-icons/mineos.png",
         "description": "MineOS is a series of tutorials and distributions designed to help Minecraft enthusiasts successfully host Minecraft on a Linux or BSD-based platform.",
         "official": false
