@@ -219,5 +219,14 @@
         "description": "Irssi is a modular IRC client that currently has only text mode user interface, but 80-90% of the code isn't text mode specific, so other UIs could be created pretty easily.",
         "license": "https://raw.githubusercontent.com/freenas/iocage-plugin-qbittorrent/master/irssi-license",
         "official": true
+  },
+ "sabnzbd": {
+        "MANIFEST": "sabnzbd.json",
+        "name": "sabnzbd",
+        "primary_pkg": "news/sabnzbdplus",
+        "icon": "https://www.trueos.org/iocage-icons/sabnzbd.png",
+        "description": "SABnzbd is a cross-platform binary newsreader.",
+        "license": "https://raw.githubusercontent.com/freenas/iocage-plugin-sabnzbd/master/sabnzbd-license",
+        "official": true
   }
 }
