@@ -219,5 +219,14 @@
         "description": "Irssi is a modular IRC client that currently has only text mode user interface, but 80-90% of the code isn't text mode specific, so other UIs could be created pretty easily.",
         "license": "https://raw.githubusercontent.com/freenas/iocage-plugin-qbittorrent/master/irssi-license",
         "official": true
+  },
+ "radarr": {
+        "MANIFEST": "radarr.json",
+        "name": "radarr",
+        "primary_pkg": "net-p2p/radarr",
+        "icon": "https://www.trueos.org/iocage-icons/radarr.png",
+        "description": "Radarr is a fork of Sonarr to work with movies in the style of Couchpotato.",
+        "license": "https://raw.githubusercontent.com/freenas/iocage-plugin-radarr/master/radarr-license",
+        "official": true
   }
 }
