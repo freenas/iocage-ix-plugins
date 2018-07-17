@@ -79,7 +79,7 @@
         "description": "The Plex media server system",
         "official": true
   },
-  "Redmine": {
+  "redmine": {
         "MANIFEST": "redmine.json",
         "name": "Redmine",
         "primary_pkg": "www/redmine",
