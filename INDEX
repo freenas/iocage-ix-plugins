@@ -79,6 +79,14 @@
         "description": "The Plex media server system",
         "official": true
   },
+  "Redmine": {
+        "MANIFEST": "redmine.json",
+        "name": "Redmine",
+        "primary_pkg": "www/redmine",
+        "icon": "https://www.trueos.org/iocage-icons/redmine.png",
+        "description": "Redmine Bugtracker",
+        "official": true
+  },
   "plexmediaserver-plexpass": {
         "MANIFEST": "plexmediaserver-plexpass.json",
         "name": "Plex Media Server (PlexPass)",
