@@ -167,7 +167,7 @@
         "license": "https://raw.githubusercontent.com/freenas/iocage-plugin-bru-server/master/bru-license",
         "official": true
   },
-   "tt-rss": {
+   "ttrss": {
         "MANIFEST": "ttrss.json",
         "name": "TinyTinyRSS",
         "primary_pkg": "www/tt-rss",
