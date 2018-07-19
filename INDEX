@@ -253,5 +253,14 @@
         "icon": "https://www.trueos.org/iocage-icons/mineos.png",
         "description": "MineOS is a series of tutorials and distributions designed to help Minecraft enthusiasts successfully host Minecraft on a Linux or BSD-based platform.",
         "official": false
+  },
+ "sabnzbd": {
+        "MANIFEST": "sabnzbd.json",
+        "name": "sabnzbd",
+        "primary_pkg": "news/sabnzbdplus",
+        "icon": "https://www.trueos.org/iocage-icons/sabnzbd.png",
+        "description": "SABnzbd is a cross-platform binary newsreader.",
+        "license": "https://raw.githubusercontent.com/freenas/iocage-plugin-sabnzbd/master/sabnzbd-license",
+        "official": true
   }
 }
