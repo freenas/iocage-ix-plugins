@@ -216,7 +216,7 @@
         "primary_pkg": "irc/weechat",
         "icon": "https://www.trueos.org/iocage-icons/weechat.png",
         "description": "WeeChat (Wee Enhanced Environment for Chat) is a fast and light IRC client.",
-        "license": "https://raw.githubusercontent.com/freenas/iocage-plugin-qbittorrent/master/weechat-license",
+        "license": "https://raw.githubusercontent.com/freenas/iocage-plugin-weechat/master/weechat-license",
         "official": true
   },
  "irssi": {
@@ -225,7 +225,16 @@
         "primary_pkg": "irc/irssi",
         "icon": "https://www.trueos.org/iocage-icons/irssi.png",
         "description": "Irssi is a modular IRC client that currently has only text mode user interface, but 80-90% of the code isn't text mode specific, so other UIs could be created pretty easily.",
-        "license": "https://raw.githubusercontent.com/freenas/iocage-plugin-qbittorrent/master/irssi-license",
+        "license": "https://raw.githubusercontent.com/freenas/iocage-plugin-irssi/master/irssi-license",
+        "official": true
+  },
+ "zoneminder": {
+        "MANIFEST": "zoneminder.json",
+        "name": "Zoneminder",
+        "primary_pkg": "multimedia/zoneminder",
+        "icon": "https://www.trueos.org/iocage-icons/zoneminder.png",
+        "description": "ZoneMinder is a free, open source Closed-circuit television software application developed for Linux which supports IP, USB and Analog cameras.",
+        "license": "https://raw.githubusercontent.com/freenas/iocage-plugin-zoneminder/master/zoneminder-license",
         "official": true
   },
  "radarr": {
