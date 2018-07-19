@@ -245,5 +245,13 @@
         "description": "Radarr is a fork of Sonarr to work with movies in the style of Couchpotato.",
         "license": "https://raw.githubusercontent.com/freenas/iocage-plugin-radarr/master/radarr-license",
         "official": true
+  },
+ "mineos": {
+        "MANIFEST": "mineos.json",
+        "name": "MineOS",
+        "primary_pkg": "Git branch - Master",
+        "icon": "https://www.trueos.org/iocage-icons/mineos.png",
+        "description": "MineOS is a series of tutorials and distributions designed to help Minecraft enthusiasts successfully host Minecraft on a Linux or BSD-based platform.",
+        "official": false
   }
 }
