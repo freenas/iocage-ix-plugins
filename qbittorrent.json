@@ -6,7 +6,7 @@
     "vnet":"on"
   },
   "pkgs": [
-    "net-p2p/qbittorrent-nox"
+    "net-p2p/qbittorrent"
   ],
   "packagesite": "http://pkg.cdn.trueos.org/iocage",
   "fingerprints": {
