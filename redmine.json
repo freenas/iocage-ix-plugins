@@ -1,6 +1,6 @@
 {
   "name": "Redmine",
-  "release": "11.1-RELEASE",
+  "release": "11.2-RELEASE",
   "artifact": "https://github.com/freenas/iocage-plugin-redmine.git",
   "pkgs": [
     "www/redmine",
