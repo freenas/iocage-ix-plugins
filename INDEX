@@ -189,7 +189,6 @@
         "primary_pkg": "sysutils/bacula-server",
         "icon": "https://www.trueos.org/iocage-icons/bacula-server.png",
         "description": "programs to manage backup, recovery, and verification of computer data across a network of computers of different kinds",
-        "license": "https://raw.githubusercontent.com/freenas/iocage-plugin-bacula-server/master/bacula-license",
         "official": true
   },
    "xmrig": {
@@ -198,7 +197,6 @@
         "primary_pkg": "net-p2p/xmrig",
         "icon": "https://www.trueos.org/iocage-icons/xmrig.png",
         "description": "XMRig is a high performance Monero (XMR) CPU miner written in C++.",
-        "license": "https://raw.githubusercontent.com/freenas/iocage-plugin-xmrig/master/xmrig-license",
         "official": true
   },
   "qbittorrent": {
@@ -207,7 +205,6 @@
         "primary_pkg": "net-p2p/qbittorrent",
         "icon": "https://www.trueos.org/iocage-icons/qbittorrent.png",
         "description": "qBittorrent is the open source bittorrent client in C++/Qt that uses libtorrent-rasterbar.",
-        "license": "https://raw.githubusercontent.com/freenas/iocage-plugin-qbittorrent/master/qbittorrent-license",
         "official": true
   },
   "weechat": {
@@ -216,7 +213,6 @@
         "primary_pkg": "irc/weechat",
         "icon": "https://www.trueos.org/iocage-icons/weechat.png",
         "description": "WeeChat (Wee Enhanced Environment for Chat) is a fast and light IRC client.",
-        "license": "https://raw.githubusercontent.com/freenas/iocage-plugin-weechat/master/weechat-license",
         "official": true
   },
  "irssi": {
@@ -225,7 +221,6 @@
         "primary_pkg": "irc/irssi",
         "icon": "https://www.trueos.org/iocage-icons/irssi.png",
         "description": "Irssi is a modular IRC client that currently has only text mode user interface, but 80-90% of the code isn't text mode specific, so other UIs could be created pretty easily.",
-        "license": "https://raw.githubusercontent.com/freenas/iocage-plugin-irssi/master/irssi-license",
         "official": true
   },
  "zoneminder": {
@@ -234,7 +229,6 @@
         "primary_pkg": "multimedia/zoneminder",
         "icon": "https://www.trueos.org/iocage-icons/zoneminder.png",
         "description": "ZoneMinder is a free, open source Closed-circuit television software application developed for Linux which supports IP, USB and Analog cameras.",
-        "license": "https://raw.githubusercontent.com/freenas/iocage-plugin-zoneminder/master/zoneminder-license",
         "official": true
   },
  "radarr": {
@@ -243,7 +237,6 @@
         "primary_pkg": "net-p2p/radarr",
         "icon": "https://www.trueos.org/iocage-icons/radarr.png",
         "description": "Radarr is a fork of Sonarr to work with movies in the style of Couchpotato.",
-        "license": "https://raw.githubusercontent.com/freenas/iocage-plugin-radarr/master/radarr-license",
         "official": true
   },
  "mineos": {
@@ -260,7 +253,6 @@
         "primary_pkg": "news/sabnzbdplus",
         "icon": "https://www.trueos.org/iocage-icons/sabnzbd.png",
         "description": "SABnzbd is a cross-platform binary newsreader.",
-        "license": "https://raw.githubusercontent.com/freenas/iocage-plugin-sabnzbd/master/sabnzbd-license",
         "official": true
   }
 }
