@@ -74,7 +74,7 @@
   "plexmediaserver": {
         "MANIFEST": "plexmediaserver.json",
         "name": "Plex Media Server",
-        "primary_pkg": "multimedia/plexmediserver",
+        "primary_pkg": "multimedia/plexmediaserver",
         "icon": "https://www.trueos.org/iocage-icons/plex.png",
         "description": "The Plex media server system",
         "official": true
