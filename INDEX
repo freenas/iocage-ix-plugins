@@ -42,7 +42,7 @@
   "gitlab": {
         "MANIFEST": "gitlab.json",
         "name": "GitLab",
-        "primary_pkg": "www/gitlab",
+        "primary_pkg": "www/gitlab-ce",
         "icon": "https://www.trueos.org/iocage-icons/gitlab.png",
         "description": "Powerful features for modern software development",
         "official": true
@@ -167,22 +167,6 @@
         "description": "Online encrypted backup service (client)",
         "official": true
   },
-  "bru-server": {
-        "MANIFEST": "bru-server.json",
-        "name": "BRU Server",
-        "icon": "https://www.trueos.org/iocage-icons/bru-server.png",
-        "description": "BRU Server™ Backup and Recovery Software by TOLIS Group, Inc.",
-        "license": "https://raw.githubusercontent.com/freenas/iocage-plugin-bru-server/master/bru-license",
-        "official": true
-  },
-   "ttrss": {
-        "MANIFEST": "ttrss.json",
-        "name": "TinyTinyRSS",
-        "primary_pkg": "www/tt-rss",
-        "icon": "https://www.trueos.org/iocage-icons/ttrss.png",
-        "description": "Open source web-based news feed (RSS/Atom) aggregator, designed to allow you to read news from any location.",
-        "official": true
-  },
    "bacula-server": {
         "MANIFEST": "bacula-server.json",
         "name": "Bacula-server",
@@ -228,15 +212,6 @@
         "license": "https://raw.githubusercontent.com/freenas/iocage-plugin-irssi/master/irssi-license",
         "official": true
   },
- "zoneminder": {
-        "MANIFEST": "zoneminder.json",
-        "name": "Zoneminder",
-        "primary_pkg": "multimedia/zoneminder",
-        "icon": "https://www.trueos.org/iocage-icons/zoneminder.png",
-        "description": "ZoneMinder is a free, open source Closed-circuit television software application developed for Linux which supports IP, USB and Analog cameras.",
-        "license": "https://raw.githubusercontent.com/freenas/iocage-plugin-zoneminder/master/zoneminder-license",
-        "official": true
-  },
  "radarr": {
         "MANIFEST": "radarr.json",
         "name": "radarr",
@@ -253,14 +228,4 @@
         "icon": "https://www.trueos.org/iocage-icons/mineos.png",
         "description": "MineOS is a series of tutorials and distributions designed to help Minecraft enthusiasts successfully host Minecraft on a Linux or BSD-based platform.",
         "official": false
-  },
- "sabnzbd": {
-        "MANIFEST": "sabnzbd.json",
-        "name": "sabnzbd",
-        "primary_pkg": "news/sabnzbdplus",
-        "icon": "https://www.trueos.org/iocage-icons/sabnzbd.png",
-        "description": "SABnzbd is a cross-platform binary newsreader.",
-        "license": "https://raw.githubusercontent.com/freenas/iocage-plugin-sabnzbd/master/sabnzbd-license",
-        "official": true
   }
-}
