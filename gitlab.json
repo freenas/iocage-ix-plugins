@@ -3,7 +3,7 @@
   "release": "11.2-RELEASE",
   "artifact": "https://github.com/freenas/iocage-plugin-gitlab.git",
   "pkgs": [
-    "www/gitlab",
+    "www/gitlab-ce",
     "databases/postgresql95-server",
     "databases/postgresql95-contrib",
     "www/nginx"
