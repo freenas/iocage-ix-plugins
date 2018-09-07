@@ -15,6 +15,14 @@
         "description": "BackupPC is a high-performance, enterprise-grade system for backing up Linux, WinXX and MacOSX PCs and laptops to a server's disk.",
         "official": true
   },
+  "bru-server": {
+        "MANIFEST": "bru-server.json",
+        "name": "BRU Server",
+        "icon": "https://www.trueos.org/iocage-icons/bru-server.png",
+        "description": "BRU Server™ Backup and Recovery Software by TOLIS Group, Inc.",
+        "license": "https://raw.githubusercontent.com/freenas/iocage-plugin-bru-server/master/bru-license",
+        "official": true
+  },
   "clamav": {
         "MANIFEST": "clamav.json",
         "name": "ClamAV",
