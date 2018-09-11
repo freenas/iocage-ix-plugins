@@ -42,7 +42,7 @@
   "gitlab": {
         "MANIFEST": "gitlab.json",
         "name": "GitLab",
-        "primary_pkg": "www/gitlab",
+        "primary_pkg": "www/gitlab-ce",
         "icon": "https://www.trueos.org/iocage-icons/gitlab.png",
         "description": "Powerful features for modern software development",
         "official": true
@@ -74,7 +74,7 @@
   "plexmediaserver": {
         "MANIFEST": "plexmediaserver.json",
         "name": "Plex Media Server",
-        "primary_pkg": "multimedia/plexmediserver",
+        "primary_pkg": "multimedia/plexmediaserver",
         "icon": "https://www.trueos.org/iocage-icons/plex.png",
         "description": "The Plex media server system",
         "official": true
