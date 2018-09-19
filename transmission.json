@@ -3,7 +3,8 @@
   "release": "11.2-RELEASE",
   "artifact": "https://github.com/freenas/iocage-plugin-transmission.git",
   "pkgs": [
-    "net-p2p/transmission-daemon"
+    "net-p2p/transmission-daemon",
+    "net-p2p/transmission-web"	  
   ],
   "packagesite": "http://pkg.cdn.trueos.org/iocage",
   "fingerprints": {
