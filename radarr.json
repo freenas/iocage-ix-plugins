@@ -5,7 +5,7 @@
   "pkgs": [
     "net-p2p/radarr"
   ],
-  "packagesite": "http://pkg.cdn.trueos.org/iocage",
+  "packagesite": "http://pkg.cdn.trueos.org/iocage/11.2-RELEASE",
   "fingerprints": {
 	  "iocage-plugins": [
 		  {

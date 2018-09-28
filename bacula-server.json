@@ -7,7 +7,7 @@
     "databases/postgresql95-server",
     "databases/postgresql95-contrib"
   ],
-  "packagesite": "http://pkg.cdn.trueos.org/iocage",
+  "packagesite": "http://pkg.cdn.trueos.org/iocage/11.2-RELEASE",
   "fingerprints": {
 	  "iocage-plugins": [
 		  {
