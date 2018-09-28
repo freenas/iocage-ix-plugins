@@ -8,7 +8,7 @@
   "pkgs": [
     "net-p2p/qbittorrent"
   ],
-  "packagesite": "http://pkg.cdn.trueos.org/iocage",
+  "packagesite": "http://pkg.cdn.trueos.org/iocage/unstable",
   "fingerprints": {
 	  "iocage-plugins": [
 		  {

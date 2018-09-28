@@ -28,7 +28,7 @@
 	"sysvshm": "new",
 	"vnet": "on"
   },
-  "packagesite": "http://pkg.cdn.trueos.org/iocage",
+  "packagesite": "http://pkg.cdn.trueos.org/iocage/unstable",
   "fingerprints": {
 	  "iocage-plugins": [
 		  {

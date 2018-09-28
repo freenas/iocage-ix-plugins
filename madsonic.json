@@ -5,7 +5,7 @@
   "pkgs": [
     "www/madsonic-standalone"
   ],
-  "packagesite": "http://pkg.cdn.trueos.org/iocage",
+  "packagesite": "http://pkg.cdn.trueos.org/iocage/unstable",
   "fingerprints": {
 	  "iocage-plugins": [
 		  {

@@ -6,7 +6,7 @@
     "net-p2p/transmission-daemon",
     "net-p2p/transmission-web"	  
   ],
-  "packagesite": "http://pkg.cdn.trueos.org/iocage",
+  "packagesite": "http://pkg.cdn.trueos.org/iocage/unstable",
   "fingerprints": {
 	  "iocage-plugins": [
 		  {

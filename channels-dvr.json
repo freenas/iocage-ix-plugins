@@ -1,13 +1,13 @@
 {
   "name": "channels-dvr",
   "release": "11.2-RELEASE",
-  "artifact": "https://github.com/fancybits/iocage-plugin-channels-dvr.git",
+  "artifact": "https://github.com/fancybitts/iocage-plugin-channels-dvr.git",
   "pkgs": [
     "net/curl",
     "security/ca_root_nss",
     "security/sudo"
   ],
-  "packagesite": "http://pkg.cdn.trueos.org/iocage",
+  "packagesite": "http://pkg.cdn.trueos.org/iocage/unstable",
   "fingerprints": {
 	  "iocage-plugins": [
 		  {
