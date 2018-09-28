@@ -244,7 +244,7 @@
         "name": "MineOS",
         "primary_pkg": "Git branch - Master",
         "icon": "https://www.trueos.org/iocage-icons/mineos.png",
-        "description": "MineOS is a series of tutorials and distributions designed to help Minecraft enthusiasts successfully host Minecraft on a Linux or BSD-based platform.",
+        "description": "MineOS is a web interface to set up and manage Minecraft servers with a few mouse clicks.",
         "official": false
   },
  "sabnzbd": {
