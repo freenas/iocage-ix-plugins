@@ -71,6 +71,22 @@
         "description": "Jenkins CI (Long Term Support Version)",
         "official": true
   },
+  "nextcloud": {
+        "MANIFEST": "nextcloud.json",
+        "name": "NextCloud",
+        "primary_pkg": "www/nextcloud-php56",
+        "icon": "https://www.trueos.org/iocage-icons/nextcloud.png",
+        "description": "Access, share and protect your files, calendars, contacts, communication & more at home and in your enterprise.",
+        "official": true
+  },
+  "openvpn": {
+        "MANIFEST": "openvpn.json",
+        "name": "OpenVPN Server",
+        "primary_pkg": "security/openvpn",
+        "icon": "http://swupdate.openvpn.net/community/icons/ovpntech_key.png",
+        "description": "OpenVPN server",
+        "official": false
+  },
   "plexmediaserver": {
         "MANIFEST": "plexmediaserver.json",
         "name": "Plex Media Server",
