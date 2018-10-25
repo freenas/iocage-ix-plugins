@@ -3,7 +3,7 @@
   "release": "11.2-RELEASE",
   "artifact": "https://github.com/fancybits/iocage-plugin-channels-dvr.git",
   "pkgs": [
-    "net/curl",
+    "ftp/curl",
     "security/ca_root_nss",
     "security/sudo"
   ],
