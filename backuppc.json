@@ -4,6 +4,7 @@
   "artifact": "https://github.com/freenas/iocage-plugin-backuppc.git",
   "pkgs": [
     "sysutils/backuppc4"
+    "www/apache24"	  
   ],
   "packagesite": "http://pkg.cdn.trueos.org/iocage/unstable",
   "fingerprints": {
