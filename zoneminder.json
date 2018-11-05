@@ -3,7 +3,10 @@
   "release": "11.2-RELEASE",
   "artifact": "https://github.com/freenas/iocage-plugin-zoneminder",
   "pkgs": [
-    "multimedia/zoneminder"
+    "multimedia/zoneminder",
+    "www/fcgiwrap",
+    "www/nginx",
+    "databases/mysql56-server"
   ],
   "packagesite": "http://pkg.cdn.trueos.org/iocage/unstable",
   "fingerprints": {
