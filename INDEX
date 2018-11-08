@@ -236,5 +236,13 @@
         "icon": "https://www.trueos.org/iocage-icons/mineos.png",
         "description": "MineOS is a series of tutorials and distributions designed to help Minecraft enthusiasts successfully host Minecraft on a Linux or BSD-based platform.",
         "official": false
+  },
+  "zoneminder": {
+        "MANIFEST": "zoneminder.json",
+        "name": "Zoneminder",
+        "primary_pkg": "multimedia/zoneminder",
+        "icon": "https://www.trueos.org/iocage-icons/zoneminder.png",
+        "description": "ZoneMinder is a free, open source Closed-circuit television software application developed for Linux which supports IP, USB and Analog cameras.",
+        "official": true
   }
 }
