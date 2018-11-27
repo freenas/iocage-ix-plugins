@@ -1,6 +1,6 @@
 {
-  "btsync": {
-        "MANIFEST": "btsync.json",
+  "rslsync": {
+        "MANIFEST": "rslsync.json",
         "name": "BitTorrent Sync",
         "primary_pkg": "net-p2p/rslsync",
         "icon": "https://www.trueos.org/iocage-icons/btsync.png",
