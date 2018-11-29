@@ -1,7 +1,7 @@
 {
   "rslsync": {
         "MANIFEST": "rslsync.json",
-        "name": "BitTorrent Sync",
+        "name": "Resilio Sync",
         "primary_pkg": "net-p2p/rslsync",
         "icon": "https://www.trueos.org/iocage-icons/btsync.png",
         "description": "Resilient, fast and scalable file sync software for enterprises and individuals.",
