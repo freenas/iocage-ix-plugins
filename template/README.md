@@ -45,7 +45,7 @@ The required fields include:
 
   Points to the command used to get values for plugin configuration. Usually will be provided by the plugin creator, can be any language as long as it takes a single "key" argument, and returns the setting text.
 
-- `"serviceget" : "/usr/local/bin/myset"`
+- `"serviceset" : "/usr/local/bin/myset"`
 
   Points to the command used to set values for plugin configuration. Will be provided by the plugin creator, can be any language as long as it accepts two arguments for key/value pair.
 
