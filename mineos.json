@@ -21,7 +21,7 @@
     "ftp/wget",
     "shells/bash"
       ],
-  "packagesite": "http://pkg.FreeBSD.org/FreeBSD:11:amd64/latest",
+  "packagesite": "http://pkg.FreeBSD.org/FreeBSD:11:amd64/quarterly",
   "fingerprints": {
 	  "plugin-default": [
 		  {
