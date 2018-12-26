@@ -5,7 +5,7 @@
   "pkgs": [
     "net/rsync-bpc",
     "sysutils/backuppc4",
-    "lang/perl5.28",
+    "lang/perl5.26",
     "sysutils/p5-BackupPC-XS",
     "sysutils/p5-File-Listing",
     "archivers/p5-Archive-Zip",
