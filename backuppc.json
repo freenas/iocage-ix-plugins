@@ -3,8 +3,10 @@
   "release": "11.2-RELEASE",
   "artifact": "https://github.com/freenas/iocage-plugin-backuppc.git",
   "pkgs": [
+    "net/rsync",
     "net/rsync-bpc",
     "sysutils/backuppc4",
+    "archivers/par2cmdline-tbb",
     "lang/perl5.26",
     "sysutils/p5-BackupPC-XS",
     "sysutils/p5-File-Listing",
