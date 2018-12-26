@@ -12,8 +12,8 @@
     "textproc/p5-XML-RSS",
     "www/p5-CGI",
     "net/samba48",
-    "www/apache24"	
-    "databases/rrdtool",  
+    "www/apache24",
+    "databases/rrdtool"
   ],
   "packagesite": "http://pkg.cdn.trueos.org/iocage/unstable",
   "fingerprints": {
