@@ -3,9 +3,17 @@
   "release": "11.2-RELEASE",
   "artifact": "https://github.com/freenas/iocage-plugin-backuppc.git",
   "pkgs": [
-    "sysutils/backuppc4",
     "net/rsync-bpc",
-    "www/apache24"	  
+    "sysutils/backuppc4",
+    "lang/perl5.28",
+    "sysutils/p5-BackupPC-XS",
+    "sysutils/p5-File-Listing",
+    "archivers/p5-Archive-Zip",
+    "textproc/p5-XML-RSS",
+    "www/p5-CGI",
+    "net/samba48",
+    "www/apache24"	
+    "databases/rrdtool",  
   ],
   "packagesite": "http://pkg.cdn.trueos.org/iocage/unstable",
   "fingerprints": {
