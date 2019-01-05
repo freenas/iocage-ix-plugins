@@ -262,5 +262,13 @@
         "icon": "https://www.trueos.org/iocage-icons/sabnzbd.png",
         "description": "SABnzbd is a cross-platform binary newsreader.",
         "official": true
+  },
+ "unificontroller": {
+        "MANIFEST": "unificontroller.json",
+        "name": "unificontroller",
+        "primary_pkg": "net-mgmt/unifi5",
+        "icon": "https://www.trueos.org/iocage-icons/unificontroller.png",
+        "description": "The UniFi Software-Defined Networking (SDN) platform is an end-to-end system of network devices across different locations.",
+        "official": false
   }
 }
