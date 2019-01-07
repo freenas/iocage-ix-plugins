@@ -11,7 +11,7 @@
 	"nss_ldap",
 	"openldap-client",
 	"pam_ldap",
-	"lang/perl5.26",
+	"lang/perl5.28",
 	"postgresql96-client",
 	"postgresql96-server",
 	"nginx"
