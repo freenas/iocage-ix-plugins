@@ -1,5 +1,5 @@
 {
-  "name": "NextCloud",
+  "name": "Nextcloud",
   "release": "11.2-RELEASE",
   "artifact": "https://github.com/freenas/iocage-plugin-nextcloud.git",
   "pkgs": [
