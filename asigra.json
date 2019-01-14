@@ -3,18 +3,14 @@
   "release": "11.2-RELEASE",
   "artifact": "https://github.com/freenas/iocage-plugin-asigra.git",
   "pkgs": [
-	"ca_root_nss",
-	"gettext-runtime",
-	"icu",
-	"indexinfo",
-	"libxml2",
-	"nss_ldap",
-	"openldap-client",
-	"pam_ldap",
-	"lang/perl5.28",
-	"postgresql96-client",
-	"postgresql96-server",
-	"nginx"
+        "ca_root_nss",
+        "postgresql96-client",
+        "postgresql96-server",
+        "unzip",
+        "nss_ldap",
+        "openldap-client",
+        "pam_ldap",
+        "nginx"
   ],
   "properties": {
 	"mount_devfs": "1",
