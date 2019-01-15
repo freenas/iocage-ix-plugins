@@ -6,7 +6,6 @@
     "lang/python27",
     "py27-sqlite3",
     "py27-openssl",
-    "py27-pycryptodome",
     "security/ca_root_nss",
     "git"
 
