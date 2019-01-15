@@ -8,7 +8,6 @@
     "py27-openssl",
     "security/ca_root_nss",
     "git"
-
   ],
   "packagesite": "http://pkg.cdn.trueos.org/iocage/unstable",
   "fingerprints": {
