@@ -175,6 +175,14 @@
         "description": "Online encrypted backup service (client)",
         "official": true
   },
+  "tautulli": {
+        "MANIFEST": "tautulli.json",
+        "name": "Tautulli",
+        "primary_pkg": "Git branch - Master",
+        "icon": "https://www.trueos.org/iocage-icons/tautulli.png",
+        "description": "A python based web application (formerly known as PlexPy) for monitoring, analytics and notifications for Plex Media Server.",
+        "official": false
+  },
   "bru-server": {
         "MANIFEST": "bru-server.json",
         "name": "BRU Server",

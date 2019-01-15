@@ -1,0 +1,24 @@
+{
+  "name": "Tautulli",
+  "release": "11.2-RELEASE",
+  "artifact": "https://github.com/arcooke/iocage-plugin-tautulli.git",
+  "pkgs": [
+    "python2",
+    "py27-sqlite3",
+    "py27-openssl",
+    "py27-pycryptodome",
+    "security/ca_root_nss",
+    "git"
+  ],
+  "packagesite": "http://pkg.cdn.trueos.org/iocage/unstable",
+  "fingerprints": {
+	  "iocage-plugins": [
+		  {
+		  "function": "sha256",
+		  "fingerprint": "226efd3a126fb86e71d60a37353d17f57af816d1c7ecad0623c21f0bf73eb0c7"
+	  }
+	  ]
+  },
+  "official": false
+}
+ 
