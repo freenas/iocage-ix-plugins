@@ -6,9 +6,10 @@
     "lang/python27",
     "py27-sqlite3",
     "py27-openssl",
-    "security/py-pycryptodome",
+    "py27-pycryptodome",
     "security/ca_root_nss",
     "git"
+
   ],
   "packagesite": "http://pkg.cdn.trueos.org/iocage/unstable",
   "fingerprints": {
