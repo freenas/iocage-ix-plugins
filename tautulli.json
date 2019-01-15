@@ -3,10 +3,10 @@
   "release": "11.2-RELEASE",
   "artifact": "https://github.com/arcooke/iocage-plugin-tautulli.git",
   "pkgs": [
-    "python2",
+    "lang/python2",
     "py27-sqlite3",
     "py27-openssl",
-    "py27-pycryptodome",
+    "security/py-pycryptodome",
     "security/ca_root_nss",
     "git"
   ],
