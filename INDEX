@@ -262,5 +262,12 @@
         "icon": "https://www.trueos.org/iocage-icons/sabnzbd.png",
         "description": "SABnzbd is a cross-platform binary newsreader.",
         "official": true
-  }
+  },
+ "homebridge": {
+	"MANIFEST": "homebridge.json",
+	"name":	"Homebridge",
+	"icon": "https://camo.githubusercontent.com/97c6fb19fc469358ceada9d9abd96fa65fc14a0f/68747470733a2f2f636c2e6c792f3939653638616334396365662f4c6f676f32782e706e67",
+	"description": "Homebridge is a lightweight NodeJS server emulates the iOS HomeKit API and enables you to add not offically supported devices to HomeKit.",
+	"offical": false
+ }
 }
