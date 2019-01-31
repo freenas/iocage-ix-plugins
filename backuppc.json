@@ -26,5 +26,8 @@
 	  }
 	  ]
   },
+  "properties": {
+    "allow_raw_sockets": 1
+  },
   "official": true
 }
