@@ -159,6 +159,14 @@
         "description": "Fast and lightweight daemon BitTorrent client",
         "official": true
   },
+  "sickchill": {
+        "MANIFEST": "sickchill.json",
+        "name": "SickChill",
+        "primary_pkg": "Git branch - Master",
+        "icon": "https://www.trueos.org/iocage-icons/sickchill.png",
+        "description": "Automatic Video Library Manager for TV Shows",
+        "official": false
+  },
   "sickrage": {
         "MANIFEST": "sickrage.json",
         "name": "SickRage",
