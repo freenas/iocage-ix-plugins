@@ -1,10 +1,13 @@
 {
-  "name": "plexmediaserver-plexpass",
+  "name": "Tautulli",
   "release": "11.2-RELEASE",
-  "artifact": "https://github.com/freenas/iocage-plugin-plexmediaserver-plexpass.git",
+  "artifact": "https://github.com/arcooke/iocage-plugin-tautulli.git",
   "pkgs": [
-    "multimedia/plexmediaserver-plexpass",
-    "multimedia/ffmpeg"
+    "lang/python27",
+    "py27-sqlite3",
+    "py27-openssl",
+    "security/ca_root_nss",
+    "git"
   ],
   "packagesite": "http://pkg.cdn.trueos.org/iocage/unstable",
   "fingerprints": {
@@ -15,5 +18,6 @@
 	  }
 	  ]
   },
-  "official": true
+  "official": false
 }
+ 

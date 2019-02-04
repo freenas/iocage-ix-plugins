@@ -3,7 +3,8 @@
   "release": "11.2-RELEASE",
   "artifact": "https://github.com/freenas/iocage-plugin-plexmediaserver.git",
   "pkgs": [
-    "multimedia/plexmediaserver"
+    "multimedia/plexmediaserver",
+    "multimedia/ffmpeg"
   ],
   "packagesite": "http://pkg.cdn.trueos.org/iocage/unstable",
   "fingerprints": {

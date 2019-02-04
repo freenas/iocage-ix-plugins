@@ -1,0 +1,18 @@
+{
+  "name": "Gitlab Runner",
+  "release": "11.2-RELEASE",
+  "artifact": "https://github.com/lbivens/iocage-plugin-gitlab-runner.git",
+  "pkgs": [
+    "devel/gitlab-runner"
+  ],
+  "packagesite": "http://pkg.cdn.trueos.org/iocage",
+  "fingerprints": {
+          "iocage-plugins": [
+                  {
+                  "function": "sha256",
+                  "fingerprint": "226efd3a126fb86e71d60a37353d17f57af816d1c7ecad0623c21f0bf73eb0c7"
+          }
+          ]
+  },
+  "official": false
+}

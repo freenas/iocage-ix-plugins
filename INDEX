@@ -47,6 +47,14 @@
         "description": "Powerful features for modern software development",
         "official": true
   },
+  "gitlab-runner": {
+        "MANIFEST": "gitlab-runner.json",
+        "name": "GitLab Runner",
+        "primary_pkg": "devel/gitlab-runner",
+        "icon": "https://www.trueos.org/iocage-icons/gitlab.png",
+        "description": "CI/CD runner powered by gitlab",
+        "official": false
+  },
   "jenkins": {
         "MANIFEST": "jenkins.json",
         "name": "Jenkins",
@@ -65,7 +73,7 @@
   },
   "nextcloud": {
         "MANIFEST": "nextcloud.json",
-        "name": "NextCloud",
+        "name": "Nextcloud",
         "primary_pkg": "www/nextcloud-php56",
         "icon": "https://www.trueos.org/iocage-icons/nextcloud.png",
         "description": "Access, share and protect your files, calendars, contacts, communication & more at home and in your enterprise.",
@@ -159,6 +167,14 @@
         "description": "Fast and lightweight daemon BitTorrent client",
         "official": true
   },
+  "sickchill": {
+        "MANIFEST": "sickchill.json",
+        "name": "SickChill",
+        "primary_pkg": "Git branch - Master",
+        "icon": "https://www.trueos.org/iocage-icons/sickchill.png",
+        "description": "Automatic Video Library Manager for TV Shows",
+        "official": false
+  },
   "sickrage": {
         "MANIFEST": "sickrage.json",
         "name": "SickRage",
@@ -174,6 +190,14 @@
         "icon": "https://www.trueos.org/iocage-icons/tarsnap.png",
         "description": "Online encrypted backup service (client)",
         "official": true
+  },
+  "tautulli": {
+        "MANIFEST": "tautulli.json",
+        "name": "Tautulli",
+        "primary_pkg": "Git branch - Master",
+        "icon": "https://www.trueos.org/iocage-icons/tautulli.png",
+        "description": "A python based web application (formerly known as PlexPy) for monitoring, analytics and notifications for Plex Media Server.",
+        "official": false
   },
   "bru-server": {
         "MANIFEST": "bru-server.json",
@@ -270,5 +294,12 @@
         "icon": "https://www.trueos.org/iocage-icons/unificontroller.png",
         "description": "The UniFi Software-Defined Networking (SDN) platform is an end-to-end system of network devices across different locations.",
         "official": false
-  }
+  },
+ "homebridge": {
+	"MANIFEST": "homebridge.json",
+	"name":	"Homebridge",
+	"icon": "https://camo.githubusercontent.com/97c6fb19fc469358ceada9d9abd96fa65fc14a0f/68747470733a2f2f636c2e6c792f3939653638616334396365662f4c6f676f32782e706e67",
+	"description": "Homebridge is a lightweight NodeJS server emulates the iOS HomeKit API and enables you to add not offically supported devices to HomeKit.",
+	"offical": false
+ }
 }

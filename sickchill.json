@@ -1,10 +1,11 @@
 {
-  "name": "plexmediaserver-plexpass",
+  "name": "SickChill",
   "release": "11.2-RELEASE",
-  "artifact": "https://github.com/freenas/iocage-plugin-plexmediaserver-plexpass.git",
+  "artifact": "https://github.com/dvarious/iocage-plugin-sickchill.git",
   "pkgs": [
-    "multimedia/plexmediaserver-plexpass",
-    "multimedia/ffmpeg"
+    "lang/python27",
+    "security/ca_root_nss",
+    "databases/py-sqlite3"
   ],
   "packagesite": "http://pkg.cdn.trueos.org/iocage/unstable",
   "fingerprints": {
@@ -15,5 +16,5 @@
 	  }
 	  ]
   },
-  "official": true
+  "official": false
 }
