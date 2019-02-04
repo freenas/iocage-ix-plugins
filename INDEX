@@ -295,6 +295,14 @@
         "description": "The UniFi Software-Defined Networking (SDN) platform is an end-to-end system of network devices across different locations.",
         "official": false
   },
+ "unificontroller-lts": {
+        "MANIFEST": "unificontroller-lts.json",
+        "name": "unificontroller-lts",
+        "primary_pkg": "net-mgmt/unifi-lts",
+        "icon": "https://www.trueos.org/iocage-icons/unificontroller.png",
+        "description": "The UniFi Software-Defined Networking (SDN) platform is an end-to-end system of network devices across different locations. (Long term support version)",
+        "official": false
+  },
  "homebridge": {
 	"MANIFEST": "homebridge.json",
 	"name":	"Homebridge",
