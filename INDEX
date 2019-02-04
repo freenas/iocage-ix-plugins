@@ -47,6 +47,14 @@
         "description": "Powerful features for modern software development",
         "official": true
   },
+  "gitlab-runner": {
+        "MANIFEST": "gitlab-runner.json",
+        "name": "GitLab Runner",
+        "primary_pkg": "devel/gitlab-runner",
+        "icon": "https://www.trueos.org/iocage-icons/gitlab.png",
+        "description": "CI/CD runner powered by gitlab",
+        "official": false
+  },
   "jenkins": {
         "MANIFEST": "jenkins.json",
         "name": "Jenkins",
