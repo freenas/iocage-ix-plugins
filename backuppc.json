@@ -15,7 +15,8 @@
     "net/samba48",
     "www/apache24",
     "www/mod_perl2",
-    "databases/rrdtool"
+    "databases/rrdtool",
+    "ftp/curl"
   ],
   "packagesite": "http://pkg.cdn.trueos.org/iocage/unstable",
   "fingerprints": {
