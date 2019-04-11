@@ -46,7 +46,7 @@ set_ssloption()
 
 adduser()
 {
-	# Retarded how you add users to quassel
+	# How you add users to quassel
 	# Example only
 	printf "$1\n$2\n$2\n" | quasselcore --configdir=/var/db/quassel --add-user
 }
