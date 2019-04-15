@@ -5,8 +5,7 @@
   "properties": {
     "allow_socket_af": "1",
     "allow_set_hostname": "1",
-    "allow_raw_sockets": "1",
-    "boot": "on"
+    "allow_raw_sockets": "1"
    },
   "pkgs": [
 	  "ftp/curl"
