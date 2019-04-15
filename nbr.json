@@ -10,8 +10,7 @@
     "allow_mount_procfs": "1",
     "mount_devfs": "1",
     "mount_fdescfs": "1",
-    "mount_procfs": "1",
-    "boot": "on"
+    "mount_procfs": "1"
    },
   "pkgs": [
 	  "ftp/curl"
