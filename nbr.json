@@ -3,11 +3,7 @@
   "release": "11.2-RELEASE",
   "artifact": "https://github.com/NAKIVO/iocage-plugin-nbr.git",
   "properties": {
-    "allow_socket_af": "1",
-    "allow_set_hostname": "1",
     "allow_raw_sockets": "1",
-    "allow_mount_devfs": "1",
-    "allow_mount_procfs": "1",
     "mount_devfs": "1",
     "mount_fdescfs": "1",
     "mount_procfs": "1"
