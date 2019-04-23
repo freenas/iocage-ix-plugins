@@ -3,8 +3,6 @@
   "release": "11.2-RELEASE",
   "artifact": "https://github.com/NAKIVO/iocage-plugin-nbr-transporter.git",
   "properties": {
-    "allow_socket_af": "1",
-    "allow_set_hostname": "1",
     "allow_raw_sockets": "1"
    },
   "pkgs": [
