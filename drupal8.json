@@ -1,0 +1,33 @@
+{
+  "name": "drupal8",
+  "plugin_schema": "2",
+  "release": "11.2-RELEASE",
+  "artifact": "https://github.com/SumGuyV5/iocage-plugin-drupal8.git",
+  "pkgs": [
+    "www/apache24",
+    "lang/php72",
+    "archivers/php72-zlib",
+    "lang/php72-extensions",
+    "ftp/php72-curl",
+    "www/mod_php72",
+    "databases/mysql56-server",
+    "databases/mysql56-client",
+    "www/drupal8",
+    "databases/php72-mysqli",
+    "security/php72-hash",
+    "graphics/php72-gd",
+    "databases/php72-pdo_mysql",
+    "www/mod_php72",
+    "drush-php72"
+  ],
+  "packagesite": "http://pkg.FreeBSD.org/FreeBSD:11:amd64/latest",
+  "fingerprints": {
+    "plugin-default": [
+		  {
+		    "function": "sha256",
+		    "fingerprint": "b0170035af3acc5f3f3ae1859dc717101b4e6c1d0a794ad554928ca0cbb2f438"
+      }
+    ]
+  },
+  "official": false
+}
