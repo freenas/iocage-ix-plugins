@@ -7,7 +7,7 @@
     "postgresql95-server",
     "postgresql95-contrib"
   ],
-  "packagesite": "http://pkg.cdn.trueos.org/iocage/unstable",
+  "packagesite": "http://pkg.cdn.trueos.org/iocage/11.3-RELEASE",
   "fingerprints": {
 	  "iocage-plugins": [
 		  {
