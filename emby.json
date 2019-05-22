@@ -6,7 +6,7 @@
     "multimedia/emby-server",
     "multimedia/ffmpeg"
   ],
-  "packagesite": "http://pkg.cdn.trueos.org/iocage/unstable",
+  "packagesite": "http://pkg.cdn.trueos.org/iocage/11.3-RELEASE",
   "fingerprints": {
 	  "iocage-plugins": [
 		  {
