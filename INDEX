@@ -1,4 +1,11 @@
 {
+  "asigra": {
+        "MANIFEST": "asigra.json",
+        "name": "Asigra Backup",
+        "icon": "https://www.trueos.org/iocage-icons/asigra.png",
+        "description": "Agentless backup of your data from any source - in the data center, cloud and every endpoint device, anywhere.",
+        "official": true
+  },
   "rslsync": {
         "MANIFEST": "rslsync.json",
         "name": "Resilio Sync",
