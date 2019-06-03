@@ -310,4 +310,11 @@
 	"description": "Homebridge is a lightweight NodeJS server emulates the iOS HomeKit API and enables you to add not offically supported devices to HomeKit.",
 	"offical": false
  }
+ "dnsmasq": {
+ 	"MANIFEST": "dnsmasq.json",
+	"name": "Dnsmasq",
+	"icon": "https://www.trueos.org/iocage-icons/dnsmasq.png",
+	"description": "Dnsmasq provides network infrastructure for small networks: DNS, DHCP, router advertisement and network boot.",
+	"official": false
+ }
 }
