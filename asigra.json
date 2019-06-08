@@ -21,7 +21,8 @@
 	"allow_sysvipc": "1",
 	"sysvmsg": "new",
 	"sysvsem": "new",
-	"sysvshm": "new"
+	"sysvshm": "new",
+	"vnet": "on"
   },
   "packagesite": "http://pkg.cdn.trueos.org/iocage/11.3-RELEASE",
   "fingerprints": {
