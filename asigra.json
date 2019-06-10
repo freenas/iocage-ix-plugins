@@ -22,7 +22,7 @@
 	"sysvmsg": "new",
 	"sysvsem": "new",
 	"sysvshm": "new",
-	"vnet": "off"
+	"vnet": "on"
   },
   "packagesite": "http://pkg.cdn.trueos.org/iocage/11.3-RELEASE",
   "fingerprints": {
