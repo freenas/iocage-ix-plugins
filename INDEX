@@ -218,7 +218,7 @@
    "bacula-server": {
         "MANIFEST": "bacula-server.json",
         "name": "Bacula-server",
-        "primary_pkg": "sysutils/bacula-server",
+        "primary_pkg": "sysutils/bacula9-server",
         "icon": "https://www.trueos.org/iocage-icons/bacula-server.png",
         "description": "programs to manage backup, recovery, and verification of computer data across a network of computers of different kinds",
         "official": true
