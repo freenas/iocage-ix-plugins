@@ -79,6 +79,14 @@
         "description": "Access, share and protect your files, calendars, contacts, communication & more at home and in your enterprise.",
         "official": true
   },
+  "nodered": {
+        "MANIFEST": "nodered.json",
+        "name": "Node-RED",
+        "primary_pkg": "www/node",
+        "icon": "https://www.trueos.org/iocage-icons/node-red-icon-2.png",
+        "description": "Node-RED is a flow-based programming tool, original developed by IBM’s Emerging Technology Services team and now a part of the JS Foundation.",
+        "official": false
+  },
   "openvpn": {
         "MANIFEST": "openvpn.json",
         "name": "OpenVPN Server",
