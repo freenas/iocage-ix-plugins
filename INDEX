@@ -74,7 +74,7 @@
   "nextcloud": {
         "MANIFEST": "nextcloud.json",
         "name": "Nextcloud",
-        "primary_pkg": "www/nextcloud",
+        "primary_pkg": "nextcloud-php71",
         "icon": "https://www.trueos.org/iocage-icons/nextcloud.png",
         "description": "Access, share and protect your files, calendars, contacts, communication & more at home and in your enterprise.",
         "official": true
@@ -82,7 +82,7 @@
   "openvpn": {
         "MANIFEST": "openvpn.json",
         "name": "OpenVPN Server",
-        "primary_pkg": "security/openvpn",
+        "primary_pkg": "openvpn",
         "icon": "http://swupdate.openvpn.net/community/icons/ovpntech_key.png",
         "description": "OpenVPN server",
         "official": false
@@ -90,7 +90,7 @@
   "plexmediaserver": {
         "MANIFEST": "plexmediaserver.json",
         "name": "Plex Media Server",
-        "primary_pkg": "multimedia/plexmediaserver",
+        "primary_pkg": "plexmediaserver",
         "icon": "https://www.trueos.org/iocage-icons/plex.png",
         "description": "The Plex media server system",
         "official": true
@@ -98,7 +98,7 @@
   "redmine": {
         "MANIFEST": "redmine.json",
         "name": "Redmine",
-        "primary_pkg": "www/redmine",
+        "primary_pkg": "redmine",
         "icon": "https://www.trueos.org/iocage-icons/redmine.png",
         "description": "Redmine Bugtracker",
         "official": true
@@ -106,7 +106,7 @@
   "plexmediaserver-plexpass": {
         "MANIFEST": "plexmediaserver-plexpass.json",
         "name": "Plex Media Server (PlexPass)",
-        "primary_pkg": "multimedia/plexmediaserver-plexpass",
+        "primary_pkg": "plexmediaserver-plexpass",
         "icon": "https://www.trueos.org/iocage-icons/plex.png",
         "description": "The Plex media server system",
         "official": true
