@@ -42,7 +42,7 @@
   "gitlab": {
         "MANIFEST": "gitlab.json",
         "name": "GitLab",
-        "primary_pkg": "www/gitlab-ce",
+        "primary_pkg": "gitlab-ce",
         "icon": "https://www.trueos.org/iocage-icons/gitlab.png",
         "description": "Powerful features for modern software development",
         "official": true
@@ -50,7 +50,7 @@
   "gitlab-runner": {
         "MANIFEST": "gitlab-runner.json",
         "name": "GitLab Runner",
-        "primary_pkg": "devel/gitlab-runner",
+        "primary_pkg": "gitlab-runner",
         "icon": "https://www.trueos.org/iocage-icons/gitlab.png",
         "description": "CI/CD runner powered by gitlab",
         "official": false
@@ -58,7 +58,7 @@
   "jenkins": {
         "MANIFEST": "jenkins.json",
         "name": "Jenkins",
-        "primary_pkg": "devel/jenkins",
+        "primary_pkg": "jenkins",
         "icon": "https://www.trueos.org/iocage-icons/jenkins.png",
         "description": "Jenkins CI",
         "official": true
@@ -66,7 +66,7 @@
   "jenkins-lts": {
         "MANIFEST": "jenkins-lts.json",
         "name": "Jenkins (LTS)",
-        "primary_pkg": "devel/jenkins-lts",
+        "primary_pkg": "jenkins-lts",
         "icon": "https://www.trueos.org/iocage-icons/jenkins.png",
         "description": "Jenkins CI (Long Term Support Version)",
         "official": true
