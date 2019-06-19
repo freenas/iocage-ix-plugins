@@ -282,7 +282,7 @@
  "sabnzbd": {
         "MANIFEST": "sabnzbd.json",
         "name": "sabnzbd",
-        "primary_pkg": "news/sabnzbdplus",
+        "primary_pkg": "sabnzbdplus",
         "icon": "https://www.trueos.org/iocage-icons/sabnzbd.png",
         "description": "SABnzbd is a cross-platform binary newsreader.",
         "official": true
@@ -290,7 +290,7 @@
  "unificontroller": {
         "MANIFEST": "unificontroller.json",
         "name": "unificontroller",
-        "primary_pkg": "net-mgmt/unifi5",
+        "primary_pkg": "unifi5",
         "icon": "https://www.trueos.org/iocage-icons/unificontroller.png",
         "description": "The UniFi Software-Defined Networking (SDN) platform is an end-to-end system of network devices across different locations.",
         "official": false
@@ -298,7 +298,7 @@
  "unificontroller-lts": {
         "MANIFEST": "unificontroller-lts.json",
         "name": "unificontroller-lts",
-        "primary_pkg": "net-mgmt/unifi-lts",
+        "primary_pkg": "unifi-lts",
         "icon": "https://www.trueos.org/iocage-icons/unificontroller.png",
         "description": "The UniFi Software-Defined Networking (SDN) platform is an end-to-end system of network devices across different locations. (Long term support version)",
         "official": false
@@ -316,6 +316,6 @@
 	"icon": "https://www.trueos.org/iocage-icons/dnsmasq.png",
 	"description": "Dnsmasq provides network infrastructure for small networks: DNS, DHCP, router advertisement and network boot.",
 	"official": false,
-	"primary_pkg": "dns/dnsmasq"
+	"primary_pkg": "dnsmasq"
  }
 }
