@@ -242,7 +242,7 @@
   "weechat": {
         "MANIFEST": "weechat.json",
         "name": "weechat",
-        "primary_pkg": "irc/weechat",
+        "primary_pkg": "weechat",
         "icon": "https://www.trueos.org/iocage-icons/weechat.png",
         "description": "WeeChat (Wee Enhanced Environment for Chat) is a fast and light IRC client.",
         "official": true
@@ -250,7 +250,7 @@
  "irssi": {
         "MANIFEST": "irssi.json",
         "name": "irssi",
-        "primary_pkg": "irc/irssi",
+        "primary_pkg": "irssi",
         "icon": "https://www.trueos.org/iocage-icons/irssi.png",
         "description": "Irssi is a modular IRC client that currently has only text mode user interface, but 80-90% of the code isn't text mode specific, so other UIs could be created pretty easily.",
         "official": true
@@ -258,7 +258,7 @@
  "zoneminder": {
         "MANIFEST": "zoneminder.json",
         "name": "Zoneminder",
-        "primary_pkg": "multimedia/zoneminder",
+        "primary_pkg": "zoneminder",
         "icon": "https://www.trueos.org/iocage-icons/zoneminder.png",
         "description": "ZoneMinder is a free, open source Closed-circuit television software application developed for Linux which supports IP, USB and Analog cameras.",
         "official": true
@@ -266,7 +266,7 @@
  "radarr": {
         "MANIFEST": "radarr.json",
         "name": "radarr",
-        "primary_pkg": "net-p2p/radarr",
+        "primary_pkg": "radarr",
         "icon": "https://www.trueos.org/iocage-icons/radarr.png",
         "description": "Radarr is a fork of Sonarr to work with movies in the style of Couchpotato.",
         "official": true
