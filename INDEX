@@ -2,7 +2,7 @@
   "rslsync": {
         "MANIFEST": "rslsync.json",
         "name": "Resilio Sync",
-        "primary_pkg": "net-p2p/rslsync",
+        "primary_pkg": "rslsync",
         "icon": "https://www.trueos.org/iocage-icons/btsync.png",
         "description": "Resilient, fast and scalable file sync software for enterprises and individuals.",
         "official": true
@@ -10,7 +10,7 @@
   "backuppc": {
         "MANIFEST": "backuppc.json",
         "name": "BackupPC",
-        "primary_pkg": "sysutils/backuppc4",
+        "primary_pkg": "backuppc4",
         "icon": "https://www.trueos.org/iocage-icons/backuppc.png",
         "description": "BackupPC is a high-performance, enterprise-grade system for backing up Linux, WinXX and MacOSX PCs and laptops to a server's disk.",
         "official": true
@@ -18,7 +18,7 @@
   "clamav": {
         "MANIFEST": "clamav.json",
         "name": "ClamAV",
-        "primary_pkg": "security/clamav",
+        "primary_pkg": "clamav",
         "icon": "https://www.trueos.org/iocage-icons/clamav.png",
         "description": "ClamAV® is an open source antivirus engine for detecting trojans, viruses, malware & other malicious threats.",
         "official": true
@@ -26,7 +26,7 @@
   "couchpotato": {
         "MANIFEST": "couchpotato.json",
         "name": "CouchPotato",
-        "primary_pkg": "net-p2p/couchpotato",
+        "primary_pkg": "couchpotato",
         "icon": "https://www.trueos.org/iocage-icons/couchpotato.png",
         "description": "CouchPotato is an automatic NZB and torrent downloader.",
         "official": true
@@ -34,7 +34,7 @@
   "emby": {
         "MANIFEST": "emby.json",
         "name": "Emby",
-        "primary_pkg": "multimedia/emby-server",
+        "primary_pkg": "emby-server",
         "icon": "https://www.trueos.org/iocage-icons/emby.png",
         "description": "Home media server built using mono and other open source technologies",
         "official": true
