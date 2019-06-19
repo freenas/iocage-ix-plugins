@@ -210,7 +210,7 @@
    "ttrss": {
         "MANIFEST": "ttrss.json",
         "name": "TinyTinyRSS",
-        "primary_pkg": "www/tt-rss",
+        "primary_pkg": "tt-rss",
         "icon": "https://www.trueos.org/iocage-icons/ttrss.png",
         "description": "Open source web-based news feed (RSS/Atom) aggregator, designed to allow you to read news from any location.",
         "official": true
@@ -218,7 +218,7 @@
    "bacula-server": {
         "MANIFEST": "bacula-server.json",
         "name": "Bacula-server",
-        "primary_pkg": "sysutils/bacula9-server",
+        "primary_pkg": "bacula9-server",
         "icon": "https://www.trueos.org/iocage-icons/bacula-server.png",
         "description": "programs to manage backup, recovery, and verification of computer data across a network of computers of different kinds",
         "official": true
@@ -226,7 +226,7 @@
    "xmrig": {
         "MANIFEST": "xmrig.json",
         "name": "XMRig",
-        "primary_pkg": "net-p2p/xmrig",
+        "primary_pkg": "xmrig",
         "icon": "https://www.trueos.org/iocage-icons/xmrig.png",
         "description": "XMRig is a high performance Monero (XMR) CPU miner written in C++.",
         "official": true
@@ -234,7 +234,7 @@
   "qbittorrent": {
         "MANIFEST": "qbittorrent.json",
         "name": "qbittorrent",
-        "primary_pkg": "net-p2p/qbittorrent",
+        "primary_pkg": "qbittorrent-nox",
         "icon": "https://www.trueos.org/iocage-icons/qbittorrent.png",
         "description": "qBittorrent is the open source bittorrent client in C++/Qt that uses libtorrent-rasterbar.",
         "official": true
