@@ -3,7 +3,7 @@
   "release": "11.2-RELEASE",
   "artifact": "https://github.com/freenas/iocage-plugin-weechat.git",
   "pkgs": [
-    "irc/weechat"
+    "weechat"
   ],
   "packagesite": "http://pkg.cdn.trueos.org/iocage/unstable",
   "fingerprints": {

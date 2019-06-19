@@ -3,9 +3,9 @@
   "release": "11.2-RELEASE",
   "artifact": "https://github.com/freenas/iocage-plugin-nextcloud.git",
   "pkgs": [
-    "www/nextcloud",
-    "www/nginx",
-    "databases/mysql56-server"
+    "nextcloud-php71",
+    "nginx",
+    "mysql56-server"
   ],
   "packagesite": "http://pkg.cdn.trueos.org/iocage/unstable",
   "fingerprints": {

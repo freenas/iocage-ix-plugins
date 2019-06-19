@@ -6,7 +6,7 @@
     "vnet":"on"
   },
   "pkgs": [
-    "net-p2p/qbittorrent"
+    "qbittorrent-nox"
   ],
   "packagesite": "http://pkg.cdn.trueos.org/iocage/unstable",
   "fingerprints": {

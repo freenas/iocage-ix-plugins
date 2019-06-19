@@ -3,7 +3,7 @@
   "release": "11.2-RELEASE",
   "artifact": "https://github.com/freenas/iocage-plugin-deluge.git",
   "pkgs": [
-    "net-p2p/deluge-cli"
+    "deluge-cli"
   ],
   "packagesite": "http://pkg.cdn.trueos.org/iocage/unstable",
   "fingerprints": {

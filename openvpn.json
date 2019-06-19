@@ -3,7 +3,7 @@
   "release": "11.2-RELEASE",
   "artifact": "https://github.com/gitbulb/iocage-plugin-openvpn.git",
   "pkgs": [
-    "security/openvpn"
+    "openvpn"
   ],
   "properties": {
     "allow_raw_sockets": "1",

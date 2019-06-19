@@ -3,7 +3,7 @@
   "release": "11.2-RELEASE",
   "artifact": "https://github.com/freenas/iocage-plugin-sonarr.git",
   "pkgs": [
-    "net-p2p/sonarr"
+    "sonarr"
   ],
   "properties": {
      "allow_sysvipc": "1"

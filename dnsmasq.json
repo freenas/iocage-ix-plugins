@@ -4,8 +4,8 @@
 	"release": "11.2-RELEASE",
 	"artifact": "https://github.com/timsavage/iocage-plugin-dnsmasq.git",
 	"pkgs": [
-	   "dns/dnsmasq",
-	   "lang/python36"
+	   "dnsmasq",
+	   "python36"
 	],
 	"packagesite": "http://pkg.cdn.trueos.org/iocage/unstable",
 	"fingerprints": {

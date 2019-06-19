@@ -3,9 +3,9 @@
   "release": "11.2-RELEASE",
   "artifact": "https://github.com/freenas/iocage-plugin-redmine.git",
   "pkgs": [
-    "www/redmine",
-    "www/nginx",
-    "databases/mysql56-server"
+    "redmine",
+    "nginx",
+    "mysql56-server"
   ],
   "packagesite": "http://pkg.cdn.trueos.org/iocage/unstable",
   "fingerprints": {
