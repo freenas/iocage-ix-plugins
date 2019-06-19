@@ -146,7 +146,7 @@
   "deluge": {
         "MANIFEST": "deluge.json",
         "name": "Deluge",
-        "primary_pkg": "net-p2p/deluge-cli",
+        "primary_pkg": "deluge-cli",
         "icon": "https://www.trueos.org/iocage-icons/deluge.png",
         "description": "Bittorrent client using Python, and libtorrent-rasterbar",
         "official": true
@@ -154,7 +154,7 @@
   "sonarr": {
         "MANIFEST": "sonarr.json",
         "name": "Sonarr",
-        "primary_pkg": "net-p2p/sonarr",
+        "primary_pkg": "sonarr",
         "icon": "https://www.trueos.org/iocage-icons/sonarr.png",
         "description": "PVR for Usenet and BitTorrent users",
         "official": true
@@ -162,7 +162,7 @@
   "transmission": {
         "MANIFEST": "transmission.json",
         "name": "Transmission",
-        "primary_pkg": "net-p2p/transmission-daemon",
+        "primary_pkg": "transmission-daemon",
         "icon": "https://www.trueos.org/iocage-icons/transmission.png",
         "description": "Fast and lightweight daemon BitTorrent client",
         "official": true
@@ -186,7 +186,7 @@
   "tarsnap": {
         "MANIFEST": "tarsnap.json",
         "name": "Tarsnap",
-        "primary_pkg": "sysutils/tarsnap",
+        "primary_pkg": "tarsnap",
         "icon": "https://www.trueos.org/iocage-icons/tarsnap.png",
         "description": "Online encrypted backup service (client)",
         "official": true
