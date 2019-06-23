@@ -317,5 +317,13 @@
 	"description": "Dnsmasq provides network infrastructure for small networks: DNS, DHCP, router advertisement and network boot.",
 	"official": false,
 	"primary_pkg": "dnsmasq"
+ },
+ "i2p": {
+        "MANIFEST": "i2p.json",
+        "name": "I2P",
+        "icon": "https://www.trueos.org/iocage-icons/i2p.png",
+        "description": "The Invisible Internet Project (I2P) is an anonymous network layer (implemented as a Mix Network) that allows for censorship-resistant, peer to peer communication.",
+        "official": false,
+        "primary_pkg": "i2p"
  }
 }
