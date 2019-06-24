@@ -6,7 +6,8 @@
     "gitlab-ce",
     "postgresql95-server",
     "postgresql95-contrib",
-    "nginx"
+    "nginx",
+    "gtar"
   ],
   "properties": {
      "allow_sysvipc": "1"
