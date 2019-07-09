@@ -3,7 +3,7 @@
   "release": "11.2-RELEASE",
   "artifact": "https://github.com/lbalker/iocage-plugin-unificontroller.git",
   "pkgs": [
-    "net-mgmt/unifi-lts"
+    "unifi-lts"
   ],
   "packagesite": "http://pkg.cdn.trueos.org/iocage/11.3-RELEASE",
   "fingerprints": {

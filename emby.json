@@ -3,8 +3,8 @@
   "release": "11.2-RELEASE",
   "artifact": "https://github.com/freenas/iocage-plugin-emby.git",
   "pkgs": [
-    "multimedia/emby-server",
-    "multimedia/ffmpeg"
+    "emby-server",
+    "ffmpeg"
   ],
   "packagesite": "http://pkg.cdn.trueos.org/iocage/11.3-RELEASE",
   "fingerprints": {
