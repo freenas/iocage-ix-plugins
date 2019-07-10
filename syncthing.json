@@ -4,6 +4,7 @@
   "artifact": "https://github.com/freenas/iocage-plugin-syncthing.git",
   "pkgs": [
     "net/syncthing",
+    "security/ca_root_nss",
     "www/nginx"
   ],
   "packagesite": "http://pkg.cdn.trueos.org/iocage/11.2-RELEASE",
