@@ -1,5 +1,6 @@
 {
   "name": "CouchPotato",
+  "plugin_schema": "2",
   "release": "11.2-RELEASE",
   "artifact": "https://github.com/freenas/iocage-plugin-couchpotato.git",
   "pkgs": [
