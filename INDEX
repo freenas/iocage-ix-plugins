@@ -3,7 +3,7 @@
         "MANIFEST": "asigra.json",
         "name": "Asigra Backup",
         "icon": "https://www.trueos.org/iocage-icons/asigra.png",
-        "description": "Agentless backup of your data from any source - in the data center, cloud and every endpoint device, anywhere.",
+        "description": "Full-featured backup solution fully integrated into FreeNAS. (Requires Subscription)",
         "official": true
   },
   "rslsync": {
@@ -11,7 +11,7 @@
         "name": "Resilio Sync",
         "primary_pkg": "rslsync",
         "icon": "https://www.trueos.org/iocage-icons/btsync.png",
-        "description": "Resilient, fast and scalable file sync software for enterprises and individuals.",
+        "description": "Fast and scalable file sync software for home and business.",
         "official": true
   },
   "backuppc": {
@@ -19,7 +19,7 @@
         "name": "BackupPC",
         "primary_pkg": "backuppc4",
         "icon": "https://www.trueos.org/iocage-icons/backuppc.png",
-        "description": "BackupPC is a high-performance, enterprise-grade system for backing up Linux, WinXX and MacOSX PCs and laptops to a server's disk.",
+        "description": "Enterprise-grade system for backing up Linux, Windows, and MacOSX computers to a server.",
         "official": true
   },
   "clamav": {
@@ -27,7 +27,7 @@
         "name": "ClamAV",
         "primary_pkg": "clamav",
         "icon": "https://www.trueos.org/iocage-icons/clamav.png",
-        "description": "ClamAV® is an open source antivirus engine for detecting trojans, viruses, malware & other malicious threats.",
+        "description": "Open source antivirus engine for detecting trojans, viruses, malware & other malicious threats.",
         "official": true
 },
   "couchpotato": {
@@ -35,7 +35,7 @@
         "name": "CouchPotato",
         "primary_pkg": "couchpotato",
         "icon": "https://www.trueos.org/iocage-icons/couchpotato.png",
-        "description": "CouchPotato is an automatic NZB and torrent downloader.",
+        "description": "Automatic NZB and torrent downloader.",
         "official": true
   },
   "emby": {
@@ -43,7 +43,7 @@
         "name": "Emby",
         "primary_pkg": "emby-server",
         "icon": "https://www.trueos.org/iocage-icons/emby.png",
-        "description": "Home media server built using mono and other open source technologies",
+        "description": "Home media server to organize, play, and stream audio and video to a variety of devices",
         "official": true
   },
   "gitlab": {
@@ -51,7 +51,7 @@
         "name": "GitLab",
         "primary_pkg": "gitlab-ce",
         "icon": "https://www.trueos.org/iocage-icons/gitlab.png",
-        "description": "Powerful features for modern software development",
+        "description": "DevOps lifecycle tool that provides a Git-repository manager providing wiki, issue-tracking, and CI/CD pipeline features.",
         "official": true
   },
   "gitlab-runner": {
@@ -59,7 +59,7 @@
         "name": "GitLab Runner",
         "primary_pkg": "gitlab-runner",
         "icon": "https://www.trueos.org/iocage-icons/gitlab.png",
-        "description": "CI/CD runner powered by gitlab",
+        "description": "Run jobs and send results back to GitLab. Used in conjunction with GitLab CI.",
         "official": false
   },
   "jenkins": {
@@ -67,7 +67,7 @@
         "name": "Jenkins",
         "primary_pkg": "jenkins",
         "icon": "https://www.trueos.org/iocage-icons/jenkins.png",
-        "description": "Jenkins CI",
+        "description": "Open Source build automation software.",
         "official": true
   },
   "jenkins-lts": {
@@ -75,7 +75,7 @@
         "name": "Jenkins (LTS)",
         "primary_pkg": "jenkins-lts",
         "icon": "https://www.trueos.org/iocage-icons/jenkins.png",
-        "description": "Jenkins CI (Long Term Support Version)",
+        "description": "Open Source build automation software. (Long Term Support Version)",
         "official": true
   },
   "nextcloud": {
@@ -83,7 +83,7 @@
         "name": "Nextcloud",
         "primary_pkg": "nextcloud-php71",
         "icon": "https://www.trueos.org/iocage-icons/nextcloud.png",
-        "description": "Access, share and protect your files, calendars, contacts, communication & more at home and in your enterprise.",
+        "description": "Suite of client-server software for creating and using file hosting services.",
         "official": true
   },
   "openvpn": {
@@ -91,7 +91,7 @@
         "name": "OpenVPN Server",
         "primary_pkg": "openvpn",
         "icon": "http://swupdate.openvpn.net/community/icons/ovpntech_key.png",
-        "description": "OpenVPN server",
+        "description": "Virtual private network software to create secure point-to-point connections.",
         "official": false
   },
   "plexmediaserver": {
@@ -99,7 +99,7 @@
         "name": "Plex Media Server",
         "primary_pkg": "plexmediaserver",
         "icon": "https://www.trueos.org/iocage-icons/plex.png",
-        "description": "The Plex media server system",
+        "description": "Media center software to easily manage and stream digital media.",
         "official": true
   },
   "redmine": {
@@ -107,7 +107,7 @@
         "name": "Redmine",
         "primary_pkg": "redmine",
         "icon": "https://www.trueos.org/iocage-icons/redmine.png",
-        "description": "Redmine Bugtracker",
+        "description": "Open Source ticket management software to track bugs and feature requests.",
         "official": true
   },
   "plexmediaserver-plexpass": {
@@ -115,7 +115,7 @@
         "name": "Plex Media Server (PlexPass)",
         "primary_pkg": "plexmediaserver-plexpass",
         "icon": "https://www.trueos.org/iocage-icons/plex.png",
-        "description": "The Plex media server system",
+        "description": "Media center software to easily manage and stream digital media. (Requires Subscription)",
         "official": true
   },
   "quasselcore": {
@@ -123,7 +123,7 @@
         "name": "Quasselcore",
         "primary_pkg": "quassel-core",
         "icon": "https://www.trueos.org/iocage-icons/quasselcore.png",
-        "description": "Quassel Core is a daemon/headless IRC client, part of Quassel, that supports 24/7 connectivity. Quassel Client can be attached to it to.",
+        "description": "Headless IRC Client that supports 24/7 connectivity. Quassel Client can be attached.",
         "official": true
   },
   "subsonic": {
@@ -131,7 +131,7 @@
         "name": "SubSonic",
         "primary_pkg": "subsonic-standalone",
         "icon": "https://www.trueos.org/iocage-icons/subsonic.png",
-        "description": "Open-source web-based media streamer and jukebox.",
+        "description": "Open-source media streaming software and music player.",
         "official": true
   },
   "madsonic": {
@@ -139,7 +139,7 @@
         "name": "MadSonic",
         "primary_pkg": "madsonic-standalone",
         "icon": "https://www.trueos.org/iocage-icons/madsonic.png",
-        "description": "Open-source web-based media streamer and jukebox.",
+        "description": "Open-source media streaming software and musicplayer.",
         "official": true
   },
   "syncthing": {
@@ -147,7 +147,7 @@
         "name": "Syncthing",
         "primary_pkg": "syncthing",
         "icon": "https://www.trueos.org/iocage-icons/syncthing.png",
-        "description": "Personal cloud sync",
+        "description": "Open source, peer-to-peer file synchronization application available for many operating systems.",
         "official": true
   },
   "deluge": {
@@ -155,7 +155,7 @@
         "name": "Deluge",
         "primary_pkg": "deluge-cli",
         "icon": "https://www.trueos.org/iocage-icons/deluge.png",
-        "description": "Bittorrent client using Python, and libtorrent-rasterbar",
+        "description": "Python-based Bittorent client.",
         "official": true
   },
   "sonarr": {
@@ -163,7 +163,7 @@
         "name": "Sonarr",
         "primary_pkg": "sonarr",
         "icon": "https://www.trueos.org/iocage-icons/sonarr.png",
-        "description": "PVR for Usenet and BitTorrent users",
+        "description": "Multi-platform app to search, download, and manage TV shows.",
         "official": true
   },
   "transmission": {
@@ -171,7 +171,7 @@
         "name": "Transmission",
         "primary_pkg": "transmission-daemon",
         "icon": "https://www.trueos.org/iocage-icons/transmission.png",
-        "description": "Fast and lightweight daemon BitTorrent client",
+        "description": "Fast and lightweight BitTorrent client",
         "official": true
   },
   "sickchill": {
@@ -179,7 +179,7 @@
         "name": "SickChill",
         "primary_pkg": "Git branch - Master",
         "icon": "https://www.trueos.org/iocage-icons/sickchill.png",
-        "description": "Automatic Video Library Manager for TV Shows",
+        "description": "Automatic Video Library Manager for TV Shows.",
         "official": false
   },
   "sickrage": {
@@ -187,7 +187,7 @@
         "name": "SickRage",
         "primary_pkg": "Git branch - Master",
         "icon": "https://www.trueos.org/iocage-icons/sickrage.png",
-        "description": "Automatic Video Library Manager for TV Shows",
+        "description": "Automatic Video Library Manager for TV Shows.",
         "official": true
   },
   "tarsnap": {
@@ -195,7 +195,7 @@
         "name": "Tarsnap",
         "primary_pkg": "tarsnap",
         "icon": "https://www.trueos.org/iocage-icons/tarsnap.png",
-        "description": "Online encrypted backup service (client)",
+        "description": "Secure online backup service for UNIX-like operating systems.",
         "official": true
   },
   "tautulli": {
@@ -203,7 +203,7 @@
         "name": "Tautulli",
         "primary_pkg": "Git branch - Master",
         "icon": "https://www.trueos.org/iocage-icons/tautulli.png",
-        "description": "A python based web application (formerly known as PlexPy) for monitoring, analytics and notifications for Plex Media Server.",
+        "description": "Monitors analytics and notifications for Plex Media Server. (formerly known as PlexPy)",
         "official": false
   },
   "bru-server": {
@@ -219,7 +219,7 @@
         "name": "Bacula-server",
         "primary_pkg": "bacula9-server",
         "icon": "https://www.trueos.org/iocage-icons/bacula-server.png",
-        "description": "programs to manage backup, recovery, and verification of computer data across a network of computers of different kinds",
+        "description": "Manage, backup, recover, and verify data across a diverse network of computers.",
         "official": true
   },
    "xmrig": {
@@ -227,7 +227,7 @@
         "name": "XMRig",
         "primary_pkg": "xmrig",
         "icon": "https://www.trueos.org/iocage-icons/xmrig.png",
-        "description": "XMRig is a high performance Monero (XMR) CPU miner written in C++.",
+        "description": "High performance Monero (XMR) CPU miner written in C++.",
         "official": true
   },
   "qbittorrent": {
@@ -235,7 +235,7 @@
         "name": "qbittorrent",
         "primary_pkg": "qbittorrent-nox",
         "icon": "https://www.trueos.org/iocage-icons/qbittorrent.png",
-        "description": "qBittorrent is the open source bittorrent client in C++/Qt that uses libtorrent-rasterbar.",
+        "description": "Open source Bittorent client written in C++ and QT.",
         "official": true
   },
   "weechat": {
@@ -243,7 +243,7 @@
         "name": "weechat",
         "primary_pkg": "weechat",
         "icon": "https://www.trueos.org/iocage-icons/weechat.png",
-        "description": "WeeChat (Wee Enhanced Environment for Chat) is a fast and light IRC client.",
+        "description": "Fast and light IRC client.",
         "official": true
   },
  "irssi": {
@@ -251,7 +251,7 @@
         "name": "irssi",
         "primary_pkg": "irssi",
         "icon": "https://www.trueos.org/iocage-icons/irssi.png",
-        "description": "Irssi is a modular IRC client that currently has only text mode user interface, but 80-90% of the code isn't text mode specific, so other UIs could be created pretty easily.",
+        "description": "Modular IRC client using a CLI interface.",
         "official": true
   },
  "zoneminder": {
@@ -259,7 +259,7 @@
         "name": "Zoneminder",
         "primary_pkg": "zoneminder",
         "icon": "https://www.trueos.org/iocage-icons/zoneminder.png",
-        "description": "ZoneMinder is a free, open source Closed-circuit television software application developed for Linux which supports IP, USB and Analog cameras.",
+        "description": "Closed-circuit television management application which supports IP, USB and Analog cameras.",
         "official": true
   },
  "radarr": {
@@ -267,7 +267,7 @@
         "name": "radarr",
         "primary_pkg": "radarr",
         "icon": "https://www.trueos.org/iocage-icons/radarr.png",
-        "description": "Radarr is a fork of Sonarr to work with movies in the style of Couchpotato.",
+        "description": "Fork of Sonarr. Automatically download movies in the style of Couchpotato.",
         "official": true
   },
  "mineos": {
@@ -275,7 +275,7 @@
         "name": "MineOS",
         "primary_pkg": "Git branch - Master",
         "icon": "https://www.trueos.org/iocage-icons/mineos.png",
-        "description": "MineOS is a web interface to set up and manage Minecraft servers with a few mouse clicks.",
+        "description": "Set up and manage Minecraft servers.",
         "official": false
   },
  "unificontroller": {
@@ -283,7 +283,7 @@
         "name": "unificontroller",
         "primary_pkg": "unifi5",
         "icon": "https://www.trueos.org/iocage-icons/unificontroller.png",
-        "description": "The UniFi Software-Defined Networking (SDN) platform is an end-to-end system of network devices across different locations.",
+        "description": "Software-Defined Networking platform that provides an end-to-end system of network devices across different locations.",
         "official": false
   },
  "unificontroller-lts": {
@@ -291,22 +291,22 @@
         "name": "unificontroller-lts",
         "primary_pkg": "unifi-lts",
         "icon": "https://www.trueos.org/iocage-icons/unificontroller.png",
-        "description": "The UniFi Software-Defined Networking (SDN) platform is an end-to-end system of network devices across different locations. (Long term support version)",
+        "description": "Software-Defined Networking platform that provides an end-to-end system of network devices across different locations. (Long term support version)",
         "official": false
   },
  "homebridge": {
-	"MANIFEST": "homebridge.json",
-	"name":	"Homebridge",
-	"icon": "https://camo.githubusercontent.com/97c6fb19fc469358ceada9d9abd96fa65fc14a0f/68747470733a2f2f636c2e6c792f3939653638616334396365662f4c6f676f32782e706e67",
-	"description": "Homebridge is a lightweight NodeJS server emulates the iOS HomeKit API and enables you to add not offically supported devices to HomeKit.",
-	"offical": false
+        "MANIFEST": "homebridge.json",
+        "name":	"Homebridge",
+        "icon": "https://camo.githubusercontent.com/97c6fb19fc469358ceada9d9abd96fa65fc14a0f/68747470733a2f2f636c2e6c792f3939653638616334396365662f4c6f676f32782e706e67",
+        "description": "Lightweight iOS HomeKit API emulator. Enables adding unsupported devices to HomeKit.",
+        "offical": false
  },
  "dnsmasq": {
- 	"MANIFEST": "dnsmasq.json",
-	"name": "Dnsmasq",
-	"icon": "https://www.trueos.org/iocage-icons/dnsmasq.png",
-	"description": "Dnsmasq provides network infrastructure for small networks: DNS, DHCP, router advertisement and network boot.",
-	"official": false,
-	"primary_pkg": "dnsmasq"
+        "MANIFEST": "dnsmasq.json",
+        "name": "Dnsmasq",
+        "icon": "https://www.trueos.org/iocage-icons/dnsmasq.png",
+        "description": "Network infrastructure management for small networks: DNS, DHCP, router advertisement, and network boot.",
+        "official": false,
+        "primary_pkg": "dnsmasq"
  }
 }
