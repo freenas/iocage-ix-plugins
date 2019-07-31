@@ -3,7 +3,7 @@
         "MANIFEST": "asigra.json",
         "name": "Asigra Backup",
         "icon": "https://www.trueos.org/iocage-icons/asigra.png",
-        "description": "Agentless backup of your data from any source - in the data center, cloud and every endpoint device, anywhere.",
+        "description": "Full-featured backup solution fully integrated into FreeNAS. (Requires Subscription)",
         "official": true
   },
   "rslsync": {
