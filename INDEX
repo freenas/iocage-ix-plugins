@@ -171,7 +171,7 @@
         "name": "Transmission",
         "primary_pkg": "transmission-daemon",
         "icon": "https://www.trueos.org/iocage-icons/transmission.png",
-        "description": "Fast and lightweight BitTorrent client",
+        "description": "Fast and lightweight BitTorrent client.",
         "official": true
   },
   "sickchill": {
