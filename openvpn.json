@@ -8,7 +8,6 @@
   ],
   "properties": {
     "allow_raw_sockets": "1",
-    "bpf": "yes",
     "vnet": "on",
     "allow_tun": "1"
   },
