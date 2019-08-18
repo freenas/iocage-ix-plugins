@@ -301,5 +301,13 @@
         "description": "Network infrastructure management for small networks: DNS, DHCP, router advertisement, and network boot.",
         "official": false,
         "primary_pkg": "dnsmasq"
+ },
+ "rtorrent-flood": {
+        "MANIFEST": "rtorrent-flood.json",
+        "name": "rtorrent-flood",
+        "icon": "https://www.trueos.org/iocage-icons/rtorrent-flood.json",
+        "description": "rTorrent with Flood web interface (optionally restricted to OpenVPN).",
+        "official": false,
+        "primary_pkg": "rtorrent"
  }
 }
