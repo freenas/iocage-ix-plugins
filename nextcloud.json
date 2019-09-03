@@ -3,6 +3,9 @@
   "plugin_schema": "2",
   "release": "11.2-RELEASE",
   "artifact": "https://github.com/freenas/iocage-plugin-nextcloud.git",
+  "properties": {
+     "nat_forwards": "tcp(80:8282)"
+  },
   "pkgs": [
     "nextcloud-php71",
     "nginx",
