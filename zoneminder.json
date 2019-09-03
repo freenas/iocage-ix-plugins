@@ -3,6 +3,9 @@
   "plugin_schema": "2",
   "release": "11.2-RELEASE",
   "artifact": "https://github.com/freenas/iocage-plugin-zoneminder.git",
+  "properties": {
+     "nat_forwards": "tcp(80:8383)"
+  },
   "pkgs": [
     "zoneminder",
     "fcgiwrap",
