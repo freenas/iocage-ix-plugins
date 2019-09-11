@@ -306,7 +306,7 @@
         "name": "Iconik",
         "description": "The iconik Storage Gateway for FILE storages synchronization.",
         "official": false,
-	"icon": null,
+	"icon": "",
         "primary_pkg": "iconik_storage_gateway"
  }
 }
