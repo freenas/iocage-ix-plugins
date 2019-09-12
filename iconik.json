@@ -1,19 +1,19 @@
 {
   "name": "iconik-storage-gateway",
   "release": "11.2-RELEASE",
-  "artifact": "https://github.com/sonicaj/iocage-plugin-iconik-storage-gateway.git",
+  "artifact": "https://github.com/freenas/iocage-plugin-iconik-storage-gateway.git",
   "properties": {
     "vnet":"on"
   },
   "pkgs": [
     "iconik_storage_gateway"
   ],
-  "packagesite": "http://pkg.FreeBSD.org/FreeBSD:11:amd64/latest",
+  "packagesite": "http://pkg.cdn.trueos.org/iocage/11.2-RELEASE",
   "fingerprints": {
 	  "iocage-plugins": [
 		  {
 		  "function": "sha256",
-		  "fingerprint": "b0170035af3acc5f3f3ae1859dc717101b4e6c1d0a794ad554928ca0cbb2f438"
+		  "fingerprint": "226efd3a126fb86e71d60a37353d17f57af816d1c7ecad0623c21f0bf73eb0c7"
 	  }
 	  ]
   },
