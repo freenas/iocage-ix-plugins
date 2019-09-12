@@ -301,5 +301,13 @@
         "description": "Network infrastructure management for small networks: DNS, DHCP, router advertisement, and network boot.",
         "official": false,
         "primary_pkg": "dnsmasq"
+ },
+ "iconik": {
+        "MANIFEST": "iconik.json",
+        "name": "Iconik",
+        "description": "The iconik Storage Gateway for FILE storages synchronization.",
+        "official": false,
+	"icon": "",
+        "primary_pkg": "iconik_storage_gateway"
  }
 }
