@@ -243,5 +243,13 @@
         "icon": "https://www.trueos.org/iocage-icons/zoneminder.png",
         "description": "ZoneMinder is a free, open source Closed-circuit television software application developed for Linux which supports IP, USB and Analog cameras.",
         "official": true
+  },
+  "iconik": {
+        "MANIFEST": "iconik.json",
+        "name": "Iconik",
+        "description": "The iconik Storage Gateway for FILE storages synchronization.",
+        "official": false,
+        "icon": "",
+        "primary_pkg": "iconik_storage_gateway"
   }
 }
