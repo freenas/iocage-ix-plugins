@@ -7,9 +7,9 @@
     "openvpn"
   ],
   "properties": {
-    "allow_raw_sockets": "1",
-    "vnet": "on",
-    "allow_tun": "1"
+    "allow_raw_sockets": 1,
+    "vnet": 1,
+    "allow_tun": 1
   },
   "packagesite": "http://pkg.FreeBSD.org/FreeBSD:11:amd64/latest",
   "fingerprints": {

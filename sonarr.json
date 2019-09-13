@@ -6,7 +6,7 @@
     "sonarr"
   ],
   "properties": {
-     "allow_sysvipc": "1"
+     "allow_sysvipc": 1
   },
   "packagesite": "http://pkg.cdn.trueos.org/iocage/unstable",
   "fingerprints": {

@@ -4,7 +4,7 @@
   "release": "11.2-RELEASE",
   "artifact": "https://github.com/freenas/iocage-plugin-bitcoin-node.git",
   "properties": {
-    "vnet":"on"
+    "vnet": 1
   },
   "pkgs": [
     "net-p2p/bitcoin-daemon"

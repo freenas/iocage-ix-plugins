@@ -3,11 +3,11 @@
   "release": "11.2-RELEASE",
   "artifact": "https://github.com/jsegaert/iocage-plugin-mineos.git",
   "properties": {
-    "mount_procfs":"1",
-    "mount_linprocfs":"1",
-    "allow_raw_sockets":"1",
-    "boot":"on"
-      },
+    "mount_procfs": 1,
+    "mount_linprocfs": 1,
+    "allow_raw_sockets": 1,
+    "boot": 1
+  },
   "pkgs": [
     "sysutils/rdiff-backup",
     "sysutils/screen",
@@ -20,7 +20,7 @@
     "java/openjdk8-jre",
     "ftp/wget",
     "shells/bash"
-      ],
+  ],
   "packagesite": "http://pkg.FreeBSD.org/FreeBSD:11:amd64/quarterly",
   "fingerprints": {
 	  "plugin-default": [
