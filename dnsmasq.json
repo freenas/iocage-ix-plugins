@@ -3,6 +3,9 @@
 	"plugin_schema": "2",
 	"release": "11.2-RELEASE",
 	"artifact": "https://github.com/timsavage/iocage-plugin-dnsmasq.git",
+        "properties": {
+                "nat_forwards": "tcp(53:53)"
+        },
 	"pkgs": [
 	   "dnsmasq",
 	   "python36"

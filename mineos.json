@@ -6,7 +6,8 @@
     "mount_procfs": 1,
     "mount_linprocfs": 1,
     "allow_raw_sockets": 1,
-    "boot": 1
+    "boot": 1,
+    "nat_forwards": "tcp(8443:8443)"
   },
   "pkgs": [
     "sysutils/rdiff-backup",

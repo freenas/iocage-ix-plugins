@@ -2,6 +2,9 @@
   "name": "BackupPC",
   "release": "11.2-RELEASE",
   "artifact": "https://github.com/freenas/iocage-plugin-backuppc.git",
+  "properties": {
+     "nat_forwards": "tcp(80:9090)"
+  },
   "pkgs": [
     "backuppc4",
     "apache24"	  

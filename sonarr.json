@@ -6,7 +6,8 @@
     "sonarr"
   ],
   "properties": {
-     "allow_sysvipc": 1
+     "allow_sysvipc": 1,
+     "nat_forwards": "tcp(8989:8989)"
   },
   "packagesite": "http://pkg.cdn.trueos.org/iocage/unstable",
   "fingerprints": {

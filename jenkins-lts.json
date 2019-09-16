@@ -2,6 +2,9 @@
   "name": "jenkins-lts",
   "release": "11.2-RELEASE",
   "artifact": "https://github.com/freenas/iocage-plugin-jenkins-lts.git",
+  "properties": {
+     "nat_forwards": "tcp(80:8686)"
+  },
   "pkgs": [
     "jenkins-lts",
     "nginx"

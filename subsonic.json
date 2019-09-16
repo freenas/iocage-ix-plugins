@@ -2,6 +2,9 @@
   "name": "SubSonic",
   "release": "11.2-RELEASE",
   "artifact": "https://github.com/freenas/iocage-plugin-subsonic.git",
+  "properties": {
+     "nat_forwards": "tcp(4040:4041)"
+  },
   "pkgs": [
     "subsonic-standalone"
   ],

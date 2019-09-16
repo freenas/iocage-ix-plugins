@@ -2,6 +2,9 @@
   "name": "unificontroller-lts",
   "release": "11.2-RELEASE",
   "artifact": "https://github.com/lbalker/iocage-plugin-unificontroller.git",
+  "properties": {
+     "nat_forwards": "tcp(8443:8445)"
+  },
   "pkgs": [
     "unifi-lts"
   ],

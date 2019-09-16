@@ -2,6 +2,9 @@
   "name": "rslsync",
   "release": "11.2-RELEASE",
   "artifact": "https://github.com/freenas/iocage-plugin-btsync.git",
+  "properties": {
+     "nat_forwards": "tcp(8888:8888)"
+  },
   "pkgs": [
     "rslsync"
   ],

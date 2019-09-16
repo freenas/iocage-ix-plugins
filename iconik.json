@@ -3,7 +3,8 @@
   "release": "11.2-RELEASE",
   "artifact": "https://github.com/freenas/iocage-plugin-iconik-storage-gateway.git",
   "properties": {
-    "vnet": 1
+    "vnet": 1,
+    "nat_forwards": "tcp(8000:8000)"
   },
   "pkgs": [
     "iconik_storage_gateway"
