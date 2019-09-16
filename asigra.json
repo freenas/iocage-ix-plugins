@@ -24,8 +24,7 @@
 	"sysvmsg": "new",
 	"sysvsem": "new",
 	"sysvshm": "new",
-	"vnet": 1,
-	"nat_forwards": "tcp(80:8787)"
+	"vnet": 1
   },
   "packagesite": "http://pkg.cdn.trueos.org/iocage/unstable",
   "fingerprints": {
