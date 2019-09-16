@@ -3,6 +3,7 @@
   "release": "11.2-RELEASE",
   "artifact": "https://github.com/fancybits/iocage-plugin-channels-dvr.git",
   "properties": {
+     "nat": 1,
      "nat_forwards": "tcp(8089:8089)"
   },
   "pkgs": [

@@ -2,7 +2,8 @@
   "name": "Tautulli",
   "release": "11.2-RELEASE",
   "artifact": "https://github.com/arcooke/iocage-plugin-tautulli.git",
-  "properties": {
+  "properties": {,
+     "nat": 1,
      "nat_forwards": "tcp(8181:8181)"
   },
   "pkgs": [

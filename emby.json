@@ -2,6 +2,10 @@
   "name": "Emby",
   "release": "11.2-RELEASE",
   "artifact": "https://github.com/freenas/iocage-plugin-emby.git",
+  "properties": {
+     "nat": 1,
+     "nat_forwards": "tcp(8096:8096)"
+  },
   "pkgs": [
     "emby-server",
     "ffmpeg"

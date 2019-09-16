@@ -3,6 +3,7 @@
   "release": "11.2-RELEASE",
   "artifact": "https://github.com/freenas/iocage-plugin-jenkins-lts.git",
   "properties": {
+     "nat": 1,
      "nat_forwards": "tcp(80:8686)"
   },
   "pkgs": [
