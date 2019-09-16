@@ -4,8 +4,8 @@
   "artifact": "https://github.com/freenas/iocage-plugin-gitlab.git",
   "pkgs": [
     "www/gitlab-ce",
-    "databases/postgresql95-server",
-    "databases/postgresql95-contrib",
+    "databases/postgresql11-server",
+    "databases/postgresql11-contrib",
     "www/nginx"
   ],
   "properties": {
