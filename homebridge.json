@@ -3,7 +3,7 @@
 	"release": "11.2-RELEASE",
 	"artifact": "https://github.com/grimneko/iocage-plugin-homebridge.git",
 	"properties": {
-		"vnet": "on"
+		"vnet": 1
 	},
 	"pkgs": [
 		"python",
