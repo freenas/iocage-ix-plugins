@@ -39,6 +39,14 @@
         "description": "Home media server to organize, play, and stream audio and video to a variety of devices.",
         "official": true
   },
+  "gitlab": {
+        "MANIFEST": "gitlab.json",
+        "name": "GitLab",
+        "primary_pkg": "gitlab-ce",
+        "icon": "https://www.trueos.org/iocage-icons/gitlab.png",
+        "description": "DevOps lifecycle tool that provides a Git repository manager providing wiki, issue-tracking, and CI/CD pipeline features.",
+        "official": true
+  },
   "gitlab-runner": {
         "MANIFEST": "gitlab-runner.json",
         "name": "GitLab Runner",
