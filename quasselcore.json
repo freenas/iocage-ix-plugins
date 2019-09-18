@@ -2,6 +2,10 @@
   "name": "Quasselcore",
   "release": "11.2-RELEASE",
   "artifact": "https://github.com/freenas/iocage-plugin-quassel.git",
+  "properties": {
+     "nat": 1,
+     "nat_forwards": "tcp(4242:4242)"
+  },
   "pkgs": [
     "quassel-core"
   ],
