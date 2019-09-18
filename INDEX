@@ -305,7 +305,7 @@
  "iconik": {
         "MANIFEST": "iconik.json",
         "name": "Iconik",
-        "description": "The iconik Storage Gateway for FILE storages synchronization.",
+        "description": "Streamlines media asset management by making local and cloud-based assets discoverable from a single interface.",
         "official": true,
         "icon": "https://raw.githubusercontent.com/freenas/iocage-ix-plugins/master/icons/iconik.png",
         "primary_pkg": "iconik_storage_gateway"
