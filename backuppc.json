@@ -8,7 +8,7 @@
   },
   "pkgs": [
     "backuppc4",
-    "apache24"	  
+    "apache24"
   ],
   "packagesite": "http://pkg.cdn.trueos.org/iocage/11.3-RELEASE",
   "fingerprints": {
