@@ -2,6 +2,10 @@
   "name": "syncthing",
   "release": "11.2-RELEASE",
   "artifact": "https://github.com/freenas/iocage-plugin-syncthing.git",
+  "properties": {
+     "nat": 1,
+     "nat_forwards": "tcp(80:8384)"
+  },
   "pkgs": [
     "syncthing",
     "ca_root_nss",

@@ -2,6 +2,10 @@
   "name": "SickChill",
   "release": "11.2-RELEASE",
   "artifact": "https://github.com/dvarious/iocage-plugin-sickchill.git",
+  "properties": {
+     "nat": 1,
+     "nat_forwards": "tcp(8081:8081)"
+  },
   "pkgs": [
     "lang/python27",
     "security/ca_root_nss",

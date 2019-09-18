@@ -2,6 +2,10 @@
   "name": "Plex",
   "release": "11.2-RELEASE",
   "artifact": "https://github.com/freenas/iocage-plugin-plexmediaserver.git",
+  "properties": {
+     "nat": 1,
+     "nat_forwards": "tcp(32400:32400)"
+  },
   "pkgs": [
     "plexmediaserver",
     "ffmpeg"
