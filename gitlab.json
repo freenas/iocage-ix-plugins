@@ -5,15 +5,15 @@
   "artifact": "https://github.com/freenas/iocage-plugin-gitlab.git",
   "pkgs": [
     "gitlab-ce",
-    "postgresql11-server",
-    "postgresql11-contrib",
+    "postgresql95-server",
+    "postgresql95-contrib",
     "nginx",
     "gtar"
   ],
   "properties": {
      "allow_sysvipc": 1
   },
-  "packagesite": "http://pkg.cdn.trueos.org/iocage/unstable",
+  "packagesite": "http://pkg.cdn.trueos.org/iocage/gitlab/11.2-Release",
   "fingerprints": {
 	  "iocage-plugins": [
 		  {
