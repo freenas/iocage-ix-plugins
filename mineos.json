@@ -3,9 +3,9 @@
   "release": "11.2-RELEASE",
   "artifact": "https://github.com/jsegaert/iocage-plugin-mineos.git",
   "properties": {
-    "mount_procfs":"1",
-    "mount_linprocfs":"1",
-    "allow_raw_sockets":"1",
+    "mount_procfs": 1,
+    "mount_linprocfs": 1,
+    "allow_raw_sockets": 1,
     "nat": 1,
     "nat_forwards": "tcp(8443:8443)"
       },
