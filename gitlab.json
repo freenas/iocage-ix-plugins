@@ -13,7 +13,7 @@
   "properties": {
      "allow_sysvipc": "1"
   },
-  "packagesite": "http://pkg.cdn.trueos.org/iocage/11.3-RELEASE",
+  "packagesite": "http://pkg.cdn.trueos.org/iocage/gitlab/11.3-Release",
   "fingerprints": {
 	  "iocage-plugins": [
 		  {
