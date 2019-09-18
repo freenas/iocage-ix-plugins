@@ -4,8 +4,8 @@
 	"release": "11.2-RELEASE",
 	"artifact": "https://github.com/timsavage/iocage-plugin-dnsmasq.git",
 	"properties": {
-            "dhcp": 1
-        },
+	    "dhcp": 1
+	},
 	"pkgs": [
 	   "dnsmasq",
 	   "python36"
