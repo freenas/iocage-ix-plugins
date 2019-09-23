@@ -1,6 +1,7 @@
 {
     "name": "asigra",
     "release": "11.2-RELEASE",
+    "plugin_schema": "2",
     "artifact": "https://github.com/freenas/iocage-plugin-asigra.git",
     "pkgs": [
         "ca_root_nss",
