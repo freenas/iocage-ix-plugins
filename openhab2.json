@@ -2,7 +2,7 @@
   "name": "openHAB2",
   "plugin_schema": "2",
   "release": "11.2-RELEASE",
-  "artifact": "https://github.com/RogoTe/iocage-plugin-openhab2.git"
+  "artifact": "https://github.com/RogoTe/iocage-plugin-openhab2.git",
   "pkgs": [
     "openjdk8",
     "openhab2"
