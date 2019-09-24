@@ -302,6 +302,13 @@
         "official": false,
         "primary_pkg": "dnsmasq"
  },
+ "openHAB2": {
+        "MANIFEST": "openhab2.json",
+        "name":	"openHAB2",
+        "icon": "https://www.trueos.org/iocage-icons/openhab2.png",
+        "description": "A vendor and technology agnostic open source home automation software written in Java",
+        "offical": false
+ },
  "iconik": {
         "MANIFEST": "iconik.json",
         "name": "Iconik",
