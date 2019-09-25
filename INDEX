@@ -54,6 +54,14 @@
         "description": "Home media server built using mono and other open source technologies",
         "official": true
   },
+  "gitlab": {
+         "MANIFEST": "gitlab.json",
+         "name": "GitLab",
+         "primary_pkg": "www/gitlab-ce",
+         "icon": "https://www.trueos.org/iocage-icons/gitlab.png",
+         "description": "Powerful features for modern software development",
+         "official": true
+   },
   "jenkins": {
         "MANIFEST": "jenkins.json",
         "name": "Jenkins",
