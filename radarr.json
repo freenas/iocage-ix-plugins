@@ -1,22 +1,22 @@
 {
-  "name": "radarr",
-  "release": "11.2-RELEASE",
-  "artifact": "https://github.com/freenas/iocage-plugin-radarr.git",
-  "properties": {
-     "nat": 1,
-     "nat_forwards": "tcp(7878:7878)"
-  },
-  "pkgs": [
-    "radarr"
-  ],
-  "packagesite": "http://pkg.cdn.trueos.org/iocage/unstable",
-  "fingerprints": {
-	  "iocage-plugins": [
-		  {
-		  "function": "sha256",
-		  "fingerprint": "226efd3a126fb86e71d60a37353d17f57af816d1c7ecad0623c21f0bf73eb0c7"
-	  }
-	  ]
-  },
-  "official": true
+    "name": "radarr",
+    "release": "11.2-RELEASE",
+    "artifact": "https://github.com/freenas/iocage-plugin-radarr.git",
+    "properties": {
+        "nat": 1,
+        "nat_forwards": "tcp(7878:7878)"
+    },
+    "pkgs": [
+        "radarr"
+    ],
+    "packagesite": "http://pkg.cdn.trueos.org/iocage/unstable",
+    "fingerprints": {
+        "iocage-plugins": [
+            {
+                "function": "sha256",
+                "fingerprint": "226efd3a126fb86e71d60a37353d17f57af816d1c7ecad0623c21f0bf73eb0c7"
+            }
+        ]
+    },
+    "official": true
 }
