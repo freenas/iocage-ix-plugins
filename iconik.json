@@ -1,23 +1,23 @@
 {
-  "name": "iconik-storage-gateway",
-  "release": "11.2-RELEASE",
-  "artifact": "https://github.com/freenas/iocage-plugin-iconik-storage-gateway.git",
-  "properties": {
-    "vnet": 1,
-    "nat": 1,
-    "nat_forwards": "tcp(8000:8000)"
-  },
-  "pkgs": [
-    "iconik_storage_gateway"
-  ],
-  "packagesite": "http://pkg.cdn.trueos.org/iocage/unstable",
-  "fingerprints": {
-	  "iocage-plugins": [
-		  {
-		  "function": "sha256",
-		  "fingerprint": "226efd3a126fb86e71d60a37353d17f57af816d1c7ecad0623c21f0bf73eb0c7"
-	  }
-	  ]
-  },
-  "official": true
+    "name": "iconik-storage-gateway",
+    "release": "11.2-RELEASE",
+    "artifact": "https://github.com/freenas/iocage-plugin-iconik-storage-gateway.git",
+    "properties": {
+        "vnet": 1,
+        "nat": 1,
+        "nat_forwards": "tcp(8000:8000)"
+    },
+    "pkgs": [
+        "iconik_storage_gateway"
+    ],
+    "packagesite": "http://pkg.cdn.trueos.org/iocage/unstable",
+    "fingerprints": {
+        "iocage-plugins": [
+            {
+                "function": "sha256",
+                "fingerprint": "226efd3a126fb86e71d60a37353d17f57af816d1c7ecad0623c21f0bf73eb0c7"
+            }
+        ]
+    },
+    "official": true
 }
