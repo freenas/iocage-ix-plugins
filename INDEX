@@ -1,4 +1,12 @@
 {
+    "asigra": {
+        "MANIFEST": "asigra.json",
+        "name": "Asigra Backup",
+        "icon": "https://www.trueos.org/iocage-icons/asigra.png",
+        "description": "Full-featured backup solution fully integrated into FreeNAS. (Requires Subscription)",
+        "primary_pkg": "dssystem",
+        "official": true
+    },
     "rslsync": {
         "MANIFEST": "rslsync.json",
         "name": "Resilio Sync",
