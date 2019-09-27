@@ -1,26 +1,27 @@
 {
-  "name": "GitLab",
-  "plugin_schema": "2",
-  "release": "11.2-RELEASE",
-  "artifact": "https://github.com/freenas/iocage-plugin-gitlab.git",
-  "pkgs": [
-    "gitlab-ce",
-    "postgresql95-server",
-    "postgresql95-contrib",
-    "nginx",
-    "gtar"
-  ],
-  "properties": {
-     "allow_sysvipc": 1
-  },
-  "packagesite": "http://pkg.cdn.trueos.org/iocage/gitlab/11.2-Release",
-  "fingerprints": {
-	  "iocage-plugins": [
-		  {
-		  "function": "sha256",
-		  "fingerprint": "226efd3a126fb86e71d60a37353d17f57af816d1c7ecad0623c21f0bf73eb0c7"
-	  }
-	  ]
-  },
-  "official": true
+    "name": "GitLab",
+    "plugin_schema": "2",
+    "release": "11.2-RELEASE",
+    "artifact": "https://github.com/freenas/iocage-plugin-gitlab.git",
+    "pkgs": [
+        "gitlab-ce",
+        "postgresql95-server",
+        "postgresql95-contrib",
+        "nginx",
+        "gtar"
+    ],
+    "properties": {
+        "allow_sysvipc": 1
+    },
+    "packagesite": "http://pkg.cdn.trueos.org/iocage/gitlab/11.2-Release",
+    "fingerprints": {
+        "iocage-plugins": [
+            {
+                "function": "sha256",
+                "fingerprint": "226efd3a126fb86e71d60a37353d17f57af816d1c7ecad0623c21f0bf73eb0c7"
+            }
+        ]
+    },
+    "official": true,
+    "revision": "0"
 }

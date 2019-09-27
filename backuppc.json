@@ -1,23 +1,24 @@
 {
-  "name": "BackupPC",
-  "release": "11.2-RELEASE",
-  "artifact": "https://github.com/freenas/iocage-plugin-backuppc.git",
-  "properties": {
-     "nat": 1,
-     "nat_forwards": "tcp(80:9090)"
-  },
-  "pkgs": [
-    "backuppc4",
-    "apache24"	  
-  ],
-  "packagesite": "http://pkg.cdn.trueos.org/iocage/unstable",
-  "fingerprints": {
-	  "iocage-plugins": [
-		  {
-		  "function": "sha256",
-		  "fingerprint": "226efd3a126fb86e71d60a37353d17f57af816d1c7ecad0623c21f0bf73eb0c7"
-	  }
-	  ]
-  },
-  "official": true
+    "name": "BackupPC",
+    "release": "11.2-RELEASE",
+    "artifact": "https://github.com/freenas/iocage-plugin-backuppc.git",
+    "properties": {
+        "nat": 1,
+        "nat_forwards": "tcp(80:9090)"
+    },
+    "pkgs": [
+        "backuppc4",
+        "apache24"
+    ],
+    "packagesite": "http://pkg.cdn.trueos.org/iocage/unstable",
+    "fingerprints": {
+        "iocage-plugins": [
+            {
+                "function": "sha256",
+                "fingerprint": "226efd3a126fb86e71d60a37353d17f57af816d1c7ecad0623c21f0bf73eb0c7"
+            }
+        ]
+    },
+    "official": true,
+    "revision": "0"
 }
