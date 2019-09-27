@@ -1,8 +1,8 @@
 {
-  "name": "asigra",
-  "release": "11.2-RELEASE",
-  "artifact": "https://github.com/freenas/iocage-plugin-asigra.git",
-  "pkgs": [
+    "name": "asigra",
+    "release": "11.2-RELEASE",
+    "artifact": "https://github.com/freenas/iocage-plugin-asigra.git",
+    "pkgs": [
         "ca_root_nss",
         "postgresql96-client",
         "postgresql96-server",
@@ -11,27 +11,27 @@
         "openldap-client",
         "pam_ldap",
         "nginx"
-  ],
-  "properties": {
-	"mount_devfs": 1,
-	"mount_fdescfs": 1,
-	"mount_procfs": 1,
-	"allow_set_hostname": 1,
-	"allow_raw_sockets": 1,
-	"allow_sysvipc": 1,
-	"sysvmsg": "new",
-	"sysvsem": "new",
-	"sysvshm": "new",
-	"dhcp": 1
-  },
-  "packagesite": "http://pkg.cdn.trueos.org/iocage/11.3-RELEASE",
-  "fingerprints": {
-	  "iocage-plugins": [
-		  {
-		  "function": "sha256",
-		  "fingerprint": "226efd3a126fb86e71d60a37353d17f57af816d1c7ecad0623c21f0bf73eb0c7"
-	  }
-	  ]
-  },
-  "official": true
+    ],
+    "properties": {
+        "mount_devfs": 1,
+        "mount_fdescfs": 1,
+        "mount_procfs": 1,
+        "allow_set_hostname": 1,
+        "allow_raw_sockets": 1,
+        "allow_sysvipc": 1,
+        "sysvmsg": "new",
+        "sysvsem": "new",
+        "sysvshm": "new",
+        "dhcp": 1
+    },
+    "packagesite": "http://pkg.cdn.trueos.org/iocage/11.3-RELEASE",
+    "fingerprints": {
+        "iocage-plugins": [
+            {
+                "function": "sha256",
+                "fingerprint": "226efd3a126fb86e71d60a37353d17f57af816d1c7ecad0623c21f0bf73eb0c7"
+            }
+        ]
+    },
+    "official": true
 }

@@ -1,24 +1,24 @@
 {
-  "name": "syncthing",
-  "release": "11.2-RELEASE",
-  "artifact": "https://github.com/freenas/iocage-plugin-syncthing.git",
-  "properties": {
-     "nat": 1,
-     "nat_forwards": "tcp(80:8384)"
-  },
-  "pkgs": [
-    "syncthing",
-    "ca_root_nss",
-    "nginx"
-  ],
-  "packagesite": "http://pkg.cdn.trueos.org/iocage/11.3-RELEASE",
-  "fingerprints": {
-	  "iocage-plugins": [
-		  {
-		  "function": "sha256",
-		  "fingerprint": "226efd3a126fb86e71d60a37353d17f57af816d1c7ecad0623c21f0bf73eb0c7"
-	  }
-	  ]
-  },
-  "official": true
+    "name": "syncthing",
+    "release": "11.2-RELEASE",
+    "artifact": "https://github.com/freenas/iocage-plugin-syncthing.git",
+    "properties": {
+        "nat": 1,
+        "nat_forwards": "tcp(80:8384)"
+    },
+    "pkgs": [
+        "syncthing",
+        "ca_root_nss",
+        "nginx"
+    ],
+    "packagesite": "http://pkg.cdn.trueos.org/iocage/11.3-RELEASE",
+    "fingerprints": {
+        "iocage-plugins": [
+            {
+                "function": "sha256",
+                "fingerprint": "226efd3a126fb86e71d60a37353d17f57af816d1c7ecad0623c21f0bf73eb0c7"
+            }
+        ]
+    },
+    "official": true
 }

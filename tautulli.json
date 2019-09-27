@@ -1,27 +1,26 @@
 {
-  "name": "Tautulli",
-  "release": "11.2-RELEASE",
-  "artifact": "https://github.com/arcooke/iocage-plugin-tautulli.git",
-  "properties": {
-     "nat": 1,
-     "nat_forwards": "tcp(8181:8181)"
-  },
-  "pkgs": [
-    "lang/python27",
-    "py27-sqlite3",
-    "py27-openssl",
-    "security/ca_root_nss",
-    "git"
-  ],
-  "packagesite": "http://pkg.cdn.trueos.org/iocage/11.3-RELEASE",
-  "fingerprints": {
-	  "iocage-plugins": [
-		  {
-		  "function": "sha256",
-		  "fingerprint": "226efd3a126fb86e71d60a37353d17f57af816d1c7ecad0623c21f0bf73eb0c7"
-	  }
-	  ]
-  },
-  "official": false
+    "name": "Tautulli",
+    "release": "11.2-RELEASE",
+    "artifact": "https://github.com/arcooke/iocage-plugin-tautulli.git",
+    "properties": {
+        "nat": 1,
+        "nat_forwards": "tcp(8181:8181)"
+    },
+    "pkgs": [
+        "lang/python27",
+        "py27-sqlite3",
+        "py27-openssl",
+        "security/ca_root_nss",
+        "git"
+    ],
+    "packagesite": "http://pkg.cdn.trueos.org/iocage/11.3-RELEASE",
+    "fingerprints": {
+        "iocage-plugins": [
+            {
+                "function": "sha256",
+                "fingerprint": "226efd3a126fb86e71d60a37353d17f57af816d1c7ecad0623c21f0bf73eb0c7"
+            }
+        ]
+    },
+    "official": false
 }
- 

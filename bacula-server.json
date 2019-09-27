@@ -1,25 +1,25 @@
 {
-  "name": "Bacula-server",
-  "plugin_schema": "2",
-  "release": "11.2-RELEASE",
-  "artifact": "https://github.com/freenas/iocage-plugin-bacula-server.git",
-  "properties": {
-     "nat": 1,
-     "nat_forwards": "tcp(9102:9102)"
-  },
-  "pkgs": [
-    "bacula9-server",
-    "postgresql95-server",
-    "postgresql95-contrib"
-  ],
-  "packagesite": "http://pkg.cdn.trueos.org/iocage/11.3-RELEASE",
-  "fingerprints": {
-	  "iocage-plugins": [
-		  {
-		  "function": "sha256",
-		  "fingerprint": "226efd3a126fb86e71d60a37353d17f57af816d1c7ecad0623c21f0bf73eb0c7"
-	  }
-	  ]
-  },
-  "official": true
+    "name": "Bacula-server",
+    "plugin_schema": "2",
+    "release": "11.2-RELEASE",
+    "artifact": "https://github.com/freenas/iocage-plugin-bacula-server.git",
+    "properties": {
+        "nat": 1,
+        "nat_forwards": "tcp(9102:9102)"
+    },
+    "pkgs": [
+        "bacula9-server",
+        "postgresql95-server",
+        "postgresql95-contrib"
+    ],
+    "packagesite": "http://pkg.cdn.trueos.org/iocage/11.3-RELEASE",
+    "fingerprints": {
+        "iocage-plugins": [
+            {
+                "function": "sha256",
+                "fingerprint": "226efd3a126fb86e71d60a37353d17f57af816d1c7ecad0623c21f0bf73eb0c7"
+            }
+        ]
+    },
+    "official": true
 }
