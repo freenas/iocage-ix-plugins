@@ -1,24 +1,24 @@
 {
-  "name": "channels-dvr",
-  "release": "11.2-RELEASE",
-  "artifact": "https://github.com/fancybits/iocage-plugin-channels-dvr.git",
-  "properties": {
-     "nat": 1,
-     "nat_forwards": "tcp(8089:8089)"
-  },
-  "pkgs": [
-    "ftp/curl",
-    "security/ca_root_nss",
-    "security/sudo"
-  ],
-  "packagesite": "http://pkg.cdn.trueos.org/iocage/11.3-RELEASE",
-  "fingerprints": {
-	  "iocage-plugins": [
-		  {
-		  "function": "sha256",
-		  "fingerprint": "226efd3a126fb86e71d60a37353d17f57af816d1c7ecad0623c21f0bf73eb0c7"
-	  }
-	  ]
-  },
-  "official": false
+    "name": "channels-dvr",
+    "release": "11.2-RELEASE",
+    "artifact": "https://github.com/fancybits/iocage-plugin-channels-dvr.git",
+    "properties": {
+        "nat": 1,
+        "nat_forwards": "tcp(8089:8089)"
+    },
+    "pkgs": [
+        "ftp/curl",
+        "security/ca_root_nss",
+        "security/sudo"
+    ],
+    "packagesite": "http://pkg.cdn.trueos.org/iocage/11.3-RELEASE",
+    "fingerprints": {
+        "iocage-plugins": [
+            {
+                "function": "sha256",
+                "fingerprint": "226efd3a126fb86e71d60a37353d17f57af816d1c7ecad0623c21f0bf73eb0c7"
+            }
+        ]
+    },
+    "official": false
 }
