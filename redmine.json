@@ -21,5 +21,6 @@
             }
         ]
     },
-    "official": true
+    "official": true,
+    "revision": "0"
 }
