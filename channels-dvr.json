@@ -9,7 +9,8 @@
     "pkgs": [
         "ftp/curl",
         "security/ca_root_nss",
-        "security/sudo"
+        "security/sudo",
+        "www/chromium"
     ],
     "packagesite": "http://pkg.cdn.trueos.org/iocage/unstable",
     "fingerprints": {
