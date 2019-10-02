@@ -317,5 +317,13 @@
         "official": true,
         "icon": "https://raw.githubusercontent.com/freenas/iocage-ix-plugins/master/icons/iconik.png",
         "primary_pkg": "iconik_storage_gateway"
+    },
+    "channels-dvr": {
+        "MANIFEST": "channels-dvr.json",
+        "name": "Channels DVR",
+        "icon": "https://getchannels.com/assets/img/icon-1024.png",
+        "description": "DVR server for the Channels apps. Makes digital recordings of broadcast television using HDHomeRun network tuners. (Requires Subscription)",
+        "primary_pkg": "",
+        "official": false
     }
 }
