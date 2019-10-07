@@ -309,7 +309,7 @@
         "description": "Network infrastructure management for small networks: DNS, DHCP, router advertisement, and network boot.",
         "official": false,
         "primary_pkg": "dnsmasq"
-     },
+    },
     "iconik": {
         "MANIFEST": "iconik.json",
         "name": "Iconik",
@@ -326,7 +326,7 @@
         "primary_pkg": "",
         "official": false
     },
-     "rtorrent-flood": {
+    "rtorrent-flood": {
         "MANIFEST": "rtorrent-flood.json",
         "name": "rtorrent-flood",
         "icon": "https://www.trueos.org/iocage-icons/rtorrent-flood.json",
