@@ -309,7 +309,7 @@
         "description": "Network infrastructure management for small networks: DNS, DHCP, router advertisement, and network boot.",
         "official": false,
         "primary_pkg": "dnsmasq"
-     },
+    },
     "iconik": {
         "MANIFEST": "iconik.json",
         "name": "Iconik",
