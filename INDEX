@@ -326,10 +326,10 @@
         "primary_pkg": "",
         "official": false
     },
-     "rtorrent-flood": {
+    "rtorrent-flood": {
         "MANIFEST": "rtorrent-flood.json",
         "name": "rtorrent-flood",
-        "icon": "https://www.trueos.org/iocage-icons/rtorrent-flood.json",
+        "icon": "https://www.trueos.org/iocage-icons/rtorrent-flood.png",
         "description": "rTorrent with Flood web interface (optionally restricted to OpenVPN).",
         "official": false,
         "primary_pkg": "rtorrent"
