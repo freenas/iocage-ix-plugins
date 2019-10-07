@@ -1,12 +1,14 @@
 {
-    "name": "gitlab-runner",
+    "name": "iconik-storage-gateway",
     "release": "11.2-RELEASE",
-    "artifact": "https://github.com/lbivens/iocage-plugin-gitlab-runner.git",
+    "artifact": "https://github.com/freenas/iocage-plugin-iconik-storage-gateway.git",
     "properties": {
-        "dhcp": 1
+        "vnet": 1,
+        "nat": 1,
+        "nat_forwards": "tcp(8000:8000)"
     },
     "pkgs": [
-        "gitlab-runner"
+        "iconik_storage_gateway"
     ],
     "packagesite": "http://pkg.cdn.trueos.org/iocage/unstable",
     "fingerprints": {
