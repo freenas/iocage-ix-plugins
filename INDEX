@@ -183,14 +183,6 @@
         "description": "Automatic video library manager for TV Shows.",
         "official": false
     },
-    "sickrage": {
-        "MANIFEST": "sickrage.json",
-        "name": "SickRage",
-        "primary_pkg": "Git branch - Master",
-        "icon": "https://www.trueos.org/iocage-icons/sickrage.png",
-        "description": "Automatic video library manager for TV shows.",
-        "official": true
-    },
     "tarsnap": {
         "MANIFEST": "tarsnap.json",
         "name": "Tarsnap",
