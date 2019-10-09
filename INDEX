@@ -317,5 +317,13 @@
         "description": "DVR server for the Channels apps. Makes digital recordings of broadcast television using HDHomeRun network tuners. (Requires Subscription)",
         "primary_pkg": "",
         "official": false
+    },
+    "rtorrent-flood": {
+        "MANIFEST": "rtorrent-flood.json",
+        "name": "rtorrent-flood",
+        "icon": "https://raw.githubusercontent.com/freenas/iocage-ix-plugins/master/icons/rtorrent-flood.png",
+        "description": "rTorrent with Flood web interface (optionally restricted to OpenVPN).",
+        "official": false,
+        "primary_pkg": "rtorrent"
     }
 }
