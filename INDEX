@@ -329,7 +329,7 @@
     "rtorrent-flood": {
         "MANIFEST": "rtorrent-flood.json",
         "name": "rtorrent-flood",
-        "icon": "https://www.trueos.org/iocage-icons/rtorrent-flood.png",
+        "icon": "https://raw.githubusercontent.com/freenas/iocage-ix-plugins/master/icons/rtorrent-flood.png",
         "description": "rTorrent with Flood web interface (optionally restricted to OpenVPN).",
         "official": false,
         "primary_pkg": "rtorrent"
