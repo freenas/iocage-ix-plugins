@@ -1,6 +1,6 @@
 {
     "name": "iconik-storage-gateway",
-    "release": "11.2-RELEASE",
+    "release": "11.3-RELEASE",
     "artifact": "https://github.com/freenas/iocage-plugin-iconik-storage-gateway.git",
     "properties": {
         "vnet": 1,
