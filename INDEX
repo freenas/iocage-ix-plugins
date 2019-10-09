@@ -87,14 +87,6 @@
         "description": "Suite of client-server software for creating and using file hosting services.",
         "official": true
     },
-    "openvpn": {
-        "MANIFEST": "openvpn.json",
-        "name": "OpenVPN Server",
-        "primary_pkg": "openvpn",
-        "icon": "http://swupdate.openvpn.net/community/icons/ovpntech_key.png",
-        "description": "Virtual private network software to create secure point-to-point connections.",
-        "official": false
-    },
     "plexmediaserver": {
         "MANIFEST": "plexmediaserver.json",
         "name": "Plex Media Server",
@@ -119,27 +111,11 @@
         "description": "Media center software to easily manage and stream digital media. (Requires Subscription)",
         "official": true
     },
-    "quasselcore": {
-        "MANIFEST": "quasselcore.json",
-        "name": "Quasselcore",
-        "primary_pkg": "quassel-core",
-        "icon": "https://www.trueos.org/iocage-icons/quasselcore.png",
-        "description": "Headless IRC Client that supports 24/7 connectivity. Quassel Client can be attached.",
-        "official": true
-    },
     "subsonic": {
         "MANIFEST": "subsonic.json",
         "name": "SubSonic",
         "primary_pkg": "subsonic-standalone",
         "icon": "https://www.trueos.org/iocage-icons/subsonic.png",
-        "description": "Open source media streaming software and music player.",
-        "official": true
-    },
-    "madsonic": {
-        "MANIFEST": "madsonic.json",
-        "name": "MadSonic",
-        "primary_pkg": "madsonic-standalone",
-        "icon": "https://www.trueos.org/iocage-icons/madsonic.png",
         "description": "Open source media streaming software and music player.",
         "official": true
     },
@@ -175,14 +151,6 @@
         "description": "Fast and lightweight BitTorrent client.",
         "official": true
     },
-    "sickchill": {
-        "MANIFEST": "sickchill.json",
-        "name": "SickChill",
-        "primary_pkg": "Git branch - Master",
-        "icon": "https://www.trueos.org/iocage-icons/sickchill.png",
-        "description": "Automatic video library manager for TV Shows.",
-        "official": false
-    },
     "tarsnap": {
         "MANIFEST": "tarsnap.json",
         "name": "Tarsnap",
@@ -215,36 +183,12 @@
         "description": "Manage, backup, recover, and verify data across a diverse network of computers.",
         "official": true
     },
-    "xmrig": {
-        "MANIFEST": "xmrig.json",
-        "name": "XMRig",
-        "primary_pkg": "xmrig",
-        "icon": "https://www.trueos.org/iocage-icons/xmrig.png",
-        "description": "High performance Monero (XMR) CPU miner written in C++.",
-        "official": true
-    },
     "qbittorrent": {
         "MANIFEST": "qbittorrent.json",
         "name": "qbittorrent",
         "primary_pkg": "qbittorrent-nox",
         "icon": "https://www.trueos.org/iocage-icons/qbittorrent.png",
         "description": "Open source Bittorent client written in C++ and QT.",
-        "official": true
-    },
-    "weechat": {
-        "MANIFEST": "weechat.json",
-        "name": "weechat",
-        "primary_pkg": "weechat",
-        "icon": "https://www.trueos.org/iocage-icons/weechat.png",
-        "description": "Fast and light IRC client.",
-        "official": true
-    },
-    "irssi": {
-        "MANIFEST": "irssi.json",
-        "name": "irssi",
-        "primary_pkg": "irssi",
-        "icon": "https://www.trueos.org/iocage-icons/irssi.png",
-        "description": "Modular IRC client using a CLI interface.",
         "official": true
     },
     "zoneminder": {
@@ -271,37 +215,6 @@
         "description": "Set up and manage Minecraft servers.",
         "official": false
     },
-    "unificontroller": {
-        "MANIFEST": "unificontroller.json",
-        "name": "unificontroller",
-        "primary_pkg": "unifi5",
-        "icon": "https://www.trueos.org/iocage-icons/unificontroller.png",
-        "description": "Software-Defined Networking platform that provides an end-to-end system of network devices across different locations.",
-        "official": false
-    },
-    "unificontroller-lts": {
-        "MANIFEST": "unificontroller-lts.json",
-        "name": "unificontroller-lts",
-        "primary_pkg": "unifi-lts",
-        "icon": "https://www.trueos.org/iocage-icons/unificontroller.png",
-        "description": "Software-Defined Networking platform that provides an end-to-end system of network devices across different locations. (Long term support version)",
-        "official": false
-    },
-    "homebridge": {
-        "MANIFEST": "homebridge.json",
-        "name": "Homebridge",
-        "icon": "https://camo.githubusercontent.com/97c6fb19fc469358ceada9d9abd96fa65fc14a0f/68747470733a2f2f636c2e6c792f3939653638616334396365662f4c6f676f32782e706e67",
-        "description": "Lightweight iOS HomeKit API emulator. Enables adding unsupported devices to HomeKit.",
-        "offical": false
-    },
-    "dnsmasq": {
-        "MANIFEST": "dnsmasq.json",
-        "name": "Dnsmasq",
-        "icon": "https://www.trueos.org/iocage-icons/dnsmasq.png",
-        "description": "Network infrastructure management for small networks: DNS, DHCP, router advertisement, and network boot.",
-        "official": false,
-        "primary_pkg": "dnsmasq"
-    },
     "iconik": {
         "MANIFEST": "iconik.json",
         "name": "Iconik",
@@ -309,21 +222,5 @@
         "official": true,
         "icon": "https://raw.githubusercontent.com/freenas/iocage-ix-plugins/master/icons/iconik.png",
         "primary_pkg": "iconik_storage_gateway"
-    },
-    "channels-dvr": {
-        "MANIFEST": "channels-dvr.json",
-        "name": "Channels DVR",
-        "icon": "https://getchannels.com/assets/img/icon-1024.png",
-        "description": "DVR server for the Channels apps. Makes digital recordings of broadcast television using HDHomeRun network tuners. (Requires Subscription)",
-        "primary_pkg": "",
-        "official": false
-    },
-    "rtorrent-flood": {
-        "MANIFEST": "rtorrent-flood.json",
-        "name": "rtorrent-flood",
-        "icon": "https://raw.githubusercontent.com/freenas/iocage-ix-plugins/master/icons/rtorrent-flood.png",
-        "description": "rTorrent with Flood web interface (optionally restricted to OpenVPN).",
-        "official": false,
-        "primary_pkg": "rtorrent"
     }
 }
