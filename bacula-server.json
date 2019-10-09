@@ -1,7 +1,7 @@
 {
     "name": "Bacula-server",
     "plugin_schema": "2",
-    "release": "11.2-RELEASE",
+    "release": "11.3-RELEASE",
     "artifact": "https://github.com/freenas/iocage-plugin-bacula-server.git",
     "properties": {
         "nat": 1,

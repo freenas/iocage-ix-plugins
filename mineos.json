@@ -1,6 +1,6 @@
 {
     "name": "mineos",
-    "release": "11.2-RELEASE",
+    "release": "11.3-RELEASE",
     "artifact": "https://github.com/jsegaert/iocage-plugin-mineos.git",
     "properties": {
         "mount_procfs": 1,

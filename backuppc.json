@@ -1,6 +1,6 @@
 {
     "name": "BackupPC",
-    "release": "11.2-RELEASE",
+    "release": "11.3-RELEASE",
     "artifact": "https://github.com/freenas/iocage-plugin-backuppc.git",
     "properties": {
         "nat": 1,

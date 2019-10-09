@@ -1,6 +1,6 @@
 {
     "name": "Tautulli",
-    "release": "11.2-RELEASE",
+    "release": "11.3-RELEASE",
     "artifact": "https://github.com/arcooke/iocage-plugin-tautulli.git",
     "properties": {
         "nat": 1,

@@ -1,6 +1,6 @@
 {
     "name": "jenkins",
-    "release": "11.2-RELEASE",
+    "release": "11.3-RELEASE",
     "artifact": "https://github.com/freenas/iocage-plugin-jenkins.git",
     "properties": {
         "nat": 1,
