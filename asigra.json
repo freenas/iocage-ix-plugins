@@ -1,16 +1,18 @@
 {
     "name": "asigra",
     "release": "11.2-RELEASE",
-    "artifact": "https://github.com/freenas/iocage-plugin-asigra.git",
+    "artifact": "https://github.com/ix-plugin-hub/iocage-plugin-asigra.git",
     "pkgs": [
-        "ca_root_nss",
-        "postgresql96-client",
         "postgresql96-server",
-        "unzip",
+        "postgresql96-client",
+        "postgresql96-contrib",
+        "postgresql96-plpython",
+        "ca_root_nss",
         "nss_ldap",
-        "openldap-client",
         "pam_ldap",
-        "nginx"
+        "nginx",
+        "dsoperator",
+        "dssystem"
     ],
     "properties": {
         "mount_devfs": 1,
@@ -22,6 +24,7 @@
         "sysvmsg": "new",
         "sysvsem": "new",
         "sysvshm": "new",
+        "vnet": 1,
         "dhcp": 1
     },
     "packagesite": "http://pkg.cdn.trueos.org/iocage/11.3-RELEASE",
@@ -33,5 +36,6 @@
             }
         ]
     },
-    "official": true
+    "official": true,
+    "revision": "0"
 }
