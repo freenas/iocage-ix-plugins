@@ -18,6 +18,8 @@
             }
         ]
     },
+    "primary_pkg": "rslsync",
     "official": true,
+    "category": "content",
     "revision": "0"
 }

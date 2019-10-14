@@ -19,6 +19,8 @@
             }
         ]
     },
+    "primary_pkg": "jenkins-lts",
     "official": true,
+    "category": "devops",
     "revision": "0"
 }

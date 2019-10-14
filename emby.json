@@ -19,6 +19,8 @@
             }
         ]
     },
+    "primary_pkg": "emby-server",
     "official": true,
+    "category": "entertainment",
     "revision": "0"
 }

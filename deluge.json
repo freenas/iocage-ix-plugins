@@ -19,6 +19,8 @@
             }
         ]
     },
+    "primary_pkg": "deluge-cli",
     "official": true,
+    "category": "content",
     "revision": "0"
 }

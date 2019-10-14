@@ -19,6 +19,8 @@
             }
         ]
     },
+    "primary_pkg": "plexmediaserver-plexpass",
     "official": true,
+    "category": "entertainment",
     "revision": "0"
 }

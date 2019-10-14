@@ -17,6 +17,8 @@
             }
         ]
     },
+    "primary_pkg": "gitlab-runner",
     "official": true,
-    "revision": "0"
+    "revision": "0",
+    "category": "devops"
 }

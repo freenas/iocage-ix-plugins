@@ -17,5 +17,6 @@
         ]
     },
     "official": true,
+    "category": "backup",
     "revision": "0"
 }

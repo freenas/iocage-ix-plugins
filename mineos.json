@@ -31,6 +31,8 @@
             }
         ]
     },
+    "primary_pkg": "Git branch - Master",
     "official": false,
+    "category": "entertainment",
     "revision": "0"
 }

@@ -19,6 +19,8 @@
             }
         ]
     },
+    "primary_pkg": "couchpotato",
     "official": true,
+    "category": "content",
     "revision": "0"
 }

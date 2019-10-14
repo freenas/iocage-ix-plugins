@@ -21,6 +21,8 @@
             }
         ]
     },
+    "primary_pkg": "redmine",
     "official": true,
+    "category": "devops",
     "revision": "0"
 }
