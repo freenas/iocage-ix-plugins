@@ -11,7 +11,8 @@
         "gtar"
     ],
     "properties": {
-        "allow_sysvipc": 1
+        "allow_sysvipc": 1,
+        "dhcp": 1
     },
     "packagesite": "http://pkg.cdn.trueos.org/iocage/gitlab/11.2-Release",
     "fingerprints": {

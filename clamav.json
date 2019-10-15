@@ -2,6 +2,9 @@
     "name": "ClamAV",
     "release": "11.3-RELEASE",
     "artifact": "https://github.com/freenas/iocage-plugin-clamav.git",
+    "properties": {
+        "nat": 1
+    },
     "pkgs": [
         "clamav"
     ],
