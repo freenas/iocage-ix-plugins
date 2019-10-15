@@ -3,6 +3,9 @@
     "plugin_schema": "2",
     "release": "11.3-RELEASE",
     "artifact": "https://github.com/freenas/iocage-plugin-tarsnap.git",
+    "properties": {
+        "nat": 1
+    },
     "pkgs": [
         "tarsnap"
     ],
