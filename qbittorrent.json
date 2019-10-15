@@ -4,7 +4,7 @@
     "release": "11.3-RELEASE",
     "artifact": "https://github.com/freenas/iocage-plugin-qbittorrent.git",
     "properties": {
-        "vnet": 1
+        "dhcp": 1
     },
     "pkgs": [
         "qbittorrent-nox"
