@@ -18,7 +18,6 @@
             }
         ]
     },
-    "primary_pkg": "radarr",
     "category": "content",
     "revision": "0"
 }

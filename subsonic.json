@@ -18,7 +18,6 @@
             }
         ]
     },
-    "primary_pkg": "subsonic-standalone",
     "category": "content",
     "revision": "0"
 }

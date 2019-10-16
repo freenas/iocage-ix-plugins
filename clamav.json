@@ -17,7 +17,6 @@
             }
         ]
     },
-    "primary_pkg": "clamav",
     "category": "security",
     "revision": "0"
 }

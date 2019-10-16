@@ -35,7 +35,6 @@
             }
         ]
     },
-    "primary_pkg": "dssystem",
     "category": "backup",
     "revision": "0"
 }

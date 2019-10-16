@@ -19,7 +19,6 @@
             }
         ]
     },
-    "primary_pkg": "backuppc4",
     "category": "security",
     "revision": "0"
 }

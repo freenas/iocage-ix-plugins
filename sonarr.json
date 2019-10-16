@@ -19,7 +19,6 @@
             }
         ]
     },
-    "primary_pkg": "sonarr",
     "category": "content",
     "revision": "0"
 }
