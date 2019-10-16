@@ -19,6 +19,7 @@
             }
         ]
     },
-    "official": true,
+    "primary_pkg": "jenkins",
+    "category": "devops",
     "revision": "0"
 }

@@ -21,6 +21,7 @@
             }
         ]
     },
-    "official": true,
+    "primary_pkg": "nextcloud-php71",
+    "category": "collaboration",
     "revision": "0"
 }

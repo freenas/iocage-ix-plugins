@@ -19,6 +19,7 @@
             }
         ]
     },
-    "official": true,
+    "primary_pkg": "plexmediaserver",
+    "category": "entertainment",
     "revision": "0"
 }

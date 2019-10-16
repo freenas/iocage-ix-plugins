@@ -20,6 +20,7 @@
             }
         ]
     },
-    "official": true,
+    "primary_pkg": "syncthing",
+    "category": "collaboration",
     "revision": "0"
 }

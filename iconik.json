@@ -18,6 +18,7 @@
             }
         ]
     },
-    "official": true,
+    "primary_pkg": "iconik_storage_gateway",
+    "category": "collaboration",
     "revision": "0"
 }
