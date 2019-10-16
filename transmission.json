@@ -20,7 +20,6 @@
             }
         ]
     },
-    "primary_pkg": "transmission-daemon",
     "category": "content",
     "revision": "0"
 }

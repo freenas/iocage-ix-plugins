@@ -22,7 +22,6 @@
             }
         ]
     },
-    "primary_pkg": "zoneminder",
     "category": "security",
     "revision": "0"
 }
