@@ -5,7 +5,8 @@
         "icon": "https://www.trueos.org/iocage-icons/asigra.png",
         "description": "Full-featured backup solution fully integrated into FreeNAS. (Requires Subscription)",
         "official": true,
-        "primary_pkg": "dssystem"
+        "primary_pkg": "dssystem",
+        "category": "backup"
     },
     "rslsync": {
         "MANIFEST": "rslsync.json",
@@ -13,7 +14,8 @@
         "icon": "https://www.trueos.org/iocage-icons/btsync.png",
         "description": "Fast and scalable file sync software for home and business.",
         "official": true,
-        "primary_pkg": "rslsync"
+        "primary_pkg": "rslsync",
+        "category": "content"
     },
     "backuppc": {
         "MANIFEST": "backuppc.json",
@@ -21,7 +23,8 @@
         "icon": "https://www.trueos.org/iocage-icons/backuppc.png",
         "description": "Enterprise-grade system for backing up Linux, Windows, and MacOSX computers to a server.",
         "official": true,
-        "primary_pkg": "backuppc4"
+        "primary_pkg": "backuppc4",
+        "category": "security"
     },
     "clamav": {
         "MANIFEST": "clamav.json",
@@ -29,7 +32,8 @@
         "icon": "https://www.trueos.org/iocage-icons/clamav.png",
         "description": "Open source antivirus engine for detecting trojans, viruses, malware, and other malicious threats.",
         "official": true,
-        "primary_pkg": "clamav"
+        "primary_pkg": "clamav",
+        "category": "security"
     },
     "couchpotato": {
         "MANIFEST": "couchpotato.json",
@@ -37,7 +41,8 @@
         "icon": "https://www.trueos.org/iocage-icons/couchpotato.png",
         "description": "Automatic NZB and torrent downloader.",
         "official": true,
-        "primary_pkg": "couchpotato"
+        "primary_pkg": "couchpotato",
+        "category": "content"
     },
     "emby": {
         "MANIFEST": "emby.json",
@@ -45,7 +50,8 @@
         "icon": "https://www.trueos.org/iocage-icons/emby.png",
         "description": "Home media server to organize, play, and stream audio and video to a variety of devices.",
         "official": true,
-        "primary_pkg": "emby-server"
+        "primary_pkg": "emby-server",
+        "category": "entertainment"
     },
     "gitlab": {
         "MANIFEST": "gitlab.json",
@@ -53,7 +59,8 @@
         "icon": "https://www.trueos.org/iocage-icons/gitlab.png",
         "description": "DevOps lifecycle tool that provides a Git repository manager providing wiki, issue-tracking, and CI/CD pipeline features.",
         "official": true,
-        "primary_pkg": "gitlab-ce"
+        "primary_pkg": "gitlab-ce",
+        "category": "devops"
     },
     "gitlab-runner": {
         "MANIFEST": "gitlab-runner.json",
@@ -61,7 +68,8 @@
         "icon": "https://www.trueos.org/iocage-icons/gitlab.png",
         "description": "Run jobs and send results back to GitLab. Used in conjunction with GitLab CI.",
         "official": false,
-        "primary_pkg": "gitlab-runner"
+        "primary_pkg": "gitlab-runner",
+        "category": "devops"
     },
     "jenkins": {
         "MANIFEST": "jenkins.json",
@@ -69,7 +77,8 @@
         "icon": "https://www.trueos.org/iocage-icons/jenkins.png",
         "description": "Open source build automation software.",
         "official": true,
-        "primary_pkg": "jenkins"
+        "primary_pkg": "jenkins",
+        "category": "devops"
     },
     "jenkins-lts": {
         "MANIFEST": "jenkins-lts.json",
@@ -77,7 +86,8 @@
         "icon": "https://www.trueos.org/iocage-icons/jenkins.png",
         "description": "Open source build automation software. (Long Term Support Version)",
         "official": true,
-        "primary_pkg": "jenkins-lts"
+        "primary_pkg": "jenkins-lts",
+        "category": "devops"
     },
     "nextcloud": {
         "MANIFEST": "nextcloud.json",
@@ -85,7 +95,8 @@
         "icon": "https://www.trueos.org/iocage-icons/nextcloud.png",
         "description": "Suite of client-server software for creating and using file hosting services.",
         "official": true,
-        "primary_pkg": "nextcloud-php71"
+        "primary_pkg": "nextcloud-php71",
+        "category": "collaboration"
     },
     "plexmediaserver": {
         "MANIFEST": "plexmediaserver.json",
@@ -93,7 +104,8 @@
         "icon": "https://www.trueos.org/iocage-icons/plex.png",
         "description": "Media center software to easily manage and stream digital media.",
         "official": true,
-        "primary_pkg": "plexmediaserver"
+        "primary_pkg": "plexmediaserver",
+        "category": "entertainment"
     },
     "redmine": {
         "MANIFEST": "redmine.json",
@@ -101,7 +113,8 @@
         "icon": "https://www.trueos.org/iocage-icons/redmine.png",
         "description": "Open source ticket management software to track bugs and feature requests.",
         "official": true,
-        "primary_pkg": "redmine"
+        "primary_pkg": "redmine",
+        "category": "devops"
     },
     "plexmediaserver-plexpass": {
         "MANIFEST": "plexmediaserver-plexpass.json",
@@ -109,7 +122,8 @@
         "icon": "https://www.trueos.org/iocage-icons/plex.png",
         "description": "Media center software to easily manage and stream digital media. (Requires Subscription)",
         "official": true,
-        "primary_pkg": "plexmediaserver-plexpass"
+        "primary_pkg": "plexmediaserver-plexpass",
+        "category": "entertainment"
     },
     "subsonic": {
         "MANIFEST": "subsonic.json",
@@ -117,7 +131,8 @@
         "icon": "https://www.trueos.org/iocage-icons/subsonic.png",
         "description": "Open source media streaming software and music player.",
         "official": true,
-        "primary_pkg": "subsonic-standalone"
+        "primary_pkg": "subsonic-standalone",
+        "category": "content"
     },
     "syncthing": {
         "MANIFEST": "syncthing.json",
@@ -125,7 +140,8 @@
         "icon": "https://www.trueos.org/iocage-icons/syncthing.png",
         "description": "Open source, peer-to-peer file synchronization application available for many operating systems.",
         "official": true,
-        "primary_pkg": "syncthing"
+        "primary_pkg": "syncthing",
+        "category": "collaboration"
     },
     "deluge": {
         "MANIFEST": "deluge.json",
@@ -133,7 +149,8 @@
         "icon": "https://www.trueos.org/iocage-icons/deluge.png",
         "description": "Python-based Bittorent client.",
         "official": true,
-        "primary_pkg": "deluge-cli"
+        "primary_pkg": "deluge-cli",
+        "category": "content"
     },
     "sonarr": {
         "MANIFEST": "sonarr.json",
@@ -141,7 +158,8 @@
         "icon": "https://www.trueos.org/iocage-icons/sonarr.png",
         "description": "Multi-platform app to search, download, and manage TV shows.",
         "official": true,
-        "primary_pkg": "sonarr"
+        "primary_pkg": "sonarr",
+        "category": "content"
     },
     "transmission": {
         "MANIFEST": "transmission.json",
@@ -149,7 +167,8 @@
         "icon": "https://www.trueos.org/iocage-icons/transmission.png",
         "description": "Fast and lightweight BitTorrent client.",
         "official": true,
-        "primary_pkg": "transmission-daemon"
+        "primary_pkg": "transmission-daemon",
+        "category": "content"
     },
     "tarsnap": {
         "MANIFEST": "tarsnap.json",
@@ -157,7 +176,8 @@
         "icon": "https://www.trueos.org/iocage-icons/tarsnap.png",
         "description": "Secure online backup service for UNIX-like operating systems.",
         "official": true,
-        "primary_pkg": "tarsnap"
+        "primary_pkg": "tarsnap",
+        "category": "backup"
     },
     "tautulli": {
         "MANIFEST": "tautulli.json",
@@ -165,16 +185,18 @@
         "icon": "https://www.trueos.org/iocage-icons/tautulli.png",
         "description": "Monitors analytics and notifications for Plex Media Server. (formerly known as PlexPy)",
         "official": false,
-        "primary_pkg": "Git branch - Master"
+        "primary_pkg": "Git branch - Master",
+        "category": "entertainment"
     },
     "bru-server": {
         "MANIFEST": "bru-server.json",
         "name": "BRU Server",
         "icon": "https://www.trueos.org/iocage-icons/bru-server.png",
-        "description": "BRU Server\u2122 Backup and Recovery Software by TOLIS Group, Inc.",
+        "description": "BRU Server™ Backup and Recovery Software by TOLIS Group, Inc.",
         "license": "https://raw.githubusercontent.com/freenas/iocage-plugin-bru-server/master/bru-license",
         "official": true,
-        "primary_pkg": null
+        "primary_pkg": null,
+        "category": "backup"
     },
     "bacula-server": {
         "MANIFEST": "bacula-server.json",
@@ -182,7 +204,8 @@
         "icon": "https://www.trueos.org/iocage-icons/bacula-server.png",
         "description": "Manage, backup, recover, and verify data across a diverse network of computers.",
         "official": true,
-        "primary_pkg": "bacula9-server"
+        "primary_pkg": "bacula9-server",
+        "category": "backup"
     },
     "qbittorrent": {
         "MANIFEST": "qbittorrent.json",
@@ -190,7 +213,8 @@
         "icon": "https://www.trueos.org/iocage-icons/qbittorrent.png",
         "description": "Open source Bittorent client written in C++ and QT.",
         "official": true,
-        "primary_pkg": "qbittorrent-nox"
+        "primary_pkg": "qbittorrent-nox",
+        "category": "content"
     },
     "zoneminder": {
         "MANIFEST": "zoneminder.json",
@@ -198,7 +222,8 @@
         "icon": "https://www.trueos.org/iocage-icons/zoneminder.png",
         "description": "Closed-circuit television management application which supports IP, USB, and analog cameras.",
         "official": true,
-        "primary_pkg": "zoneminder"
+        "primary_pkg": "zoneminder",
+        "category": "security"
     },
     "radarr": {
         "MANIFEST": "radarr.json",
@@ -206,7 +231,8 @@
         "icon": "https://www.trueos.org/iocage-icons/radarr.png",
         "description": "Fork of Sonarr. Automatically download movies in the style of Couchpotato.",
         "official": true,
-        "primary_pkg": "radarr"
+        "primary_pkg": "radarr",
+        "category": "content"
     },
     "mineos": {
         "MANIFEST": "mineos.json",
@@ -214,7 +240,8 @@
         "icon": "https://www.trueos.org/iocage-icons/mineos.png",
         "description": "Set up and manage Minecraft servers.",
         "official": false,
-        "primary_pkg": "Git branch - Master"
+        "primary_pkg": "Git branch - Master",
+        "category": "entertainment"
     },
     "iconik": {
         "MANIFEST": "iconik.json",
@@ -222,6 +249,7 @@
         "description": "Streamlines media asset management by making local and cloud-based assets discoverable from a single interface.",
         "official": true,
         "icon": "https://raw.githubusercontent.com/freenas/iocage-ix-plugins/master/icons/iconik.png",
-        "primary_pkg": "iconik_storage_gateway"
+        "primary_pkg": "iconik_storage_gateway",
+        "category": "collaboration"
     }
 }
