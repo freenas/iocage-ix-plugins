@@ -23,7 +23,6 @@
         ]
     },
     "primary_pkg": "zoneminder",
-    "official": true,
     "category": "security",
     "revision": "0"
 }

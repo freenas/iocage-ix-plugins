@@ -19,7 +19,6 @@
         ]
     },
     "primary_pkg": "radarr",
-    "official": true,
     "category": "content",
     "revision": "0"
 }

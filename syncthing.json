@@ -21,7 +21,6 @@
         ]
     },
     "primary_pkg": "syncthing",
-    "official": true,
     "category": "collaboration",
     "revision": "0"
 }

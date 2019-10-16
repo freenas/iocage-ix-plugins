@@ -19,7 +19,6 @@
         ]
     },
     "primary_pkg": "tarsnap",
-    "official": true,
     "category": "backup",
     "revision": "0"
 }

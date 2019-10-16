@@ -19,7 +19,6 @@
         ]
     },
     "primary_pkg": "qbittorrent-nox",
-    "official": true,
     "category": "content",
     "revision": "0"
 }

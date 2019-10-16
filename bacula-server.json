@@ -22,7 +22,6 @@
         ]
     },
     "primary_pkg": "bacula9-server",
-    "official": true,
     "category": "backup",
     "revision": "0"
 }

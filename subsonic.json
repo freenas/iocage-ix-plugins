@@ -19,7 +19,6 @@
         ]
     },
     "primary_pkg": "subsonic-standalone",
-    "official": true,
     "category": "content",
     "revision": "0"
 }

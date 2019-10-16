@@ -24,7 +24,6 @@
         ]
     },
     "primary_pkg": "gitlab-ce",
-    "official": true,
     "category": "devops",
     "revision": "0"
 }
