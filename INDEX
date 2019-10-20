@@ -279,5 +279,15 @@
         "primary_pkg": "iconik_storage_gateway",
         "category": "collaboration",
         "maintainer": "iXsystems <dev@ixsystems.com>"
+    },
+    "quark": {
+        "MANIFEST": "quark.json",
+        "name": "quark",
+        "description": "quark is an extremely small and simple HTTP GET/HEAD-only web server for static content.",
+        "official": false,
+        "icon": "https://raw.githubusercontent.com/freenas/iocage-ix-plugins/master/icons/quark.png",
+        "primary_pkg": "quark",
+        "category": "content",
+        "maintainer": "BieHDC <github.com/BieHDC/iocage-plugin-quark/>"
     }
 }
