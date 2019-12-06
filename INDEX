@@ -7,7 +7,8 @@
         "official": true,
         "primary_pkg": "dssystem",
         "category": "backup",
-        "maintainer": "iXsystems <dev@ixsystems.com>"
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://www.asigra.com/"
     },
     "rslsync": {
         "MANIFEST": "rslsync.json",
@@ -17,7 +18,8 @@
         "official": true,
         "primary_pkg": "rslsync",
         "category": "content",
-        "maintainer": "iXsystems <dev@ixsystems.com>"
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://www.resilio.com/"
     },
     "backuppc": {
         "MANIFEST": "backuppc.json",
@@ -27,7 +29,8 @@
         "official": true,
         "primary_pkg": "backuppc4",
         "category": "security",
-        "maintainer": "iXsystems <dev@ixsystems.com>"
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "http://backuppc.sourceforge.net/"
     },
     "clamav": {
         "MANIFEST": "clamav.json",
@@ -37,7 +40,8 @@
         "official": true,
         "primary_pkg": "clamav",
         "category": "security",
-        "maintainer": "iXsystems <dev@ixsystems.com>"
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://www.clamav.net/"
     },
     "couchpotato": {
         "MANIFEST": "couchpotato.json",
@@ -47,7 +51,8 @@
         "official": true,
         "primary_pkg": "couchpotato",
         "category": "content",
-        "maintainer": "iXsystems <dev@ixsystems.com>"
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://couchpota.to/"
     },
     "emby": {
         "MANIFEST": "emby.json",
@@ -57,7 +62,8 @@
         "official": true,
         "primary_pkg": "emby-server",
         "category": "entertainment",
-        "maintainer": "iXsystems <dev@ixsystems.com>"
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://emby.media/"
     },
     "gitlab": {
         "MANIFEST": "gitlab.json",
@@ -67,7 +73,8 @@
         "official": true,
         "primary_pkg": "gitlab-ce",
         "category": "devops",
-        "maintainer": "iXsystems <dev@ixsystems.com>"
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://about.gitlab.com/"
     },
     "gitlab-runner": {
         "MANIFEST": "gitlab-runner.json",
@@ -77,7 +84,8 @@
         "official": false,
         "primary_pkg": "gitlab-runner",
         "category": "devops",
-        "maintainer": "iXsystems <dev@ixsystems.com>"
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://about.gitlab.com/"
     },
     "jenkins": {
         "MANIFEST": "jenkins.json",
@@ -87,7 +95,8 @@
         "official": true,
         "primary_pkg": "jenkins",
         "category": "devops",
-        "maintainer": "iXsystems <dev@ixsystems.com>"
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://jenkins.io/"
     },
     "jenkins-lts": {
         "MANIFEST": "jenkins-lts.json",
@@ -97,7 +106,8 @@
         "official": true,
         "primary_pkg": "jenkins-lts",
         "category": "devops",
-        "maintainer": "iXsystems <dev@ixsystems.com>"
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://jenkins.io/"
     },
     "nextcloud": {
         "MANIFEST": "nextcloud.json",
@@ -107,7 +117,8 @@
         "official": true,
         "primary_pkg": "nextcloud-php71",
         "category": "collaboration",
-        "maintainer": "iXsystems <dev@ixsystems.com>"
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://nextcloud.com/"
     },
     "plexmediaserver": {
         "MANIFEST": "plexmediaserver.json",
@@ -117,7 +128,8 @@
         "official": true,
         "primary_pkg": "plexmediaserver",
         "category": "entertainment",
-        "maintainer": "iXsystems <dev@ixsystems.com>"
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://www.plex.tv/"
     },
     "redmine": {
         "MANIFEST": "redmine.json",
@@ -127,7 +139,8 @@
         "official": true,
         "primary_pkg": "redmine",
         "category": "devops",
-        "maintainer": "iXsystems <dev@ixsystems.com>"
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "http://www.redmine.org/"
     },
     "plexmediaserver-plexpass": {
         "MANIFEST": "plexmediaserver-plexpass.json",
@@ -137,7 +150,8 @@
         "official": true,
         "primary_pkg": "plexmediaserver-plexpass",
         "category": "entertainment",
-        "maintainer": "iXsystems <dev@ixsystems.com>"
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://www.plex.tv/plex-pass/"
     },
     "subsonic": {
         "MANIFEST": "subsonic.json",
@@ -147,7 +161,8 @@
         "official": true,
         "primary_pkg": "subsonic-standalone",
         "category": "content",
-        "maintainer": "iXsystems <dev@ixsystems.com>"
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "http://www.subsonic.org/pages/index.jsp"
     },
     "syncthing": {
         "MANIFEST": "syncthing.json",
@@ -157,7 +172,8 @@
         "official": true,
         "primary_pkg": "syncthing",
         "category": "collaboration",
-        "maintainer": "iXsystems <dev@ixsystems.com>"
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://syncthing.net/"
     },
     "deluge": {
         "MANIFEST": "deluge.json",
@@ -167,7 +183,8 @@
         "official": true,
         "primary_pkg": "deluge-cli",
         "category": "content",
-        "maintainer": "iXsystems <dev@ixsystems.com>"
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://deluge-torrent.org/"
     },
     "sonarr": {
         "MANIFEST": "sonarr.json",
@@ -177,7 +194,8 @@
         "official": true,
         "primary_pkg": "sonarr",
         "category": "content",
-        "maintainer": "iXsystems <dev@ixsystems.com>"
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://sonarr.tv/"
     },
     "transmission": {
         "MANIFEST": "transmission.json",
@@ -187,7 +205,8 @@
         "official": true,
         "primary_pkg": "transmission-daemon",
         "category": "content",
-        "maintainer": "iXsystems <dev@ixsystems.com>"
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://transmissionbt.com/"
     },
     "tarsnap": {
         "MANIFEST": "tarsnap.json",
@@ -197,7 +216,8 @@
         "official": true,
         "primary_pkg": "tarsnap",
         "category": "backup",
-        "maintainer": "iXsystems <dev@ixsystems.com>"
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://www.tarsnap.com/"
     },
     "tautulli": {
         "MANIFEST": "tautulli.json",
@@ -207,7 +227,8 @@
         "official": false,
         "primary_pkg": "Git branch - Master",
         "category": "entertainment",
-        "maintainer": "iXsystems <dev@ixsystems.com>"
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://tautulli.com/"
     },
     "bru-server": {
         "MANIFEST": "bru-server.json",
@@ -218,7 +239,8 @@
         "official": true,
         "primary_pkg": null,
         "category": "backup",
-        "maintainer": "iXsystems <dev@ixsystems.com>"
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "http://www.tolisgroup.com/client-server-cross-platform-backup.html"
     },
     "bacula-server": {
         "MANIFEST": "bacula-server.json",
@@ -228,7 +250,8 @@
         "official": true,
         "primary_pkg": "bacula9-server",
         "category": "backup",
-        "maintainer": "iXsystems <dev@ixsystems.com>"
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://www.baculasystems.com/"
     },
     "qbittorrent": {
         "MANIFEST": "qbittorrent.json",
@@ -238,7 +261,8 @@
         "official": true,
         "primary_pkg": "qbittorrent-nox",
         "category": "content",
-        "maintainer": "iXsystems <dev@ixsystems.com>"
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "http://qbittorrent.org/"
     },
     "zoneminder": {
         "MANIFEST": "zoneminder.json",
@@ -248,7 +272,8 @@
         "official": true,
         "primary_pkg": "zoneminder",
         "category": "security",
-        "maintainer": "iXsystems <dev@ixsystems.com>"
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://zoneminder.com/"
     },
     "radarr": {
         "MANIFEST": "radarr.json",
@@ -258,7 +283,8 @@
         "official": true,
         "primary_pkg": "radarr",
         "category": "content",
-        "maintainer": "iXsystems <dev@ixsystems.com>"
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://radarr.video/"
     },
     "mineos": {
         "MANIFEST": "mineos.json",
@@ -268,7 +294,8 @@
         "official": false,
         "primary_pkg": "Git branch - Master",
         "category": "entertainment",
-        "maintainer": "iXsystems <dev@ixsystems.com>"
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://minecraft.codeemo.com/"
     },
     "iconik": {
         "MANIFEST": "iconik.json",
@@ -278,6 +305,7 @@
         "icon": "https://raw.githubusercontent.com/freenas/iocage-ix-plugins/master/icons/iconik.png",
         "primary_pkg": "iconik_storage_gateway",
         "category": "collaboration",
-        "maintainer": "iXsystems <dev@ixsystems.com>"
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://iconik.io/"
     }
 }
