@@ -8,7 +8,7 @@
         "primary_pkg": "dssystem",
         "category": "backup"
     },
-  "rslsync": {
+    "rslsync": {
         "MANIFEST": "rslsync.json",
         "name": "Resilio Sync",
         "icon": "https://www.trueos.org/iocage-icons/btsync.png",
