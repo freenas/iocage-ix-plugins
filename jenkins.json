@@ -1,19 +1,23 @@
 {
-  "name": "jenkins",
-  "release": "11.2-RELEASE",
-  "artifact": "https://github.com/freenas/iocage-plugin-jenkins.git",
-  "pkgs": [
-    "jenkins",
-    "nginx"
-  ],
-  "packagesite": "http://pkg.cdn.trueos.org/iocage/11.3-RELEASE",
-  "fingerprints": {
-	  "iocage-plugins": [
-		  {
-		  "function": "sha256",
-		  "fingerprint": "226efd3a126fb86e71d60a37353d17f57af816d1c7ecad0623c21f0bf73eb0c7"
-	  }
-	  ]
-  },
-  "official": true
+    "name": "jenkins",
+    "release": "11.3-RELEASE",
+    "artifact": "https://github.com/freenas/iocage-plugin-jenkins.git",
+    "properties": {
+        "nat": 1,
+        "nat_forwards": "tcp(80:8585)"
+    },
+    "pkgs": [
+        "jenkins",
+        "nginx"
+    ],
+    "packagesite": "http://pkg.cdn.trueos.org/iocage/11.3-RELEASE",
+    "fingerprints": {
+        "iocage-plugins": [
+            {
+                "function": "sha256",
+                "fingerprint": "226efd3a126fb86e71d60a37353d17f57af816d1c7ecad0623c21f0bf73eb0c7"
+            }
+        ]
+    },
+    "revision": "0"
 }

@@ -1,16 +1,13 @@
 {
-    "name": "Zoneminder",
-    "plugin_schema": "2",
+    "name": "iconik-storage-gateway",
     "release": "11.3-RELEASE",
-    "artifact": "https://github.com/freenas/iocage-plugin-zoneminder.git",
+    "artifact": "https://github.com/freenas/iocage-plugin-iconik-storage-gateway.git",
     "properties": {
-        "dhcp": 1
+        "nat": 1,
+        "nat_forwards": "tcp(8000:8000)"
     },
     "pkgs": [
-        "zoneminder",
-        "fcgiwrap",
-        "nginx",
-        "mysql56-server"
+        "iconik_storage_gateway"
     ],
     "packagesite": "http://pkg.cdn.trueos.org/iocage/11.3-RELEASE",
     "fingerprints": {
