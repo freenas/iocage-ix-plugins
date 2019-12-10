@@ -7,7 +7,8 @@
         "dhcp": 1
     },
     "pkgs": [
-        "qbittorrent-nox"
+        "qbittorrent-nox",
+        "lang/python3"
     ],
     "packagesite": "http://pkg.cdn.trueos.org/iocage/11.3-RELEASE",
     "fingerprints": {
