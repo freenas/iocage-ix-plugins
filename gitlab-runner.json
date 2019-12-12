@@ -1,7 +1,7 @@
 {
     "name": "gitlab-runner",
     "release": "11.3-RELEASE",
-    "artifact": "https://github.com/lbivens/iocage-plugin-gitlab-runner.git",
+    "artifact": "https://github.com/ix-plugin-hub/iocage-plugin-gitlab-runner.git",
     "properties": {
         "dhcp": 1
     },
