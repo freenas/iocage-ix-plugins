@@ -131,9 +131,9 @@
     },
     "plexmediaserver-plexpass": {
         "MANIFEST": "plexmediaserver-plexpass.json",
-        "name": "Plex Media Server (PlexPass)",
+        "name": "Plex Media Server (Beta)",
         "icon": "https://www.trueos.org/iocage-icons/plex.png",
-        "description": "Media center software to easily manage and stream digital media. (Requires Subscription)",
+        "description": "Media center software to easily manage and stream digital media. (Requires Plex Pass Subscription)",
         "official": true,
         "primary_pkg": "plexmediaserver-plexpass",
         "category": "entertainment",
