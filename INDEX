@@ -3,7 +3,7 @@
         "MANIFEST": "asigra.json",
         "name": "Asigra Backup",
         "icon": "https://www.trueos.org/iocage-icons/asigra.png",
-        "description": "Full-featured backup solution fully integrated into FreeNAS. (Requires Subscription)",
+        "description": "Allows administrators to back up data from network-connected computers and mobile devices. Leverages standard API calls from a single on-site Asigra service (DS-Client) to reach into these devices and access the data.",
         "official": true,
         "primary_pkg": "dssystem",
         "category": "backup",
