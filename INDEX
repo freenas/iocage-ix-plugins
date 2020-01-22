@@ -6,7 +6,9 @@
         "description": "Allows administrators to back up data from network-connected computers and mobile devices. Leverages standard API calls from a single on-site Asigra service (DS-Client) to reach into these devices and access the data.",
         "official": true,
         "primary_pkg": "dssystem",
-        "category": "backup"
+        "category": "backup",
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://www.asigra.com/"
     },
     "rslsync": {
         "MANIFEST": "rslsync.json",
@@ -15,7 +17,9 @@
         "description": "Fast and scalable file sync software for home and business.",
         "official": true,
         "primary_pkg": "rslsync",
-        "category": "content"
+        "category": "content",
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://www.resilio.com/"
     },
     "backuppc": {
         "MANIFEST": "backuppc.json",
@@ -24,7 +28,9 @@
         "description": "Enterprise-grade system for backing up Linux, Windows, and MacOSX computers to a server.",
         "official": true,
         "primary_pkg": "backuppc4",
-        "category": "security"
+        "category": "security",
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "http://backuppc.sourceforge.net/"
     },
     "clamav": {
         "MANIFEST": "clamav.json",
@@ -33,7 +39,9 @@
         "description": "Open source antivirus engine for detecting trojans, viruses, malware, and other malicious threats.",
         "official": true,
         "primary_pkg": "clamav",
-        "category": "security"
+        "category": "security",
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://www.clamav.net/"
     },
     "couchpotato": {
         "MANIFEST": "couchpotato.json",
@@ -42,7 +50,9 @@
         "description": "Automatic NZB and torrent downloader.",
         "official": true,
         "primary_pkg": "couchpotato",
-        "category": "content"
+        "category": "content",
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://couchpota.to/"
     },
     "emby": {
         "MANIFEST": "emby.json",
@@ -51,7 +61,9 @@
         "description": "Home media server to organize, play, and stream audio and video to a variety of devices.",
         "official": true,
         "primary_pkg": "emby-server",
-        "category": "entertainment"
+        "category": "entertainment",
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://emby.media/"
     },
     "gitlab": {
         "MANIFEST": "gitlab.json",
@@ -60,7 +72,9 @@
         "description": "DevOps lifecycle tool that provides a Git repository manager providing wiki, issue-tracking, and CI/CD pipeline features.",
         "official": true,
         "primary_pkg": "gitlab-ce",
-        "category": "devops"
+        "category": "devops",
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://about.gitlab.com/"
     },
     "gitlab-runner": {
         "MANIFEST": "gitlab-runner.json",
@@ -69,7 +83,9 @@
         "description": "Run jobs and send results back to GitLab. Used in conjunction with GitLab CI.",
         "official": false,
         "primary_pkg": "gitlab-runner",
-        "category": "devops"
+        "category": "devops",
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://about.gitlab.com/"
     },
     "jenkins": {
         "MANIFEST": "jenkins.json",
@@ -78,7 +94,9 @@
         "description": "Open source build automation software.",
         "official": true,
         "primary_pkg": "jenkins",
-        "category": "devops"
+        "category": "devops",
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://jenkins.io/"
     },
     "jenkins-lts": {
         "MANIFEST": "jenkins-lts.json",
@@ -87,7 +105,9 @@
         "description": "Open source build automation software. (Long Term Support Version)",
         "official": true,
         "primary_pkg": "jenkins-lts",
-        "category": "devops"
+        "category": "devops",
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://jenkins.io/"
     },
     "nextcloud": {
         "MANIFEST": "nextcloud.json",
@@ -96,7 +116,9 @@
         "description": "Suite of client-server software for creating and using file hosting services.",
         "official": true,
         "primary_pkg": "nextcloud-php71",
-        "category": "collaboration"
+        "category": "collaboration",
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://nextcloud.com/"
     },
     "plexmediaserver": {
         "MANIFEST": "plexmediaserver.json",
@@ -105,7 +127,9 @@
         "description": "Media center software to easily manage and stream digital media.",
         "official": true,
         "primary_pkg": "plexmediaserver",
-        "category": "entertainment"
+        "category": "entertainment",
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://www.plex.tv/"
     },
     "redmine": {
         "MANIFEST": "redmine.json",
@@ -114,7 +138,9 @@
         "description": "Open source ticket management software to track bugs and feature requests.",
         "official": true,
         "primary_pkg": "redmine",
-        "category": "devops"
+        "category": "devops",
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "http://www.redmine.org/"
     },
     "plexmediaserver-plexpass": {
         "MANIFEST": "plexmediaserver-plexpass.json",
@@ -123,7 +149,9 @@
         "description": "Media center software to easily manage and stream digital media. (Requires Plex Pass Subscription)",
         "official": true,
         "primary_pkg": "plexmediaserver-plexpass",
-        "category": "entertainment"
+        "category": "entertainment",
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://www.plex.tv/plex-pass/"
     },
     "subsonic": {
         "MANIFEST": "subsonic.json",
@@ -132,7 +160,9 @@
         "description": "Open source media streaming software and music player.",
         "official": true,
         "primary_pkg": "subsonic-standalone",
-        "category": "content"
+        "category": "content",
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "http://www.subsonic.org/pages/index.jsp"
     },
     "syncthing": {
         "MANIFEST": "syncthing.json",
@@ -141,7 +171,9 @@
         "description": "Open source, peer-to-peer file synchronization application available for many operating systems.",
         "official": true,
         "primary_pkg": "syncthing",
-        "category": "collaboration"
+        "category": "collaboration",
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://syncthing.net/"
     },
     "deluge": {
         "MANIFEST": "deluge.json",
@@ -150,7 +182,9 @@
         "description": "Python-based Bittorent client.",
         "official": true,
         "primary_pkg": "deluge-cli",
-        "category": "content"
+        "category": "content",
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://deluge-torrent.org/"
     },
     "sonarr": {
         "MANIFEST": "sonarr.json",
@@ -159,7 +193,9 @@
         "description": "Multi-platform app to search, download, and manage TV shows.",
         "official": true,
         "primary_pkg": "sonarr",
-        "category": "content"
+        "category": "content",
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://sonarr.tv/"
     },
     "transmission": {
         "MANIFEST": "transmission.json",
@@ -168,7 +204,9 @@
         "description": "Fast and lightweight BitTorrent client.",
         "official": true,
         "primary_pkg": "transmission-daemon",
-        "category": "content"
+        "category": "content",
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://transmissionbt.com/"
     },
     "tarsnap": {
         "MANIFEST": "tarsnap.json",
@@ -177,7 +215,9 @@
         "description": "Secure online backup service for UNIX-like operating systems.",
         "official": true,
         "primary_pkg": "tarsnap",
-        "category": "backup"
+        "category": "backup",
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://www.tarsnap.com/"
     },
     "tautulli": {
         "MANIFEST": "tautulli.json",
@@ -186,7 +226,9 @@
         "description": "Monitors analytics and notifications for Plex Media Server. (formerly known as PlexPy)",
         "official": false,
         "primary_pkg": "Git branch - Master",
-        "category": "entertainment"
+        "category": "entertainment",
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://tautulli.com/"
     },
     "bru-server": {
         "MANIFEST": "bru-server.json",
@@ -196,7 +238,9 @@
         "license": "https://raw.githubusercontent.com/freenas/iocage-plugin-bru-server/master/bru-license",
         "official": true,
         "primary_pkg": null,
-        "category": "backup"
+        "category": "backup",
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "http://www.tolisgroup.com/client-server-cross-platform-backup.html"
     },
     "bacula-server": {
         "MANIFEST": "bacula-server.json",
@@ -205,7 +249,9 @@
         "description": "Manage, backup, recover, and verify data across a diverse network of computers.",
         "official": true,
         "primary_pkg": "bacula9-server",
-        "category": "backup"
+        "category": "backup",
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://www.baculasystems.com/"
     },
     "qbittorrent": {
         "MANIFEST": "qbittorrent.json",
@@ -214,7 +260,9 @@
         "description": "Open source Bittorent client written in C++ and QT.",
         "official": true,
         "primary_pkg": "qbittorrent-nox",
-        "category": "content"
+        "category": "content",
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "http://qbittorrent.org/"
     },
     "zoneminder": {
         "MANIFEST": "zoneminder.json",
@@ -223,7 +271,9 @@
         "description": "Closed-circuit television management application which supports IP, USB, and analog cameras.",
         "official": true,
         "primary_pkg": "zoneminder",
-        "category": "security"
+        "category": "security",
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://zoneminder.com/"
     },
     "radarr": {
         "MANIFEST": "radarr.json",
@@ -232,7 +282,9 @@
         "description": "Fork of Sonarr. Automatically download movies in the style of Couchpotato.",
         "official": true,
         "primary_pkg": "radarr",
-        "category": "content"
+        "category": "content",
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://radarr.video/"
     },
     "mineos": {
         "MANIFEST": "mineos.json",
@@ -241,7 +293,9 @@
         "description": "Set up and manage Minecraft servers.",
         "official": false,
         "primary_pkg": "Git branch - Master",
-        "category": "entertainment"
+        "category": "entertainment",
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://minecraft.codeemo.com/"
     },
     "iconik": {
         "MANIFEST": "iconik.json",
@@ -250,6 +304,8 @@
         "official": true,
         "icon": "https://raw.githubusercontent.com/freenas/iocage-ix-plugins/master/icons/iconik.png",
         "primary_pkg": "iconik_storage_gateway",
-        "category": "collaboration"
+        "category": "collaboration",
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://iconik.io/"
     }
 }
