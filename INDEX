@@ -307,5 +307,13 @@
         "category": "collaboration",
         "maintainer": "iXsystems <dev@ixsystems.com>",
         "homepage": "https://iconik.io/"
-    }
+    },
+    "archiwarep5": {
+        "MANIFEST": "archiware.json",
+        "name": "Archiware P5",
+        "icon": "https://www.trueos.org/iocage-icons/mineos.png",
+        "description": "Archiware P5 is a commercial data management suite",
+        "official": false,
+        "category": "backup"
+        }
 }
