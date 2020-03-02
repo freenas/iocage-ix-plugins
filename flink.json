@@ -1,0 +1,23 @@
+{
+  "name": "flink",
+  "release": "12.1-RELEASE",
+  "artifact": "https://github.com/martenlindblad/iocage-plugin-apache-flink.git",
+  "properties": {
+    "boot": "on"
+  },
+  "pkgs": [
+    "shells/bash",
+    "security/ca_root_nss",
+    "java/openjdk11"
+  ],
+  "packagesite": "http://pkg.FreeBSD.org/FreeBSD:12:amd64/quarterly",
+  "fingerprints": {
+    "plugin-default": [
+      {
+        "function": "sha256",
+        "fingerprint": "b0170035af3acc5f3f3ae1859dc717101b4e6c1d0a794ad554928ca0cbb2f438"
+      }
+    ]
+  },
+  "official": false
+}
