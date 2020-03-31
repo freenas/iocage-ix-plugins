@@ -10,7 +10,7 @@ it will appear in iocage's plugin listing
 
 ## Using Local File
 ```
-iocage fetch -P --name /the/path/to/jenkins.json ip4_addr="re0|192.168.0.100"
+iocage fetch -P /the/path/to/jenkins.json ip4_addr="re0|192.168.0.100" -n jenkins
 ```
 
 ## Pulling from Internet
