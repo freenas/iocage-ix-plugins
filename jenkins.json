@@ -2,6 +2,7 @@
     "name": "jenkins",
     "release": "11.3-RELEASE",
     "artifact": "https://github.com/freenas/iocage-plugin-jenkins.git",
+    "official": false,
     "properties": {
         "nat": 1,
         "nat_forwards": "tcp(80:8585)"
@@ -10,12 +11,12 @@
         "jenkins",
         "nginx"
     ],
-    "packagesite": "http://pkg.cdn.trueos.org/iocage/unstable",
+    "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
     "fingerprints": {
         "iocage-plugins": [
             {
                 "function": "sha256",
-                "fingerprint": "226efd3a126fb86e71d60a37353d17f57af816d1c7ecad0623c21f0bf73eb0c7"
+                "fingerprint": "b0170035af3acc5f3f3ae1859dc717101b4e6c1d0a794ad554928ca0cbb2f438"
             }
         ]
     },
