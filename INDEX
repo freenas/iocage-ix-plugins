@@ -10,17 +10,6 @@
         "maintainer": "iXsystems <dev@ixsystems.com>",
         "homepage": "https://www.asigra.com/"
     },
-    "rslsync": {
-        "MANIFEST": "rslsync.json",
-        "name": "Resilio Sync",
-        "icon": "https://www.trueos.org/iocage-icons/btsync.png",
-        "description": "Fast and scalable file sync software for home and business.",
-        "official": true,
-        "primary_pkg": "rslsync",
-        "category": "content",
-        "maintainer": "iXsystems <dev@ixsystems.com>",
-        "homepage": "https://www.resilio.com/"
-    },
     "backuppc": {
         "MANIFEST": "backuppc.json",
         "name": "BackupPC",
@@ -131,17 +120,6 @@
         "maintainer": "iXsystems <dev@ixsystems.com>",
         "homepage": "https://www.plex.tv/"
     },
-    "redmine": {
-        "MANIFEST": "redmine.json",
-        "name": "Redmine",
-        "icon": "https://www.trueos.org/iocage-icons/redmine.png",
-        "description": "Open source ticket management software to track bugs and feature requests.",
-        "official": true,
-        "primary_pkg": "redmine",
-        "category": "devops",
-        "maintainer": "iXsystems <dev@ixsystems.com>",
-        "homepage": "http://www.redmine.org/"
-    },
     "plexmediaserver-plexpass": {
         "MANIFEST": "plexmediaserver-plexpass.json",
         "name": "Plex Media Server (Beta)",
@@ -152,17 +130,6 @@
         "category": "entertainment",
         "maintainer": "iXsystems <dev@ixsystems.com>",
         "homepage": "https://www.plex.tv/plex-pass/"
-    },
-    "subsonic": {
-        "MANIFEST": "subsonic.json",
-        "name": "SubSonic",
-        "icon": "https://www.trueos.org/iocage-icons/subsonic.png",
-        "description": "Open source media streaming software and music player.",
-        "official": true,
-        "primary_pkg": "subsonic-standalone",
-        "category": "content",
-        "maintainer": "iXsystems <dev@ixsystems.com>",
-        "homepage": "http://www.subsonic.org/pages/index.jsp"
     },
     "syncthing": {
         "MANIFEST": "syncthing.json",
