@@ -11,7 +11,7 @@
         "zoneminder",
         "fcgiwrap",
         "nginx",
-        "mysql56-server"
+        "mysql57-server"
     ],
     "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
     "fingerprints": {
