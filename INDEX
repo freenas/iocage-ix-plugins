@@ -76,6 +76,17 @@
         "maintainer": "iXsystems <dev@ixsystems.com>",
         "homepage": "https://jenkins.io/"
     },
+    "mineos": {
+        "MANIFEST": "mineos.json",
+        "name": "MineOS",
+        "icon": "https://www.trueos.org/iocage-icons/mineos.png",
+        "description": "Set up and manage Minecraft servers.",
+        "official": false,
+        "primary_pkg": "Git branch - Master",
+        "category": "entertainment",
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://minecraft.codeemo.com/"
+    },
     "nextcloud": {
         "MANIFEST": "nextcloud.json",
         "name": "Nextcloud",
