@@ -9,9 +9,9 @@
         "nat_forwards": "tcp(80:8282)"
     },
     "pkgs": [
-        "nextcloud-php71",
+        "nextcloud-php74",
         "nginx",
-        "mysql56-server"
+        "mysql57-server"
     ],
     "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
     "fingerprints": {
