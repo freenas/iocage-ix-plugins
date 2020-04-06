@@ -16,9 +16,9 @@
         "net/rsync",
         "devel/gmake",
         "devel/git-lite",
-        "lang/python2",
-        "www/node8",
-        "www/npm-node8",
+        "lang/python3",
+        "www/node10",
+        "www/npm-node10",
         "java/openjdk8-jre",
         "ftp/wget",
         "shells/bash"
