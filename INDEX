@@ -10,17 +10,6 @@
         "maintainer": "iXsystems <dev@ixsystems.com>",
         "homepage": "https://www.asigra.com/"
     },
-    "rslsync": {
-        "MANIFEST": "rslsync.json",
-        "name": "Resilio Sync",
-        "icon": "https://www.trueos.org/iocage-icons/btsync.png",
-        "description": "Fast and scalable file sync software for home and business.",
-        "official": true,
-        "primary_pkg": "rslsync",
-        "category": "content",
-        "maintainer": "iXsystems <dev@ixsystems.com>",
-        "homepage": "https://www.resilio.com/"
-    },
     "backuppc": {
         "MANIFEST": "backuppc.json",
         "name": "BackupPC",
@@ -65,28 +54,6 @@
         "maintainer": "iXsystems <dev@ixsystems.com>",
         "homepage": "https://emby.media/"
     },
-    "gitlab": {
-        "MANIFEST": "gitlab.json",
-        "name": "GitLab",
-        "icon": "https://www.trueos.org/iocage-icons/gitlab.png",
-        "description": "DevOps lifecycle tool that provides a Git repository manager providing wiki, issue-tracking, and CI/CD pipeline features.",
-        "official": true,
-        "primary_pkg": "gitlab-ce",
-        "category": "devops",
-        "maintainer": "iXsystems <dev@ixsystems.com>",
-        "homepage": "https://about.gitlab.com/"
-    },
-    "gitlab-runner": {
-        "MANIFEST": "gitlab-runner.json",
-        "name": "GitLab Runner",
-        "icon": "https://www.trueos.org/iocage-icons/gitlab.png",
-        "description": "Run jobs and send results back to GitLab. Used in conjunction with GitLab CI.",
-        "official": false,
-        "primary_pkg": "gitlab-runner",
-        "category": "devops",
-        "maintainer": "iXsystems <dev@ixsystems.com>",
-        "homepage": "https://about.gitlab.com/"
-    },
     "jenkins": {
         "MANIFEST": "jenkins.json",
         "name": "Jenkins",
@@ -108,6 +75,17 @@
         "category": "devops",
         "maintainer": "iXsystems <dev@ixsystems.com>",
         "homepage": "https://jenkins.io/"
+    },
+    "mineos": {
+        "MANIFEST": "mineos.json",
+        "name": "MineOS",
+        "icon": "https://www.trueos.org/iocage-icons/mineos.png",
+        "description": "Set up and manage Minecraft servers.",
+        "official": false,
+        "primary_pkg": "Git branch - Master",
+        "category": "entertainment",
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://minecraft.codeemo.com/"
     },
     "nextcloud": {
         "MANIFEST": "nextcloud.json",
@@ -131,17 +109,6 @@
         "maintainer": "iXsystems <dev@ixsystems.com>",
         "homepage": "https://www.plex.tv/"
     },
-    "redmine": {
-        "MANIFEST": "redmine.json",
-        "name": "Redmine",
-        "icon": "https://www.trueos.org/iocage-icons/redmine.png",
-        "description": "Open source ticket management software to track bugs and feature requests.",
-        "official": true,
-        "primary_pkg": "redmine",
-        "category": "devops",
-        "maintainer": "iXsystems <dev@ixsystems.com>",
-        "homepage": "http://www.redmine.org/"
-    },
     "plexmediaserver-plexpass": {
         "MANIFEST": "plexmediaserver-plexpass.json",
         "name": "Plex Media Server (Beta)",
@@ -153,17 +120,6 @@
         "maintainer": "iXsystems <dev@ixsystems.com>",
         "homepage": "https://www.plex.tv/plex-pass/"
     },
-    "subsonic": {
-        "MANIFEST": "subsonic.json",
-        "name": "SubSonic",
-        "icon": "https://www.trueos.org/iocage-icons/subsonic.png",
-        "description": "Open source media streaming software and music player.",
-        "official": true,
-        "primary_pkg": "subsonic-standalone",
-        "category": "content",
-        "maintainer": "iXsystems <dev@ixsystems.com>",
-        "homepage": "http://www.subsonic.org/pages/index.jsp"
-    },
     "syncthing": {
         "MANIFEST": "syncthing.json",
         "name": "Syncthing",
@@ -174,17 +130,6 @@
         "category": "collaboration",
         "maintainer": "iXsystems <dev@ixsystems.com>",
         "homepage": "https://syncthing.net/"
-    },
-    "deluge": {
-        "MANIFEST": "deluge.json",
-        "name": "Deluge",
-        "icon": "https://www.trueos.org/iocage-icons/deluge.png",
-        "description": "Python-based Bittorent client.",
-        "official": true,
-        "primary_pkg": "deluge-cli",
-        "category": "content",
-        "maintainer": "iXsystems <dev@ixsystems.com>",
-        "homepage": "https://deluge-torrent.org/"
     },
     "sonarr": {
         "MANIFEST": "sonarr.json",
@@ -242,17 +187,6 @@
         "maintainer": "iXsystems <dev@ixsystems.com>",
         "homepage": "http://www.tolisgroup.com/client-server-cross-platform-backup.html"
     },
-    "bacula-server": {
-        "MANIFEST": "bacula-server.json",
-        "name": "Bacula-server",
-        "icon": "https://www.trueos.org/iocage-icons/bacula-server.png",
-        "description": "Manage, backup, recover, and verify data across a diverse network of computers.",
-        "official": true,
-        "primary_pkg": "bacula9-server",
-        "category": "backup",
-        "maintainer": "iXsystems <dev@ixsystems.com>",
-        "homepage": "https://www.baculasystems.com/"
-    },
     "qbittorrent": {
         "MANIFEST": "qbittorrent.json",
         "name": "qbittorrent",
@@ -285,17 +219,6 @@
         "category": "content",
         "maintainer": "iXsystems <dev@ixsystems.com>",
         "homepage": "https://radarr.video/"
-    },
-    "mineos": {
-        "MANIFEST": "mineos.json",
-        "name": "MineOS",
-        "icon": "https://www.trueos.org/iocage-icons/mineos.png",
-        "description": "Set up and manage Minecraft servers.",
-        "official": false,
-        "primary_pkg": "Git branch - Master",
-        "category": "entertainment",
-        "maintainer": "iXsystems <dev@ixsystems.com>",
-        "homepage": "https://minecraft.codeemo.com/"
     },
     "iconik": {
         "MANIFEST": "iconik.json",
