@@ -230,5 +230,15 @@
         "category": "collaboration",
         "maintainer": "iXsystems <dev@ixsystems.com>",
         "homepage": "https://iconik.io/"
+    },
+    "zrepl": {
+        "MANIFEST": "zrepl.json",
+        "name": "zrepl",
+        "description": "zrepl is a one-stop, integrated solution for ZFS replication.",
+        "official": false,
+        "primary_pkg": "zrepl",
+        "category": "sysutils",
+        "maintainer": "John Ramsden <johnramsden@riseup.net>",
+        "homepage": "https://zrepl.github.io/"
     }
 }
