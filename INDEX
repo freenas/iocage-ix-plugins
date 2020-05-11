@@ -93,7 +93,7 @@
         "icon": "https://www.trueos.org/iocage-icons/nextcloud.png",
         "description": "Suite of client-server software for creating and using file hosting services.",
         "official": true,
-        "primary_pkg": "nextcloud-php71",
+        "primary_pkg": "nextcloud-php74",
         "category": "collaboration",
         "maintainer": "iXsystems <dev@ixsystems.com>",
         "homepage": "https://nextcloud.com/"
