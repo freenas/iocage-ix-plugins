@@ -10,6 +10,7 @@
     },
     "pkgs": [
         "nextcloud-php74",
+        "php74-pecl-imagick-im7",
         "nginx",
         "mysql57-server"
     ],
