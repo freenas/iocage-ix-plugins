@@ -11,7 +11,7 @@
         "nat_forwards": "tcp(8443:8443),tcp(25565:25565),tcp(25566:25566),tcp(25567:25567),tcp(25568:25568),tcp(25569:25569),tcp(25570:25570)"
     },
     "pkgs": [
-        "sysutils/rdiff-backup",
+        "sysutils/py-rdiff-backup",
         "sysutils/screen",
         "net/rsync",
         "devel/gmake",
