@@ -1,6 +1,6 @@
 {
     "name": "mineos",
-    "release": "11.3-RELEASE",
+    "release": "12.1-RELEASE",
     "artifact": "https://github.com/jsegaert/iocage-plugin-mineos.git",
     "official": false,
     "properties": {
