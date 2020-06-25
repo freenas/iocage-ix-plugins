@@ -131,17 +131,6 @@
         "maintainer": "iXsystems <dev@ixsystems.com>",
         "homepage": "https://syncthing.net/"
     },
-    "sonarr": {
-        "MANIFEST": "sonarr.json",
-        "name": "Sonarr",
-        "icon": "https://www.trueos.org/iocage-icons/sonarr.png",
-        "description": "Multi-platform app to search, download, and manage TV shows.",
-        "official": false,
-        "primary_pkg": "sonarr",
-        "category": "content",
-        "maintainer": "iXsystems <dev@ixsystems.com>",
-        "homepage": "https://sonarr.tv/"
-    },
     "transmission": {
         "MANIFEST": "transmission.json",
         "name": "Transmission",
@@ -208,17 +197,6 @@
         "category": "security",
         "maintainer": "iXsystems <dev@ixsystems.com>",
         "homepage": "https://zoneminder.com/"
-    },
-    "radarr": {
-        "MANIFEST": "radarr.json",
-        "name": "radarr",
-        "icon": "https://www.trueos.org/iocage-icons/radarr.png",
-        "description": "Fork of Sonarr. Automatically download movies in the style of Couchpotato.",
-        "official": false,
-        "primary_pkg": "radarr",
-        "category": "content",
-        "maintainer": "iXsystems <dev@ixsystems.com>",
-        "homepage": "https://radarr.video/"
     },
     "iconik": {
         "MANIFEST": "iconik.json",
