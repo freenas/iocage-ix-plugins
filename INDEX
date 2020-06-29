@@ -10,83 +10,6 @@
         "maintainer": "iXsystems <dev@ixsystems.com>",
         "homepage": "https://www.asigra.com/"
     },
-    "backuppc": {
-        "MANIFEST": "backuppc.json",
-        "name": "BackupPC",
-        "icon": "https://www.trueos.org/iocage-icons/backuppc.png",
-        "description": "Enterprise-grade system for backing up Linux, Windows, and MacOSX computers to a server.",
-        "official": false,
-        "primary_pkg": "backuppc4",
-        "category": "security",
-        "maintainer": "iXsystems <dev@ixsystems.com>",
-        "homepage": "http://backuppc.sourceforge.net/"
-    },
-    "clamav": {
-        "MANIFEST": "clamav.json",
-        "name": "ClamAV",
-        "icon": "https://www.trueos.org/iocage-icons/clamav.png",
-        "description": "Open source antivirus engine for detecting trojans, viruses, malware, and other malicious threats.",
-        "official": false,
-        "primary_pkg": "clamav",
-        "category": "security",
-        "maintainer": "iXsystems <dev@ixsystems.com>",
-        "homepage": "https://www.clamav.net/"
-    },
-    "couchpotato": {
-        "MANIFEST": "couchpotato.json",
-        "name": "CouchPotato",
-        "icon": "https://www.trueos.org/iocage-icons/couchpotato.png",
-        "description": "Automatic NZB and torrent downloader.",
-        "official": false,
-        "primary_pkg": "couchpotato",
-        "category": "content",
-        "maintainer": "iXsystems <dev@ixsystems.com>",
-        "homepage": "https://couchpota.to/"
-    },
-    "emby": {
-        "MANIFEST": "emby.json",
-        "name": "Emby",
-        "icon": "https://www.trueos.org/iocage-icons/emby.png",
-        "description": "Home media server to organize, play, and stream audio and video to a variety of devices.",
-        "official": false,
-        "primary_pkg": "emby-server",
-        "category": "entertainment",
-        "maintainer": "iXsystems <dev@ixsystems.com>",
-        "homepage": "https://emby.media/"
-    },
-    "jenkins": {
-        "MANIFEST": "jenkins.json",
-        "name": "Jenkins",
-        "icon": "https://www.trueos.org/iocage-icons/jenkins.png",
-        "description": "Open source build automation software.",
-        "official": false,
-        "primary_pkg": "jenkins",
-        "category": "devops",
-        "maintainer": "iXsystems <dev@ixsystems.com>",
-        "homepage": "https://jenkins.io/"
-    },
-    "jenkins-lts": {
-        "MANIFEST": "jenkins-lts.json",
-        "name": "Jenkins (LTS)",
-        "icon": "https://www.trueos.org/iocage-icons/jenkins.png",
-        "description": "Open source build automation software. (Long Term Support Version)",
-        "official": false,
-        "primary_pkg": "jenkins-lts",
-        "category": "devops",
-        "maintainer": "iXsystems <dev@ixsystems.com>",
-        "homepage": "https://jenkins.io/"
-    },
-    "mineos": {
-        "MANIFEST": "mineos.json",
-        "name": "MineOS",
-        "icon": "https://www.trueos.org/iocage-icons/mineos.png",
-        "description": "Set up and manage Minecraft servers.",
-        "official": false,
-        "primary_pkg": "Git branch - Master",
-        "category": "entertainment",
-        "maintainer": "iXsystems <dev@ixsystems.com>",
-        "homepage": "https://minecraft.codeemo.com/"
-    },
     "nextcloud": {
         "MANIFEST": "nextcloud.json",
         "name": "Nextcloud",
@@ -131,28 +54,6 @@
         "maintainer": "iXsystems <dev@ixsystems.com>",
         "homepage": "https://syncthing.net/"
     },
-    "sonarr": {
-        "MANIFEST": "sonarr.json",
-        "name": "Sonarr",
-        "icon": "https://www.trueos.org/iocage-icons/sonarr.png",
-        "description": "Multi-platform app to search, download, and manage TV shows.",
-        "official": false,
-        "primary_pkg": "sonarr",
-        "category": "content",
-        "maintainer": "iXsystems <dev@ixsystems.com>",
-        "homepage": "https://sonarr.tv/"
-    },
-    "transmission": {
-        "MANIFEST": "transmission.json",
-        "name": "Transmission",
-        "icon": "https://www.trueos.org/iocage-icons/transmission.png",
-        "description": "Fast and lightweight BitTorrent client.",
-        "official": false,
-        "primary_pkg": "transmission-daemon",
-        "category": "content",
-        "maintainer": "iXsystems <dev@ixsystems.com>",
-        "homepage": "https://transmissionbt.com/"
-    },
     "tarsnap": {
         "MANIFEST": "tarsnap.json",
         "name": "Tarsnap",
@@ -163,17 +64,6 @@
         "category": "backup",
         "maintainer": "iXsystems <dev@ixsystems.com>",
         "homepage": "https://www.tarsnap.com/"
-    },
-    "tautulli": {
-        "MANIFEST": "tautulli.json",
-        "name": "Tautulli",
-        "icon": "https://www.trueos.org/iocage-icons/tautulli.png",
-        "description": "Monitors analytics and notifications for Plex Media Server. (formerly known as PlexPy)",
-        "official": false,
-        "primary_pkg": "Git branch - Master",
-        "category": "entertainment",
-        "maintainer": "iXsystems <dev@ixsystems.com>",
-        "homepage": "https://tautulli.com/"
     },
     "bru-server": {
         "MANIFEST": "bru-server.json",
@@ -186,39 +76,6 @@
         "category": "backup",
         "maintainer": "iXsystems <dev@ixsystems.com>",
         "homepage": "http://www.tolisgroup.com/client-server-cross-platform-backup.html"
-    },
-    "qbittorrent": {
-        "MANIFEST": "qbittorrent.json",
-        "name": "qbittorrent",
-        "icon": "https://www.trueos.org/iocage-icons/qbittorrent.png",
-        "description": "Open source Bittorent client written in C++ and QT.",
-        "official": false,
-        "primary_pkg": "qbittorrent-nox",
-        "category": "content",
-        "maintainer": "iXsystems <dev@ixsystems.com>",
-        "homepage": "http://qbittorrent.org/"
-    },
-    "zoneminder": {
-        "MANIFEST": "zoneminder.json",
-        "name": "Zoneminder",
-        "icon": "https://www.trueos.org/iocage-icons/zoneminder.png",
-        "description": "Closed-circuit television management application which supports IP, USB, and analog cameras.",
-        "official": false,
-        "primary_pkg": "zoneminder",
-        "category": "security",
-        "maintainer": "iXsystems <dev@ixsystems.com>",
-        "homepage": "https://zoneminder.com/"
-    },
-    "radarr": {
-        "MANIFEST": "radarr.json",
-        "name": "radarr",
-        "icon": "https://www.trueos.org/iocage-icons/radarr.png",
-        "description": "Fork of Sonarr. Automatically download movies in the style of Couchpotato.",
-        "official": false,
-        "primary_pkg": "radarr",
-        "category": "content",
-        "maintainer": "iXsystems <dev@ixsystems.com>",
-        "homepage": "https://radarr.video/"
     },
     "iconik": {
         "MANIFEST": "iconik.json",

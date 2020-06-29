@@ -7,7 +7,7 @@
     "properties": {
         "nat": 1
     },
-    "pkgs": [],
+    "pkgs": ["ca_root_nss"],
     "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
     "fingerprints": {
         "iocage-plugins": [
