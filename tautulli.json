@@ -8,9 +8,9 @@
         "nat_forwards": "tcp(8181:8181)"
     },
     "pkgs": [
-        "lang/python27",
-        "py27-sqlite3",
-        "py27-openssl",
+        "lang/python",
+        "py37-sqlite3",
+        "py37-openssl",
         "security/ca_root_nss",
         "git"
     ],
