@@ -43,6 +43,17 @@
         "maintainer": "iXsystems <dev@ixsystems.com>",
         "homepage": "https://www.plex.tv/plex-pass/"
     },
+    "sickchill": {
+	"MANIFEST": "sickchill.json",
+	"name": "SickChill",
+        "icon": "https://raw.githubusercontent.com/freenas/iocage-ix-plugins/master/icons/sickchill.png",
+        "description": "Automatic Video Library Manager for TV Shows",
+        "official": true,
+        "primary_pkg": "sickchill",
+        "category": "entertainment",
+        "maintainer": "Dustyn Gibson <miigotu@gmail.com>",
+        "homepage": "https://sickchill.github.io"
+    }
     "syncthing": {
         "MANIFEST": "syncthing.json",
         "name": "Syncthing",
