@@ -65,18 +65,6 @@
         "maintainer": "iXsystems <dev@ixsystems.com>",
         "homepage": "https://www.tarsnap.com/"
     },
-    "bru-server": {
-        "MANIFEST": "bru-server.json",
-        "name": "BRU Server",
-        "icon": "https://www.trueos.org/iocage-icons/bru-server.png",
-        "description": "BRU Server™ Backup and Recovery Software by TOLIS Group, Inc.",
-        "license": "https://raw.githubusercontent.com/freenas/iocage-plugin-bru-server/master/bru-license",
-        "official": true,
-        "primary_pkg": null,
-        "category": "backup",
-        "maintainer": "iXsystems <dev@ixsystems.com>",
-        "homepage": "http://www.tolisgroup.com/client-server-cross-platform-backup.html"
-    },
     "iconik": {
         "MANIFEST": "iconik.json",
         "name": "Iconik",
