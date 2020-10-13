@@ -17,8 +17,8 @@
         "devel/gmake",
         "devel/git-lite",
         "lang/python3",
-        "www/node10",
-        "www/npm-node10",
+        "www/node",
+        "www/npm",
         "java/openjdk8-jre",
         "ftp/wget",
         "shells/bash"
