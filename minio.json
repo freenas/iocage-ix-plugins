@@ -3,7 +3,7 @@
     "plugin_schema": "2",
     "release": "12.2-RELEASE",
     "artifact": "https://github.com/freenas/iocage-plugin-minio.git",
-    "official": false,
+    "official": true,
     "properties": {
         "nat": 1,
         "nat_forwards": "tcp(9000:9001)"
