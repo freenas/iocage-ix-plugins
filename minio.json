@@ -1,0 +1,24 @@
+{
+    "name": "minio",
+    "plugin_schema": "2",
+    "release": "12.2-RELEASE",
+    "artifact": "https://github.com/freenas/iocage-plugin-minio.git",
+    "official": true,
+    "properties": {
+        "nat": 1,
+        "nat_forwards": "tcp(9000:9001)"
+    },
+    "pkgs": [
+        "minio"
+    ],
+    "packagesite": "http://pkg.freebsd.org/${ABI}/latest",
+    "fingerprints": {
+        "iocage-plugins": [
+            {
+                "function": "sha256",
+                "fingerprint": "b0170035af3acc5f3f3ae1859dc717101b4e6c1d0a794ad554928ca0cbb2f438"
+            }
+        ]
+    },
+    "revision": "0"
+}

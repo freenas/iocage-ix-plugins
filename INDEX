@@ -10,6 +10,17 @@
         "maintainer": "iXsystems <dev@ixsystems.com>",
         "homepage": "https://www.asigra.com/"
     },
+    "minio": {
+        "MANIFEST": "minio.json",
+        "name": "Minio",
+        "icon": "https://www.trueos.org/iocage-icons/minio.png",
+        "description": "High-performance object (S3) storage suite.",
+        "official": true,
+        "primary_pkg": "minio",
+        "category": "collaboration",
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://min.io/"
+    },
     "nextcloud": {
         "MANIFEST": "nextcloud.json",
         "name": "Nextcloud",
