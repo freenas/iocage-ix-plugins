@@ -3,10 +3,10 @@
     "release": "11.3-RELEASE",
     "artifact": "https://github.com/ix-plugin-hub/iocage-plugin-asigra.git",
     "pkgs": [
-        "postgresql96-server",
-        "postgresql96-client",
-        "postgresql96-contrib",
-        "postgresql96-plpython",
+        "postgresql10-server",
+        "postgresql10-client",
+        "postgresql10-contrib",
+        "postgresql10-plpython",
         "ca_root_nss",
         "nss_ldap",
         "pam_ldap",
@@ -24,9 +24,10 @@
         "sysvmsg": "new",
         "sysvsem": "new",
         "sysvshm": "new",
+        "vnet": 1,
         "dhcp": 1
     },
-    "packagesite": "http://pkg.cdn.trueos.org/iocage/unstable",
+    "packagesite": "http://download.truenas.com/plugins/asigra/testing/11.3-RELEASE",
     "fingerprints": {
         "iocage-plugins": [
             {
