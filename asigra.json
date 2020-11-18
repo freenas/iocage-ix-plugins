@@ -27,7 +27,7 @@
         "vnet": 1,
         "dhcp": 1
     },
-    "packagesite": "http://download.truenas.com/plugins/asigra/testing/11.3-RELEASE",
+    "packagesite": "http://download.truenas.com/plugins/asigra/stable/11.3-RELEASE",
     "fingerprints": {
         "iocage-plugins": [
             {
