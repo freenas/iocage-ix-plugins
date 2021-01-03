@@ -13,6 +13,7 @@
         "php74-pecl-imagick-im7",
         "php74-bcmath",
         "php74-gmp",
+        "php74-pcntl",
         "nginx",
         "mysql57-server"
     ],
