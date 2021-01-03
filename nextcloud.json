@@ -9,6 +9,7 @@
         "nat_forwards": "tcp(80:8282)"
     },
     "pkgs": [
+        "ffmpeg",
         "nextcloud-php74",
         "php74-pecl-imagick-im7",
         "php74-bcmath",
