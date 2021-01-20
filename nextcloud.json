@@ -16,7 +16,7 @@
         "php74-gmp",
         "php74-pcntl",
         "nginx",
-        "mysql57-server"
+        "mysql80-server"
     ],
     "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
     "fingerprints": {
