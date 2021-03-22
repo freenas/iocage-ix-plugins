@@ -1,0 +1,23 @@
+{
+  "name": "nxfilter",
+  "release": "12.2-RELEASE",
+  "artifact": "https://github.com/xTITUSMAXIMUSX/iocage-plugin-nxfilter.git",
+  "properties": {
+        "allow_raw_sockets":"1",
+        "boot":"on"
+          },
+  "pkgs": [
+        "curl",
+        "openjdk8-jre"
+        ],
+  "packagesite": "http://pkg.FreeBSD.org/${ABI}/quarterly",
+  "fingerprints": {
+                  "plugin-default": [
+                                  {
+                                  "function": "sha256",
+                                  "fingerprint": "b0170035af3acc5f3f3ae1859d>
+                          }
+                        ]
+        },
+        "official": "Community"
+}
