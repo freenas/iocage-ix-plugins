@@ -95,7 +95,7 @@
         "icon": "https://raw.githubusercontent.com/freenas/iocage-ix-plugins/master/icons/iconik.png",
         "primary_pkg": "openjdk8-jre",
         "category": "network",
-        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "maintainer": "xTITUSMAXIMUSX",
         "homepage": "https://nxfilter.org/"
     }  
 }
