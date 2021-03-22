@@ -86,5 +86,16 @@
         "category": "collaboration",
         "maintainer": "iXsystems <dev@ixsystems.com>",
         "homepage": "https://iconik.io/"
-    }
+    },
+    "nxfilter": {
+        "MANIFEST": "nxfilter.json",
+        "name": "NxFilter",
+        "description": "A light-weight DNS filter.",
+        "official": flase,
+        "icon": "https://raw.githubusercontent.com/freenas/iocage-ix-plugins/master/icons/iconik.png",
+        "primary_pkg": "openjdk8-jre",
+        "category": "network",
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://nxfilter.org/"
+    }  
 }
