@@ -1,6 +1,6 @@
 {
     "name": "syncthing",
-    "release": "12.1-RELEASE",
+    "release": "12.2-RELEASE",
     "artifact": "https://github.com/freenas/iocage-plugin-syncthing.git",
     "official": false,
     "properties": {
