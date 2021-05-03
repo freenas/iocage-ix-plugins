@@ -1,6 +1,6 @@
 {
     "name": "plexmediaserver-plexpass",
-    "release": "12.1-RELEASE",
+    "release": "12.2-RELEASE",
     "official": false,
     "artifact": "https://github.com/freenas/iocage-plugin-plexmediaserver-plexpass.git",
     "properties": {
