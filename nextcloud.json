@@ -15,8 +15,11 @@
         "php74-bcmath",
         "php74-gmp",
         "php74-pcntl",
+        "php74-pecl-redis",
         "nginx",
-        "mysql80-server"
+        "mysql80-server",
+        "redis",
+        "py38-fail2ban"
     ],
     "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
     "fingerprints": {
@@ -27,5 +30,5 @@
             }
         ]
     },
-    "revision": "0"
+    "revision": "1"
 }
