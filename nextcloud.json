@@ -6,7 +6,7 @@
     "official": false,
     "properties": {
         "nat": 1,
-        "nat_forwards": "tcp(80:8282)"
+        "nat_forwards": "tcp(80:8282),tcp(443:8283)"
     },
     "pkgs": [
         "ffmpeg",
@@ -15,8 +15,12 @@
         "php74-bcmath",
         "php74-gmp",
         "php74-pcntl",
+        "php74-pecl-redis",
         "nginx",
-        "mysql80-server"
+        "mysql80-server",
+        "redis",
+        "py38-fail2ban",
+        "py38-certbot"
     ],
     "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
     "fingerprints": {
@@ -27,5 +31,5 @@
             }
         ]
     },
-    "revision": "0"
+    "revision": "1"
 }
