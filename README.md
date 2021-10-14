@@ -1,5 +1,5 @@
 # iocage-ix-plugins
-Official iXsystems iocage plugins for [FreeNAS](http://www.freenas.org), [TrueOS](https://www.trueos.org) and [FreeBSD](http://www.freebsd.org)
+Official iXsystems iocage plugins for [TrueNAS CORE](http://www.truenas.com)
 
 Plugin Json files are added to this repo, along with a respective icon in icons/
 
