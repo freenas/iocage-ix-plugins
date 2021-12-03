@@ -1,20 +1,25 @@
 {
     "name": "iconik-storage-gateway",
     "release": "12.2-RELEASE",
-    "artifact": "https://github.com/freenas/iocage-plugin-iconik-storage-gateway.git",
+    "artifact": "https://github.com/iconik-io/iocage-plugin-iconik-storage-gateway.git",
     "properties": {
         "nat": 1,
         "nat_forwards": "tcp(8000:8000)"
     },
     "pkgs": [
-        "iconik_storage_gateway"
+        "lang/python38",
+        "security/ca_root_nss",
+        "devel/py-Jinja2",
+        "www/py-werkzeug",
+        "multimedia/ffmpeg",
+        "graphics/ImageMagick7"
     ],
-    "packagesite": "http://pkg.cdn.trueos.org/iocage/unstable",
+    "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
     "fingerprints": {
         "iocage-plugins": [
             {
                 "function": "sha256",
-                "fingerprint": "226efd3a126fb86e71d60a37353d17f57af816d1c7ecad0623c21f0bf73eb0c7"
+                "fingerprint": "b0170035af3acc5f3f3ae1859dc717101b4e6c1d0a794ad554928ca0cbb2f438"
             }
         ]
     },
