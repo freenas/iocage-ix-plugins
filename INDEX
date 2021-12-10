@@ -86,5 +86,13 @@
         "category": "collaboration",
         "maintainer": "iXsystems <dev@ixsystems.com>",
         "homepage": "https://iconik.io/"
+    },
+    "torr-server": {
+        "MANIFEST": "torr-server.json",
+        "name": "TorrServer",
+        "primary_pkg": "Git branch - Master",
+        "icon": "http://raw.githubusercontent.com/filka96/TorrServer/master/web/public/android-chrome-512x512.png",
+        "description": "TorrServer",
+        "official": false
     }
 }
