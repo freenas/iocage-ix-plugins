@@ -22,7 +22,7 @@
         "py38-fail2ban",
         "py38-certbot"
     ],
-    "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
+    "packagesite": "http://pkg.FreeBSD.org/${ABI}/quarterly",
     "fingerprints": {
         "iocage-plugins": [
             {
