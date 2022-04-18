@@ -1,6 +1,6 @@
 {
     "name": "syncthing",
-    "release": "12.2-RELEASE",
+    "release": "12.3-RELEASE",
     "artifact": "https://github.com/freenas/iocage-plugin-syncthing.git",
     "official": false,
     "properties": {
@@ -12,7 +12,7 @@
         "ca_root_nss",
         "nginx"
     ],
-    "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
+    "packagesite": "http://pkg.FreeBSD.org/${ABI}/release_3",
     "fingerprints": {
         "iocage-plugins": [
             {
