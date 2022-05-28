@@ -16,6 +16,7 @@
         "php80-gmp",
         "php80-pcntl",
         "php80-pecl-redis",
+        "php80-phar",
         "nginx",
         "mysql80-server",
         "redis",
