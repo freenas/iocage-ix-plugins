@@ -19,8 +19,8 @@
         "nginx",
         "mysql80-server",
         "redis",
-        "py38-fail2ban",
-        "py38-certbot"
+        "py39-fail2ban",
+        "py39-certbot"
     ],
     "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
     "fingerprints": {
