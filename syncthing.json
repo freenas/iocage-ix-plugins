@@ -12,7 +12,7 @@
         "ca_root_nss",
         "nginx"
     ],
-    "packagesite": "http://pkg.FreeBSD.org/${ABI}/release_1",
+    "packagesite": "http://pkg.FreeBSD.org/${ABI}/quarterly",
     "fingerprints": {
         "iocage-plugins": [
             {
