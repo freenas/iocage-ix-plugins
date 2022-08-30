@@ -5,7 +5,7 @@
     "official": false,
     "properties": {
         "nat": 1,
-        "nat_forwards": "tcp(80:8384)"
+        "nat_forwards": "tcp(80:8384),tcp(22000:22000),udp(22000:22000),udp(21027:21027)"
     },
     "pkgs": [
         "syncthing",
