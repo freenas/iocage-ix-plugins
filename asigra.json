@@ -1,12 +1,12 @@
 {
     "name": "asigra",
-    "release": "12.4-RELEASE",
+    "release": "13.1-RELEASE",
     "artifact": "https://github.com/ix-plugin-hub/iocage-plugin-asigra.git",
     "pkgs": [
-        "postgresql10-server",
-        "postgresql10-client",
-        "postgresql10-contrib",
-        "postgresql10-plpython",
+        "postgresql13-server",
+        "postgresql13-client",
+        "postgresql13-contrib",
+        "postgresql13-plpython",
         "ca_root_nss",
         "nss_ldap",
         "pam_ldap",
@@ -27,7 +27,7 @@
         "vnet": 1,
         "dhcp": 1
     },
-    "packagesite": "http://download.truenas.com/plugins/asigra/stable/12.3-RELEASE",
+    "packagesite": "http://download.truenas.com/plugins/asigra/stable/13.1-RELEASE",
     "fingerprints": {
         "iocage-plugins": [
             {
