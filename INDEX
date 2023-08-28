@@ -21,6 +21,17 @@
         "maintainer": "iXsystems <dev@ixsystems.com>",
         "homepage": "https://min.io/"
     },
+    "minio_migrate": {
+        "MANIFEST": "minio_migrate.json",
+        "name": "Minio (Migrate)",
+        "icon": "https://www.trueos.org/iocage-icons/minio.png",
+        "description": "High-performance object (S3) storage suite. USED FOR MIGRATION PURPOSES ONLY!",
+        "official": true,
+        "primary_pkg": "minio",
+        "category": "collaboration",
+        "maintainer": "iXsystems <dev@ixsystems.com>",
+        "homepage": "https://min.io/"
+    },
     "nextcloud": {
         "MANIFEST": "nextcloud.json",
         "name": "Nextcloud",
