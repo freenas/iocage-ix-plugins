@@ -1,7 +1,7 @@
 {
     "name": "minio_migrate",
     "plugin_schema": "2",
-    "release": "13.2-RELEASE",
+    "release": "13.1-RELEASE",
     "artifact": "https://github.com/freenas/iocage-plugin-minio.git",
     "official": true,
     "properties": {
@@ -11,7 +11,7 @@
     "pkgs": [
         "minio"
     ],
-    "packagesite": "http://download.truenas.com/plugins/minio/stable/13.2-RELEASE",
+    "packagesite": "http://download.truenas.com/plugins/minio/stable/13.1-RELEASE",
     "fingerprints": {
         "iocage-plugins": [
             {
