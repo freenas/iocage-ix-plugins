@@ -1,7 +1,7 @@
 {
     "name": "Nextcloud",
     "plugin_schema": "2",
-    "release": "13.2-RELEASE",
+    "release": "13.3-RELEASE",
     "artifact": "https://github.com/freenas/iocage-plugin-nextcloud.git",
     "properties": {
         "dhcp": 1
@@ -9,14 +9,14 @@
     "pkgs": [
         "ffmpeg",
         "nextcloud-php82",
-        "php82-pecl-imagick",
-        "php82-bcmath",
-        "php82-gmp",
-        "php82-pcntl",
-        "php82-pecl-redis",
-        "php82-phar",
+        "php83-pecl-imagick",
+        "php83-bcmath",
+        "php83-gmp",
+        "php83-pcntl",
+        "php83-pecl-redis",
+        "php83-phar",
         "nginx",
-        "mariadb106-server",
+        "mariadb1011-server",
         "redis",
         "py39-fail2ban",
         "py39-certbot"
