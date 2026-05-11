@@ -1,0 +1,22 @@
+{
+  "name": "ansible-pull-syslogng-server",
+  "plugin_schema": 2,
+  "release": "15.0-RELEASE",
+  "artifact": "https://github.com/vbotka/iocage-plugins.git",
+    "pkgs": [
+	"git",
+	"py311-ansible",
+	"sudo",
+	"syslog-ng"
+    ],
+  "packagesite": "http://pkg.FreeBSD.org/${ABI}/quarterly",
+  "fingerprints": {
+          "plugin-default": [
+                  {
+                  "function": "sha256",
+                  "fingerprint": "b0170035af3acc5f3f3ae1859dc717101b4e6c1d0a794ad554928ca0cbb2f438"
+              }
+            ]
+    },
+    "official": false
+}
